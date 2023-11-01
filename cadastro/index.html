@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="responsive.css">
+    <link rel="stylesheet"
+        href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@24,400,0,0" />
+    <title>Cadastre-se</title>
+</head>
+
+<body>
+
+    <header>
+        <nav>
+            <ul class="ul">
+                <li id="logo"><span id="psico">Psico</span><a href="../inicio/index.html"><span
+                            class="purple">Mind</span></a>
+                </li>
+                <li>
+                    <label for="tema" class="material-symbols-outlined" id="sun">
+                        <input type="checkbox" id="tema" value="checked" onclick="vamo()">
+                        brightness_6
+                    </label>
+                </li>
+                <li id="menu-responsive">
+                    <span class="material-symbols-outlined" id="menu-responsive2">
+                        menu
+                    </span>
+                </li>
+                <span id="span">
+                    <li class="li"><a href="../psicologos/index.html">Psicologos</a></li>
+                    <li class="li li7"><a href="../historico/index.html">Historico</a></li>
+                    <li class="li li9"><a href="../sobrenos/index.html">Sobre nós</a></li>
+                    <li class="li" id="join"><a href="../login/index.html">Entre</a></li>
+                </span>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+
+        <div class="card">
+            <div>
+                <h2>CADASTRE-SE</h2>
+
+                <form method="post" action="">
+
+                    <input required name="nome" placeholder="Nome Completo" id="nome" type="text">
+                    <input required name="date" placeholder="Nascimento" class="textbox-n" type="text"
+                        onfocus="(this.type='date')" onblur="(this.type='text')" id="date" />
+                    <input required name="email" placeholder="Email" id="email" type="email">
+                    <input required name="senha" placeholder="Senha" id="senha" type="password">
+                    <input required name="senhac" placeholder="Confirmar Senha" id="confSenha" type="password">
+
+                    <button onclick="take()" id="click"><a id="color" href="../login/index.html">Concluir
+                            cadastro</a></button>
+
+                </form>
+
+            </div>
+        </div>
+    </main>
+</body>
+<script src="script.js"></script>
+
+</html>

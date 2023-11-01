@@ -1,0 +1,285 @@
+@media only screen and (min-width:2560px) {
+    html {
+        width: 2590px;
+        height: 2000px;
+    }
+
+    a {
+        font-size: 70px;
+    }
+
+    img {
+        width: 900px;
+        height: 900px;
+        margin-left: -100px;
+    }
+
+    #join {
+        height: 75px;
+    }
+
+    h1 {
+        width: 1200px;
+        margin: 0;
+        font-size: 90px;
+        margin-left: -150px;
+    }
+
+    main {
+        height: 1000px;
+    }
+
+    .purple {
+        font-size: 90px;
+    }
+
+    #psico {
+        font-size: 80px;
+    }
+   
+    .li9{
+        width: 350px;
+    }
+    #sun{
+        font-size: 70px;
+    }
+}
+
+@media only screen and (max-width:1440px) {
+    h1 {
+        width: 800px;
+        margin-left: -50px;
+    }
+
+    main {
+        height: 700px;
+    }
+
+    a {
+        font-size: 25px;
+    }
+    .li9{
+        width: 150px;
+    }
+}
+
+
+
+@media only screen and (max-width:1024px) {
+    html {
+        height: 1024px;
+        width: 1524px;
+    }
+.li9{
+    width: 150px;
+}
+    a {
+        font-size: 25px;
+    }
+
+    main {
+        height: 700px;
+    }
+
+    h1 {
+        width: 700px;
+        margin: 0;
+        margin-left: -35px;
+    }
+}
+
+
+
+
+@media only screen and (max-width:768px) {
+    html {
+        width: 1850px;
+        height: 1200px;
+    }
+
+.li9{
+    width: 200px;
+}
+
+#sun{
+ font-size: 50px;
+}
+
+    h1 {
+        margin: 0;
+        width: 825px;
+        font-size: 70px;
+        margin-left: -130px;
+    }
+
+    a {
+        font-size: 40px;
+    }
+
+    #join {
+        height: 40px;
+    }
+
+    #psico {
+        font-size: 70px;
+
+    }
+
+    main {
+        height: 700px;
+    }
+
+    img {
+        width: 800px;
+        height: 800px;
+        margin-left: -130px;
+    }
+
+    .purple {
+        font-size: 90px;
+    }
+}
+
+
+@media only screen and (max-width:600px) {
+
+    html {
+        height: 1900px;
+        width: 1200px;
+    }
+
+    header {
+        width: 100%;
+    }
+
+    main {
+        height: 1900px;
+        width: 500px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-direction: column;
+    }
+
+    .img {
+        margin-left: 190px;
+    }
+
+    body {
+        width: 400px;
+    }
+
+    img {
+        width: 900px;
+        height: 1000px;
+        margin-left: 60px;
+    }
+
+    h1 {
+        font-size: 90px;
+        width: 1100px;
+        margin: 0;
+    }
+
+    #logo {
+        position: absolute;
+        top: 350px;
+        left: 300px;
+        margin-left: 0px;
+        margin-right: 0px;
+    }
+
+    #psico {
+        font-size: 120px;
+    }
+
+    .purple {
+        font-size: 160px;
+    }
+
+    a {
+        font-size: 60px;
+    }
+
+    ul {
+        padding: 10px;
+    }
+
+    #join {
+
+        height: 75px;
+    }
+
+    #sun {
+        font-size: 90px;
+        margin-left: 30px;
+    }
+
+
+    .li {
+        margin-bottom: 70px;
+        margin-left: 30px;
+    }
+
+    a{
+        margin-left: 0px;
+    }
+
+    .material-symbols-outlined {
+        font-variation-settings:
+            'FILL' 0,
+            'wght' 400,
+            'GRAD' 0,
+            'opsz' 24;
+        display: block;
+    }
+
+    .li9 {
+        width:370px;
+        margin-right: -5px;
+    }
+
+    #span {
+        top: 30px;
+        left: -510px;
+        height: 580px;
+        width: 360px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-direction: column;
+        position: absolute;
+        background-color: #BA68C8;
+        cursor: pointer;
+    }
+
+    #menu-responsive:hover~#span {
+        left: 800px;
+        top: 190px;
+        color: white;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .material-symbols-outlined {
+        font-variation-settings:
+            'FILL' 0,
+            'wght' 400,
+            'GRAD' 0,
+            'opsz' 24;
+        display: flex;
+    }
+
+    #menu-responsive2 {
+        margin-left: 840px;
+        display: flex;
+        font-size: 90px;
+    }
+
+    #menu-responsive {
+        display: flex;
+    }
+
+    
+}

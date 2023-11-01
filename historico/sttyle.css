@@ -1,0 +1,196 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+body {
+    background-color: black;
+}
+
+::selection {
+    background-color: blueviolet;
+}
+
+a {
+    text-decoration: none;
+    color: white;
+    transition: all 0.4s;
+}
+
+a:hover {
+    color: #BA68C8;
+}
+
+
+header {
+    height: 100px;
+    width: 100%;
+    background-color: rgb(2, 2, 2);
+    margin-bottom: 90px;
+}
+
+
+ul {
+    color: white;
+    font-size: large;
+    display: flex;
+    flex-direction: row;
+    padding-left: 90px;
+    list-style: none;
+
+}
+
+li {
+    padding-top: 12px;
+    margin: 25px;
+    font-weight: bolder;
+    padding-bottom: 16px;
+    height: 20px;
+    transition: all 0.3s ease-in-out
+}
+
+
+.purple {
+    color: #BA68C8;
+    font-size: 45px;
+}
+
+.li {
+    font-size: 20px;
+    padding-top: 12px;
+
+}
+
+.li:hover {
+    color: rgb(171, 90, 247);
+    cursor: pointer;
+
+}
+
+#join:hover {
+    padding-right: 10px;
+    padding-left: 10px;
+    cursor: pointer;
+    border: solid #BA68C8 2px;
+    border-radius: 10px;
+    transition: all 0.3ms;
+}
+
+#join {
+    border: solid white 2px;
+    border-radius: 10px;
+    padding-right: 10px;
+    padding-left: 10px;
+    cursor: pointer;
+    transition: all 0.3s ease-in-out
+}
+
+h1 {
+    color: white;
+    margin-left: -40px;
+    margin-top: 30px;
+    width: 590px;
+}
+
+#logo {
+    color: white;
+    font-size: 35px;
+    width: 200px;
+    margin-right: 500px;
+}
+
+main {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    margin-top: -100px;
+}
+
+.img {
+    width: 500px;
+    height: 500px;
+}
+
+h1 {
+    margin-top: -20px;
+    font-size: 50px;
+}
+
+#tema{
+    margin: 0;
+  width: 10px;
+  height: 10px;
+z-index: 0; 
+display: none;
+}
+
+
+.material-symbols-outlined {
+  font-variation-settings:
+  'FILL' 0,
+  'wght' 400,
+  'GRAD' 0,
+  'opsz' 24;
+  color: white;
+  z-index: 2;
+cursor: pointer;
+transition: all 1s;
+}
+
+.material-symbols-outlined:hover{
+    color: #BA68C8;
+} 
+#menu-responsive2{
+    display: none;
+}
+#menu-responsive{
+    display: none;
+}
+#span{
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+}
+
+.li9{
+    width: 100px;
+    margin-right: 0px;
+}
+
+
+/* ____________________________________________________________ */
+
+
+.white,
+.white header{
+    background-color: rgb(255, 255, 255);
+    color: black;
+}
+
+
+.white a{
+    color: black;
+}
+.white #psico{
+    color: black;
+}
+.white h1{
+    color: black;
+}
+
+
+.white .material-symbols-outlined{
+    color: black;
+}
+
+.white pre{
+    color: black;
+}
+
+.white a:hover{
+    color: #BA68C8;
+}
+
+

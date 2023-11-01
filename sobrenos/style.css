@@ -1,0 +1,248 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+main {
+    width: 100%;
+    height: 600px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    margin-bottom: 20px;
+}
+
+body {
+    background-color: black;
+}
+
+header {
+    width: 100%;
+    height: 100px;
+    background-color: rgb(2, 2, 2);
+    margin-bottom: 100px;
+}
+
+
+
+
+ul {
+    color: white;
+    font-size: large;
+    display: flex;
+    flex-direction: row;
+    padding-left: 90px;
+    list-style: none;
+}
+
+li {
+    padding-top: 12px;
+    margin: 25px;
+    font-weight: bolder;
+    padding-bottom: 16px;
+    height: 20px;
+    transition: all 0.3s ease-in-out;
+}
+
+.li {
+    font-size: 20px;
+    padding-top: 12px;
+}
+
+.li:hover {
+    color: rgb(171, 90, 247);
+    cursor: pointer;
+
+}
+
+#join:hover {
+    padding-right: 10px;
+    padding-left: 10px;
+    cursor: pointer;
+    border: solid #BA68C8 2px;
+    border-radius: 10px;
+    transition: all 0.3ms;
+}
+
+#join {
+    border: solid white 2px;
+    border-radius: 10px;
+    padding-right: 10px;
+    padding-left: 10px;
+    cursor: pointer;
+    transition: all 0.3s ease-in-out
+}
+
+
+a {
+    text-decoration: none;
+    color: white;
+    transition: all 0.4s;
+}
+
+li a:hover {
+    color: #BA68C8;
+}
+
+.purple {
+    color: #BA68C8;
+    font-size: 45px;
+}
+
+h1 {
+    color: white;
+    margin-left: 30px;
+    margin-top: 30px;
+}
+
+#logo {
+    color: white;
+    font-size: 35px;
+    width: 200px;
+    margin-right: 500px;
+}
+
+.hoverzin:hover {
+    background-color: #BA68C8;
+    transition: all 0.5s;
+}
+
+
+
+
+/* GRID DO MATHEUZINHO (21/09/23)*/
+
+.item1 {
+    /* border: #000 solid  2px; */
+    width: 450px;
+    grid-area: descrição1;
+}
+
+.item2 {
+    /* border: #000 solid  2px; */
+    width: 450px;
+    grid-area: img1;
+}
+
+.item3 {
+    /* border: #000 solid  2px; */
+    width: 450px;
+    grid-area: img2;
+}
+
+.item4 {
+    /* border: #000 solid  2px; */
+    width: 450px;
+    grid-area: descrição2
+}
+
+
+#grid {
+    display: grid;
+    grid-template-areas: "descrição1  img1"
+        "img2        descrição2"
+
+
+
+    ;
+    grid-gap: 70px;
+    margin-top: 300px;
+}
+
+#grid>div {
+    background-color: rgba(0, 0, 0, 0.8);
+    text-align: center;
+    font-size: 10px;
+    ;
+}
+
+p {
+    color: #ffffff;
+    font-size: x-large;
+}
+
+h2 {
+    color: #BA68C8;
+    font-size: xx-large;
+    margin-bottom: 20px;
+}
+
+#tema{
+    margin: 0;
+  width: 10px;
+  height: 10px;
+z-index: 0; 
+display: none;
+}
+
+
+.material-symbols-outlined {
+  font-variation-settings:
+  'FILL' 0,
+  'wght' 400,
+  'GRAD' 0,
+  'opsz' 24;
+  color: white;
+  z-index: 2;
+cursor: pointer;
+transition: all 1s;
+}
+
+.material-symbols-outlined:hover{
+    color: #BA68C8;
+} 
+
+.material-symbols-outlined:hover{
+    color: #BA68C8;
+} 
+#menu-responsive2{
+    display: none;
+}
+#menu-responsive{
+    display: none;
+}
+#span{
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+}
+
+.li9{
+    width: 100px;
+    margin-right: 0px;
+}
+
+
+
+/* ______________________________________________________________________ */
+
+.white,
+.white header{
+    background-color: rgb(255, 255, 255);
+    color: black;
+}
+
+.white a{
+    color: black;
+}
+.white #psico{
+    color: black;
+}
+
+.white #grid>div{
+    background-color: #ffffff;
+}
+
+.white p {
+    color: #000000;
+}
+
+.white .material-symbols-outlined{
+    color: #000000;
+} 
+
+.white a:hover{
+    color: #BA68C8;
+}

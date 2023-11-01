@@ -1,0 +1,143 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="responsive.css">
+    <link rel="stylesheet"
+        href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@24,400,0,0" />
+    <title>Psicologos</title>
+</head>
+
+<body>
+
+    <header>
+        <nav>
+            <ul>
+                <li id="logo"><span id="psico">Psico</span><a href="../inicio/index.html"><span
+                            class="purple">Mind</span></a></li>
+                <li>
+                    <label for="tema" class="material-symbols-outlined" id="sun">
+                        <input type="checkbox" id="tema" value="checked" onclick="vamo()" autocomplete="on">
+                        brightness_6
+                    </label>
+                </li>
+                <li id="menu-responsive">
+                    <span class="material-symbols-outlined" id="menu-responsive2">
+                        menu
+                    </span>
+                </li>
+                <span id="span">
+                    <li class="li"><a href="../psicologos/index.html">Psicologos</a></li>
+                    <li class="li li7"><a href="../historico/index.html">Historico</a></li>
+                    <li class="li li9"><a href="../sobrenos/index.html">Sobre nós</a></li>
+                    <li class="li" id="join"><a href="../login/index.html">Entre</a></li>
+                </span>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+
+        <div class="vamo">
+            <div class="titulo">
+                <h1 id="t1">Nossa Equipe</h1>
+            </div>
+            <div class="resumo">
+                <p id="t2">Escolha seu profissional e venha fazer parte de uma vida leve e equilibrada</p>
+            </div>
+            <div class="imaginha">
+                <img id="vetor" src="img/public-health-animate.svg" alt="">
+            </div>
+        </div>
+
+
+        <!-- <section class="titulo">
+            <p class="frase">Escolha seu profissional e venha fazer parte de uma vida leve e equilibrada</p>
+            <h1>
+                Nossa Equipe &#x1F49C; 
+                <a href="https://storyset.com/health">Health illustrations by Storyset</a> -->
+        <!-- </h1>
+            
+        
+        </section> -->
+
+
+        <div class="nosso_conteudo">
+
+            <div class="grid">
+                <div class="item1 border">
+                    <section class="foto">
+                        <img src="img/woman-597173_640.jpg" alt="">
+                        <!-- Imagem de <a href="https://pixabay.com/pt/users/snapwiresnaps-692569/?utm_source=link-attribution&utm_medium=referral&utm_campaign=image&utm_content=597173">SnapwireSnaps</a> por <a href="https://pixabay.com/pt//?utm_source=link-attribution&utm_medium=referral&utm_campaign=image&utm_content=597173">Pixabay</a> -->
+                    </section>
+                    <h3 id="h3_1">Julia</h3>
+                    <button onclick="psc1()">Conectar-se</button>
+                </div>
+                <div class="item2 border">
+                    <section class="foto">
+                        <img src="img/woman-1439909_640.jpg" alt="">
+                        <!-- Imagem de <a href="https://pixabay.com/pt/users/familyphotostudio-2111903/?utm_source=link-attribution&utm_medium=referral&utm_campaign=image&utm_content=1439909">Nathanel Love</a> por <a href="https://pixabay.com/pt//?utm_source=link-attribution&utm_medium=referral&utm_campaign=image&utm_content=1439909">Pixabay</a> -->
+                    </section>
+                    <h3 id="h3_2">Marta</h3>
+                    <button onclick="psc2()">Conectar-se</button>
+                </div>
+                <div class="item3 border">
+                    <section class="foto">
+                        <img src="img/portrait-3353699_640.jpg" alt="">
+                        <!-- Imagem de <a href="https://pixabay.com/pt/users/erik_lucatero-8817894/?utm_source=link-attribution&utm_medium=referral&utm_campaign=image&utm_content=3353699">Erik Lucatero</a> por <a href="https://pixabay.com/pt//?utm_source=link-attribution&utm_medium=referral&utm_campaign=image&utm_content=3353699">Pixabay</a>                     -->
+                    </section>
+                    <h3 id="h3_3">Kauan</h3>
+                    <button onclick="psc3()">Conectar-se</button>
+                </div>
+                <div class="item4 border">
+                    <section class="foto">
+                        <img src="img/woman-2178816_640.jpg" alt="">
+                        <!-- Imagem de <a href="https://pixabay.com/pt/users/pexels-2286921/?utm_source=link-attribution&utm_medium=referral&utm_campaign=image&utm_content=2178816">Pexels</a> por <a href="https://pixabay.com/pt//?utm_source=link-attribution&utm_medium=referral&utm_campaign=image&utm_content=2178816">Pixabay</a> -->
+                    </section>
+                    <h3 id="h3_4">Leticia</h3>
+                    <button onclick="psc4()">Conectar-se</button>
+                </div>
+                <div class="item5 border">
+                    <section class="foto">
+                        <img src="img/woman-3055841_640.jpg" alt="">
+                        <!-- Imagem de <a href="https://pixabay.com/pt/users/gromovataya-913352/?utm_source=link-attribution&utm_medium=referral&utm_campaign=image&utm_content=3055841">Irina Gromovataya</a> por <a href="https://pixabay.com/pt//?utm_source=link-attribution&utm_medium=referral&utm_campaign=image&utm_content=3055841">Pixabay</a> -->
+                    </section>
+                    <h3 id="h3_5">Louis</h3>
+                    <button onclick="psc5()">Conectar-se</button>
+                </div>
+                <div class="item6 border">
+                    <section class="foto">
+                        <img src="img/woman-487067_640.jpg" alt="">
+                        <!-- Imagem de <a href="https://pixabay.com/pt/users/504497-504497/?utm_source=link-attribution&utm_medium=referral&utm_campaign=image&utm_content=487067">504497</a> por <a href="https://pixabay.com/pt//?utm_source=link-attribution&utm_medium=referral&utm_campaign=image&utm_content=487067">Pixabay</a>  -->
+                    </section>
+                    <h3 id="h3_6">Ana</h3>
+                    <button onclick="psc6()">Conectar-se</button>
+
+                </div>
+                <div class="item7 border">
+                    <section class="foto">
+                        <img src="img/young-man-1281282_640.jpg" alt="">
+                        <!-- Imagem de <a href="https://pixabay.com/pt/users/brenkee-2021352/?utm_source=link-attribution&utm_medium=referral&utm_campaign=image&utm_content=1281282">Benjamin Balazs</a> por <a href="https://pixabay.com/pt//?utm_source=link-attribution&utm_medium=referral&utm_campaign=image&utm_content=1281282">Pixabay</a> -->
+                    </section>
+                    <h3 id="h3_7">Vandré</h3>
+                    <button onclick="psc7()">Conectar-se</button>
+                </div>
+                <div class="item8 border">
+                    <section class="foto">
+                        <img src="img/ben-knapen-906550_640.jpg" alt="">
+                        <!-- Imagem de <a href="https://pixabay.com/pt/users/wikimediaimages-1185597/?utm_source=link-attribution&utm_medium=referral&utm_campaign=image&utm_content=906550">WikimediaImages</a> por <a href="https://pixabay.com/pt//?utm_source=link-attribution&utm_medium=referral&utm_campaign=image&utm_content=906550">Pixabay</a> -->
+                    </section>
+                    <h3 id="h3_8">Gabriel</h3>
+                    <button onclick="psc8()">Conectar-se</button>
+                </div>
+            </div>
+
+        </div>
+    </main>
+</body>
+<script src="script.js"></script>
+
+</html>

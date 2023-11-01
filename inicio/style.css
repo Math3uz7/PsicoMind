@@ -1,0 +1,418 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+::selection {
+    background-color: blueviolet;
+}
+
+#hambur{
+    display: none;
+}
+
+a {
+    text-decoration: none;
+    color: white;
+    transition: all 0.4s;
+}
+
+a:hover {
+    color: #BA68C8;
+}
+
+
+header {
+    height: 100px;
+    width: 100%;
+    background-color: rgb(2, 2, 2);
+    margin-bottom: 90px;
+}
+
+body {
+    background-color: rgb(6, 6, 6);
+    transition: 1s;
+}
+
+
+input {
+    margin: 200px;
+    padding: 20px;
+    width: 500px;
+    cursor: pointer;
+    margin-left: 60px;
+    margin-top: 80px;
+    box-shadow: 10px 10px 40px -12px blueviolet;
+    border: none;
+}
+
+h1 {
+    color: white;
+    font-size: 50px;
+
+}
+
+
+ul {
+    color: white;
+    font-size: large;
+    display: flex;
+    flex-direction: row;
+    padding-left: 90px;
+    list-style: none;
+
+}
+
+li {
+    padding-top: 12px;
+    margin: 25px;
+    font-weight: bolder;
+    padding-bottom: 16px;
+    height: 20px;
+    transition: all 0.3s ease-in-out;
+}
+
+.li {
+    font-size: 19px;
+    padding-top: 12px;
+}
+
+.li:hover {
+    color: rgb(171, 90, 247);
+    cursor: pointer;
+
+}
+
+#join:hover {
+    padding-right: 10px;
+    padding-left: 10px;
+    cursor: pointer;
+    border: solid #BA68C8 2px;
+    border-radius: 10px;
+    transition: all 0.3ms;
+}
+
+#join {
+    border: solid white 2px;
+    border-radius: 10px;
+    padding-right: 10px;
+    padding-left: 10px;
+    cursor: pointer;
+    transition: all 0.3s ease-in-out
+}
+
+h1 {
+    color: white;
+    margin-left: 30px;
+    margin-top: 30px;
+}
+
+#logo {
+    color: white;
+    font-size: 35px;
+    width: 200px;
+    margin-right: 500px;
+}
+
+#procure {
+    background-color: #BA68C8;
+    height: 56px;
+    width: 70px;
+    margin-left: 600px;
+    margin-top: -256px;
+    box-shadow: 10px 10px 40px -12px blueviolet;
+    align-items: center;
+    cursor: pointer;
+
+
+}
+
+#lupa {
+    height: 100px;
+    width: 50px;
+    margin-left: 10px;
+    margin-bottom: 150px;
+    margin-top: -22px;
+}
+
+#woman {
+    width: 600px;
+    height: 500px;
+    margin-left: 800px;
+    margin-top: -300px;
+}
+
+
+.purple {
+    color: #BA68C8;
+    font-size: 45px;
+}
+
+ #tema{
+    margin: 0;
+  width: 10px;
+  height: 10px;
+display: none;
+}
+
+
+.material-symbols-outlined {
+  font-variation-settings:
+  'FILL' 0,
+  'wght' 400,
+  'GRAD' 0,
+  'opsz' 24;
+  color: white;
+cursor: pointer;
+transition: all 1s;
+}
+
+.material-symbols-outlined:hover{
+    color: #BA68C8;
+} 
+
+#menu-responsive2{
+    display: none;
+}
+#menu-responsive{
+    display: none;
+}
+#span{
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+}
+
+.li9{
+    width: 100px;
+    margin-right: 0px;
+}
+/* _________________________________________________________________________________________________________ */
+/* TEMA CLARO/ESCURO */
+
+.white,
+.white header{
+    background-color: rgb(255, 255, 255);
+    color: black;
+}
+
+
+.white a{
+    color: rgb(0, 0, 0);
+}
+
+.white #logo{
+color: black;
+}
+
+.white .material-symbols-outlined{
+    color: black;
+}
+
+.white a:hover{
+    color: #BA68C8;
+}
+
+
+.white pre{
+    color: black;
+}
+/* _________________________________________________________________________________________________________ */
+/* RESPONSIVE */
+
+@media only screen and (min-width:2560px) {
+
+    #woman {
+        margin-left: 1300px;
+        margin-top: -400px;
+    }
+
+    #sun {
+ font-size: 50px;
+ margin-left: 400px;
+}
+.li9{
+    width: 250px;
+}
+
+}
+
+@media only screen and (min-width:1700px) {
+
+    input {
+        height: 50px;
+        font-size: 30px;
+        
+    }
+
+
+    #procure {
+        height: 90px;
+        margin-top: -290px;
+    }
+
+    pre {
+        font-size: 100px;
+    }
+
+    #logo,
+    .purple {
+        font-size: 70px;
+    }
+
+    #join {
+        padding-bottom: 45px;
+    }
+
+    #lupa {
+        margin-top: -5px;
+    }
+
+    #woman {
+        width: 1000px;
+        height: 800px;
+    }
+
+    .li {
+        font-size: 45px;
+    }
+  
+
+}
+
+
+
+@media only screen and (max-width:600px) {
+
+    .material-symbols-outlined {
+      font-variation-settings:
+      'FILL' 0,
+      'wght' 400,
+      'GRAD' 0,
+      'opsz' 24;
+      display: flex;
+    }
+
+    
+    #menu-responsive2{
+        margin-left: 320px;
+        display: flex;
+    }
+
+    #menu-responsive{
+        display: flex;
+        margin-top:67px
+    }
+
+
+    .material-symbols-outlined{
+        margin-top: -50px;
+        display: flex;
+    }
+   
+
+    input {
+        margin-left: 50px;
+        width: 290px;
+        margin-right: 0px;
+        margin-bottom: 10px;
+    }
+
+    #procure {
+        margin-left: -110px;
+    }
+
+    #psico {
+        font-size: 70px;
+        width: 200px;
+        height: 300px;
+    }
+
+    #logo {
+        position: absolute;
+        top: 50px;
+        left: 110px;
+        margin-left: 0px;
+        margin-right: 0px;
+        
+    }
+
+    li {
+        margin-left: 4px;
+        
+    }
+
+
+    .material-symbols-outlined {
+      font-variation-settings:
+      'FILL' 0,
+      'wght' 400,
+      'GRAD' 0,
+      'opsz' 24;
+      display: block;
+    }
+     
+
+#span{
+    top: 30px;
+    left: -510px;
+ height: 200px;
+ width: 100px;
+ display: flex;
+ align-items: center;
+ justify-content: center;
+ flex-direction: column;
+ position: absolute;
+ background-color: #BA68C8;
+    cursor: pointer;
+}
+
+#menu-responsive:hover ~ #span{
+left: 320px;
+top: 60px;
+color: white;
+display: block;
+}
+
+    #join {
+        width: 45px;
+        padding: 4px 4px 4px 4px;
+        display: flex;
+        justify-content: flex-start;
+        margin-top: 7px;
+margin-left: 20px;
+border: none;
+    }
+
+    .li {
+        margin: 0px;
+        margin-right: 0px;
+        font-size: medium;
+        margin-left:10px;
+    }
+
+    header {
+        height: 100px;
+        display: flex;
+        justify-content: flex-start;
+    }
+
+    ul {
+        padding-left: 9px;
+        
+    }
+
+    #woman {
+        margin-left: 80px;
+        width: 280px;
+        margin-top: 100px;
+    }
+
+    pre {
+        font-size: 27px;
+        margin-left: -20px;
+    }
+
+
+}

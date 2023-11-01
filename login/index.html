@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="responsive.css">
+    <link rel="stylesheet"
+        href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@24,400,0,0" />
+    <title>Entre</title>
+</head>
+
+<body>
+
+    <header id="header">
+        <nav>
+            <ul>
+                <li id="logo"><span id="psico">Psico</span><a href="../inicio/index.html"><span
+                            class="purple">Mind</span></a>
+                </li>
+                <li>
+                    <label for="tema" class="material-symbols-outlined" onclick="vamo()" id="sun">
+                        <input type="checkbox" id="tema" value="checked" onclick="vamo()" autocomplete="on">
+                        brightness_6
+                    </label>
+                </li>
+                <li id="menu-responsive">
+                    <span class="material-symbols-outlined" id="menu-responsive2">
+                        menu
+                    </span>
+                </li>
+                <span id="span">
+                    <li class="li"><a href="../psicologos/index.html">Psicologos</a></li>
+                    <li class="li li7"><a href="../historico/index.html">Historico</a></li>
+                    <li class="li li9"><a href="../sobrenos/index.html">Sobre nós</a></li>
+                    <li class="li" id="join"><a href="../login/index.html">Entre</a></li>
+                </span>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+
+        <!-- <div class="welcome" id="hello">
+            <h2>Seje bem vindo !</h2>
+            <h3 class="dc">Aproveite o maximo dessa experiencia rumo ao seu bem-estar, saúde e qualidade de vida.</h3>
+            <button class="check" onclick="indo()">Concluido</button>
+        </div> -->
+
+        <div class="card">
+            <div>
+                <h2>LOGIN</h2>
+
+                <input required placeholder="Email" id="meuEmail" type="email">
+                <input required placeholder="Senha" id="minhaSenha" type="password">
+
+                <button onclick="entrar()">Entre</button>
+                <p><a href="../cadastro/index.html" id="cadastro">Cadastre-se</a></p>
+                <p>Esqueceu sua senha ?</p>
+
+            </div>
+        </div>
+    </main>
+</body>
+<script src="script.js"></script>
+
+
+</html>
