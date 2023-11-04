@@ -32,7 +32,7 @@ header {
 
 body {
     background-color: rgb(6, 6, 6);
-    transition: 1s;
+   
 }
 
 
@@ -70,7 +70,6 @@ li {
     font-weight: bolder;
     padding-bottom: 16px;
     height: 20px;
-    transition: all 0.3s ease-in-out;
 }
 
 .li {
@@ -220,70 +219,445 @@ color: black;
 }
 /* _________________________________________________________________________________________________________ */
 /* RESPONSIVE */
-
-@media only screen and (min-width:2560px) {
-
+@media screen and (max-width:2560px) and (min-width:2560px) {
     #woman {
         margin-left: 1300px;
-        margin-top: -400px;
+        width: 1200px;
+       
     }
-
-    #sun {
- font-size: 50px;
- margin-left: 400px;
+    nav{
+        margin-left: 500px;
+    }
+    input{
+        margin-left: 665px;
+    }
+    pre{
+        margin-left: 300px;
+    }
+   
 }
-.li9{
-    width: 250px;
+@media screen and (max-width:1400px) and (min-width:1280px) {
+nav{
+    margin-left: -200px;
 }
 
+#logo{
+    margin-left: 200px;
+    margin-right: 300px;
+}
+#woman {
+    margin-left: 800px;
+    width: 400px;
+   
+}
 }
 
-@media only screen and (min-width:1700px) {
+@media screen and (max-width:1470px) and (min-width:1001px) 
+{nav{
+    margin-left: -200px;
+}
 
-    input {
-        height: 50px;
-        font-size: 30px;
-        
-    }
+#logo{
+    margin-left: 200px;
+    margin-right: 300px;
+}
+#woman {
+    margin-left: 800px;
+    width: 400px;
+   
+}}
 
 
-    #procure {
-        height: 90px;
-        margin-top: -290px;
-    }
+@media screen and (max-width:1000px) and (min-width:851px) 
+{#woman {
+    margin-left: 200px;
+    width: 400px;
+    margin-top: 150px;
+}
 
-    pre {
-        font-size: 100px;
-    }
+  
+  #menu-responsive2{
+      margin-left: 780px;
+      display: flex;
+  }
 
-    #logo,
-    .purple {
-        font-size: 70px;
-    }
+  #menu-responsive{
+      display: flex;
+      margin-top:67px
+  }
 
-    #join {
-        padding-bottom: 45px;
-    }
 
-    #lupa {
-        margin-top: -5px;
-    }
+  .material-symbols-outlined{
+      margin-top: -50px;
+      display: flex;
+  }
+ 
 
-    #woman {
-        width: 1000px;
-        height: 800px;
-    }
+  input {
+      margin-left: 70px;
+      width: 590px;
+      margin-right: 0px;
+      margin-bottom: 10px;
+  }
 
-    .li {
-        font-size: 45px;
-    }
+  #procure {
+      margin-left: -110px;
+  }
+
+  #psico {
+      font-size: 70px;
+      width: 200px;
+      height: 300px;
+  }
+
+  #logo {
+      position: absolute;
+      top: 50px;
+      left: 270px;
+      margin-left: 0px;
+      margin-right: 0px;
+      
+  }
+
+  li {
+      margin-left: 4px;
+      
+  }
+
+
+  .material-symbols-outlined {
+    font-variation-settings:
+    'FILL' 0,
+    'wght' 400,
+    'GRAD' 0,
+    'opsz' 24;
+    display: block;
+  }
+   
+
+#span{
+  top: 30px;
+  left: -510px;
+height: 200px;
+width: 100px;
+display: flex;
+align-items: center;
+justify-content: center;
+flex-direction: column;
+position: absolute;
+background-color: #BA68C8;
+  cursor: pointer;
+}
+
+#menu-responsive:hover ~ #span{
+left: 770px;
+top: 60px;
+color: white;
+display: block;
+}
+
+  #join {
+      width: 45px;
+      padding: 4px 4px 4px 4px;
+      display: flex;
+      justify-content: flex-start;
+      margin-top: 7px;
+margin-left: 20px;
+border: none;
+  }
   
 
+  .li {
+      margin: 0px;
+      margin-right: 0px;
+      font-size: medium;
+      margin-left:10px;
+  }
+
+  header {
+      height: 100px;
+      display: flex;
+      justify-content: flex-start;
+  }
+
+  ul {
+      padding-left: 9px;
+      
+  }
+
+
+  pre {
+      font-size: 27px;
+      margin-left: -20px;
+  }
+}
+
+@media screen and (max-width:850px) and (min-width:600px) {
+
+    
+    #woman {
+        margin-left: 200px;
+        width: 400px;
+        margin-top: 150px;
+    }
+  
+      
+      #menu-responsive2{
+          margin-left: 650px;
+          display: flex;
+      }
+  
+      #menu-responsive{
+          display: flex;
+          margin-top:67px
+      }
+  
+  
+      .material-symbols-outlined{
+          margin-top: -50px;
+          display: flex;
+      }
+     
+  
+      input {
+          margin-left: 70px;
+          width: 590px;
+          margin-right: 0px;
+          margin-bottom: 10px;
+      }
+  
+      #procure {
+          margin-left: -110px;
+      }
+  
+      #psico {
+          font-size: 70px;
+          width: 200px;
+          height: 300px;
+      }
+  
+      #logo {
+          position: absolute;
+          top: 50px;
+          left: 270px;
+          margin-left: 0px;
+          margin-right: 0px;
+          
+      }
+  
+      li {
+          margin-left: 4px;
+          
+      }
+  
+  
+      .material-symbols-outlined {
+        font-variation-settings:
+        'FILL' 0,
+        'wght' 400,
+        'GRAD' 0,
+        'opsz' 24;
+        display: block;
+      }
+       
+  
+  #span{
+      top: 30px;
+      left: -510px;
+   height: 200px;
+   width: 100px;
+   display: flex;
+   align-items: center;
+   justify-content: center;
+   flex-direction: column;
+   position: absolute;
+   background-color: #BA68C8;
+      cursor: pointer;
+  }
+  
+  #menu-responsive:hover ~ #span{
+  left: 610px;
+  top: 60px;
+  color: white;
+  display: block;
+  }
+  
+      #join {
+          width: 45px;
+          padding: 4px 4px 4px 4px;
+          display: flex;
+          justify-content: flex-start;
+          margin-top: 7px;
+  margin-left: 20px;
+  border: none;
+      }
+      
+  
+      .li {
+          margin: 0px;
+          margin-right: 0px;
+          font-size: medium;
+          margin-left:10px;
+      }
+  
+      header {
+          height: 100px;
+          display: flex;
+          justify-content: flex-start;
+      }
+  
+      ul {
+          padding-left: 9px;
+          
+      }
+  
+  
+      pre {
+          font-size: 27px;
+          margin-left: -20px;
+      }
+  
+}
+
+
+@media screen and (max-width:600px) and (min-width:401px) {
+    .material-symbols-outlined {
+        font-variation-settings:
+        'FILL' 0,
+        'wght' 400,
+        'GRAD' 0,
+        'opsz' 24;
+        display: flex;
+      }
+  
+      
+      #menu-responsive2{
+          margin-left: 300px;
+          display: flex;
+      }
+  
+      #menu-responsive{
+          display: flex;
+          margin-top:67px
+      }
+  
+  
+      .material-symbols-outlined{
+          margin-top: -50px;
+          display: flex;
+      }
+     
+  
+      input {
+          margin-left: 40px;
+          width: 290px;
+          margin-right: 0px;
+          margin-bottom: 10px;
+      }
+  
+      #procure {
+          margin-left: -110px;
+      }
+  
+      #psico {
+          font-size: 70px;
+          width: 200px;
+          height: 300px;
+      }
+  
+      #logo {
+          position: absolute;
+          top: 50px;
+          left: 110px;
+          margin-left: 0px;
+          margin-right: 0px;
+          
+      }
+  
+      li {
+          margin-left: 4px;
+          
+      }
+  
+  
+      .material-symbols-outlined {
+        font-variation-settings:
+        'FILL' 0,
+        'wght' 400,
+        'GRAD' 0,
+        'opsz' 24;
+        display: block;
+      }
+       
+  
+  #span{
+      top: 30px;
+      left: -510px;
+   height: 200px;
+   width: 100px;
+   display: flex;
+   align-items: center;
+   justify-content: center;
+   flex-direction: column;
+   position: absolute;
+   background-color: #BA68C8;
+      cursor: pointer;
+  }
+  
+  #menu-responsive:hover ~ #span{
+  left: 310px;
+  top: 60px;
+  color: white;
+  display: block;
+  }
+  
+      #join {
+          width: 45px;
+          padding: 4px 4px 4px 4px;
+          display: flex;
+          justify-content: flex-start;
+          margin-top: 7px;
+  margin-left: 20px;
+  border: none;
+      }
+  
+      .li {
+          margin: 0px;
+          margin-right: 0px;
+          font-size: medium;
+          margin-left:10px;
+      }
+  
+      header {
+          height: 100px;
+          display: flex;
+          justify-content: flex-start;
+      }
+  
+      ul {
+          padding-left: 9px;
+          
+      }
+  
+      #woman {
+          margin-left: 70px;
+          width: 280px;
+          margin-top: 100px;
+      }
+  
+      pre {
+          font-size: 27px;
+          margin-left: -20px;
+      }
+  
 }
 
 
 
-@media only screen and (max-width:600px) {
+
+
+
+@media screen and (max-width:400px) and (min-width:321px) {
 
     .material-symbols-outlined {
       font-variation-settings:
@@ -296,7 +670,7 @@ color: black;
 
     
     #menu-responsive2{
-        margin-left: 320px;
+        margin-left: 260px;
         display: flex;
     }
 
@@ -313,7 +687,7 @@ color: black;
    
 
     input {
-        margin-left: 50px;
+        margin-left: 10px;
         width: 290px;
         margin-right: 0px;
         margin-bottom: 10px;
@@ -332,7 +706,7 @@ color: black;
     #logo {
         position: absolute;
         top: 50px;
-        left: 110px;
+        left: 90px;
         margin-left: 0px;
         margin-right: 0px;
         
@@ -369,7 +743,7 @@ color: black;
 }
 
 #menu-responsive:hover ~ #span{
-left: 320px;
+left: 250px;
 top: 60px;
 color: white;
 display: block;
@@ -404,7 +778,7 @@ border: none;
     }
 
     #woman {
-        margin-left: 80px;
+        margin-left: 50px;
         width: 280px;
         margin-top: 100px;
     }
@@ -416,3 +790,86 @@ border: none;
 
 
 }
+
+@media screen and (max-width:321px) and (min-width:320px){
+    input {
+        margin-left: 35px;
+        width: 210px;
+        margin-right: 0px;
+        margin-bottom: 10px;
+    }
+    #logo {
+        position: absolute;
+        top: 50px;
+        left: 60px;
+        margin-left: 0px;
+        margin-right: 0px;
+        
+    }
+    #span{
+        top: 30px;
+        left: -510px;
+     height: 200px;
+     width: 100px;
+     display: flex;
+     align-items: center;
+     justify-content: center;
+     flex-direction: column;
+     position: absolute;
+     background-color: #BA68C8;
+        cursor: pointer;
+    }
+    .li{
+        margin-top: 1px;
+    }
+    
+    #menu-responsive:hover ~ #span{
+    left: 160px;
+    top: 50px;
+    color: white;
+    display: block;
+    height: 300px;
+    width: 150px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    }
+    #menu-responsive2{
+        margin-left: 90px;
+        display: flex;
+    }
+   
+
+    #menu-responsive{
+        display: flex;
+        margin-top:23px
+    }
+    .material-symbols-outlined {
+        font-variation-settings:
+        'FILL' 0,
+        'wght' 400,
+        'GRAD' 0,
+        'opsz' 24;
+        display: block;
+      }
+      .material-symbols-outlined {
+        font-variation-settings:
+        'FILL' 0,
+        'wght' 400,
+        'GRAD' 0,
+        'opsz' 24;
+        display: flex;
+      }
+      pre {
+        font-size: 20px;
+        margin-left: -20px;
+    }
+    #sun{
+        margin-left: -100px;
+    }
+    #woman {
+        margin-left: 70px;
+        width: 180px;
+        margin-top: 60px;
+    }
+    }
