@@ -1,212 +1,185 @@
-@media only screen and (min-width:2560px) {
-    a {
-        font-size: 70px;
-    }
 
-    #sun{
-        font-size: 80px;
-        margin-right: 1200px;
+@media screen and (max-width:2560px) and (min-width:2560px) {
+    #woman {
+        margin-left: 1300px;
+        width: 1200px;
+       
     }
+    nav{
+        margin-left: 500px;
+    }
+    input{
+        margin-left: 665px;
+    }
+    pre{
+        margin-left: 300px;
+    }
+   
+}
+@media screen and (max-width:1400px) and (min-width:1280px) {
+nav{
+    margin-left: -200px;
+}
 
-    .li9{
-        width: 370px;
-    }
+#logo{
+    margin-left: 200px;
+    margin-right: 300px;
+}
+#woman {
+    margin-left: 800px;
+    width: 400px;
+   
+}
+}
 
-    ul,
-    header {
-        width: 3500px;
-    }
+@media screen and (max-width:1470px) and (min-width:1001px) 
+{nav{
+    margin-left: -200px;
+}
 
-    ul {
-        display: flex;
-        justify-content: space-around;
-        margin-top: 20px;
-    }
+#logo{
+    margin-left: 200px;
+    margin-right: 300px;
+}
+#woman {
+    margin-left: 800px;
+    width: 400px;
+   
+}}
 
-    #join {
-        height: 75px;
-        padding: 15px;
-    }
+
+@media screen and (max-width:1000px) and (min-width:851px) 
+{#woman {
+    margin-left: 200px;
+    width: 400px;
+    margin-top: 150px;
+}
+
+  
+  #menu-responsive2{
+      margin-left: 780px;
+      display: flex;
+  }
+
+  #menu-responsive{
+      display: flex;
+      margin-top:67px
+  }
+
+
+  .material-symbols-outlined{
+      margin-top: -50px;
+      display: flex;
+  }
+ 
+
+  input {
+      margin-left: 70px;
+      width: 590px;
+      margin-right: 0px;
+      margin-bottom: 10px;
+  }
+
+  #procure {
+      margin-left: -110px;
+  }
+
+  #psico {
+      font-size: 70px;
+      width: 200px;
+      height: 300px;
+  }
+
+  #logo {
+      position: absolute;
+      top: 50px;
+      left: 270px;
+      margin-left: 0px;
+      margin-right: 0px;
+      
+  }
+
+  li {
+      margin-left: 4px;
+      
+  }
+
+
+  .material-symbols-outlined {
+    font-variation-settings:
+    'FILL' 0,
+    'wght' 400,
+    'GRAD' 0,
+    'opsz' 24;
+    display: block;
+  }
+   
+
+#span{
+  top: 30px;
+  left: -510px;
+height: 200px;
+width: 100px;
+display: flex;
+align-items: center;
+justify-content: center;
+flex-direction: column;
+position: absolute;
+background-color: #BA68C8;
+  cursor: pointer;
+}
+
+#menu-responsive:hover ~ #span{
+left: 770px;
+top: 60px;
+color: white;
+display: block;
+}
+
+  #join {
+      width: 45px;
+      padding: 4px 4px 4px 4px;
+      display: flex;
+      justify-content: flex-start;
+      margin-top: 7px;
+margin-left: 20px;
+border: none;
+  }
+  
+
+  .li {
+      margin: 0px;
+      margin-right: 0px;
+      font-size: medium;
+      margin-left:10px;
+  }
+
+  header {
+      height: 100px;
+      display: flex;
+      justify-content: flex-start;
+  }
+
+  ul {
+      padding-left: 9px;
+      
+  }
+
+
+  pre {
+      font-size: 27px;
+      margin-left: -20px;
+  }
+}
+
+@media screen and (max-width:850px) and (min-width:600px) {
+#sun{
+    margin-left: 30px;
+}
+
 
     #grid {
-        margin: 0;
-
-    }
-
-    main {
-        height: 2700px;
-        width: 3600px;
-    }
-
-    p {
-        font-size: 70px;
-
-    }
-
-    .purple {
-        font-size: 95px;
-    }
-
-    #psico {
-        font-size: 80px;
-    }
-
-    header {
-        height: 300px;
-
-    }
-
-    h2 {
-        font-size: 90px;
-        margin-bottom: 40px;
-    }
-
-    img {
-        height: 1200px;
-        width: 1200px;
-    }
-
-    .item1 {
-        height: 1200px;
-        width: 1200px;
-    }
-
-    .item2 {
-        height: 1200px;
-        width: 1200px;
-    }
-
-    .item3 {
-        height: 1200px;
-        width: 1200px;
-    }
-
-    .item4 {
-        height: 1200px;
-        width: 1200px;
-    }
-
-}
-
-@media only screen and (max-width:1024px) {
-    html {
-        width: 1400px;
-    }
-
-    h2 {
-        margin-bottom: 30px;
-    }
-}
-
-
-
-
-@media only screen and (max-width:768px) {
-    html {
-        width: 1400px;
-    }
-}
-
-
-@media only screen and (max-width:600px) {
-    html {
-        width: 1250px;
-        height: 2000px;
-    }
-
-    #sun {
-        font-size: 90px;
-        margin-left: 40px;
-    }
-
-
-    .li {
-        margin-bottom: 70px;
-        margin-left: 30px;
-    }
-
-    a{
-        margin-left: 0px;
-    }
-
-    .material-symbols-outlined {
-        font-variation-settings:
-            'FILL' 0,
-            'wght' 400,
-            'GRAD' 0,
-            'opsz' 24;
-        display: block;
-    }
-
-    .li9 {
-        width:370px;
-        margin-right: -5px;
-    }
-
-    #span {
-        top: 30px;
-        left: -510px;
-        height: 580px;
-        width: 350px;
-        display: flex;
-        align-items: center;
-        justify-content: center;
-        flex-direction: column;
-        position: absolute;
-        background-color: #BA68C8;
-        cursor: pointer;
-    }
-
-    #menu-responsive:hover~#span {
-        left: 920px;
-        top: 190px;
-        color: white;
-        display: flex;
-        align-items: center;
-        justify-content: center;
-    }
-.li9{
-    margin-left: 50px;
-}
-    .material-symbols-outlined {
-        font-variation-settings:
-            'FILL' 0,
-            'wght' 400,
-            'GRAD' 0,
-            'opsz' 24;
-        display: flex;
-    }
-
-    #menu-responsive2 {
-        margin-left: 900px;
-        display: flex;
-        font-size: 90px;
-    }
-
-    #menu-responsive {
-        display: flex;
-    }
-
-
-    main {
-        width: 1300px;
-        height: 4000px;
-
-    }
-
-    body {
-        width: 1200px;
-    }
-
-    .purple {
-        font-size: 90px;
-    }
-
-    #psico {
-        font-size: 70px;
-    }
-
-    #grid {
+        margin-top:800px;
         display: grid;
         display: grid;
         grid-template-areas:
@@ -216,38 +189,596 @@
             "img2";
     }
 
-    h2 {
-        font-size: 80px;
+    .material-symbols-outlined {
+      font-variation-settings:
+      'FILL' 0,
+      'wght' 400,
+      'GRAD' 0,
+      'opsz' 24;
+      display: flex;
     }
 
-    p {
-        font-size: 50px;
+    img{
+        width: 300px;
     }
 
-    a {
-        font-size: 60px;
+    
+    #menu-responsive2{
+        margin-left: 600px;
+        display: flex;
     }
 
-    #join {
-        height: 65px;
+    #menu-responsive{
+        display: flex;
+        margin-top:67px
     }
 
-    ul {
-        width: 1298px;
-        padding: 5px;
+
+    .material-symbols-outlined{
+        margin-top: -50px;
+        display: flex;
+    }
+   
+
+    input {
+        margin-left: 10px;
+        width: 290px;
+        margin-right: 0px;
+        margin-bottom: 10px;
     }
 
-    h2 {
-        margin-bottom: 50px;
+    #procure {
+        margin-left: -110px;
+    }
+
+    #psico {
+        font-size: 70px;
+        width: 200px;
+        height: 300px;
     }
 
     #logo {
         position: absolute;
-        top: 200px;
-        left: 500px;
+        top: 50px;
+        left: 299px;
         margin-left: 0px;
         margin-right: 0px;
-        font-size: 70px;
+        
     }
 
+    li {
+        margin-left: 4px;
+        
+    }
+
+
+    .material-symbols-outlined {
+      font-variation-settings:
+      'FILL' 0,
+      'wght' 400,
+      'GRAD' 0,
+      'opsz' 24;
+      display: block;
+    }
+     
+
+#span{
+    top: 30px;
+    left: -510px;
+ height: 200px;
+ width: 100px;
+ display: flex;
+ align-items: center;
+ justify-content: center;
+ flex-direction: column;
+ position: absolute;
+ background-color: #BA68C8;
+    cursor: pointer;
 }
+
+#menu-responsive:hover ~ #span{
+left: 600px;
+top: 60px;
+color: white;
+display: block;
+}
+
+    #join {
+        width: 45px;
+        padding: 4px 4px 4px 4px;
+        display: flex;
+        justify-content: flex-start;
+        margin-top: 7px;
+margin-left: 20px;
+border: none;
+    }
+
+    .li {
+        margin: 0px;
+        margin-right: 0px;
+        font-size: medium;
+        margin-left:10px;
+    }
+
+    header {
+        height: 100px;
+        display: flex;
+        justify-content: flex-start;
+    }
+
+    ul {
+        padding-left: 9px;
+        
+    }
+
+    #woman {
+        margin-left: 50px;
+        width: 280px;
+        margin-top: 100px;
+    }
+
+    pre {
+        font-size: 27px;
+        margin-left: -20px;
+    }
+    
+  
+}
+
+
+@media screen and (max-width:600px) and (min-width:401px) {
+    #grid {
+        margin-top:1200px;
+        display: grid;
+        display: grid;
+        grid-template-areas:
+            "descrição1"
+            "img1"
+            "descrição2"
+            "img2";
+    }
+p{
+    font-size: 20px;
+    width: 200px;
+    margin-left: 120px;
+}
+    .material-symbols-outlined {
+      font-variation-settings:
+      'FILL' 0,
+      'wght' 400,
+      'GRAD' 0,
+      'opsz' 24;
+      display: flex;
+    }
+
+    img{
+        width: 300px;
+    }
+
+    
+    #menu-responsive2{
+        margin-left: 290px;
+        display: flex;
+    }
+
+    #menu-responsive{
+        display: flex;
+        margin-top:67px
+    }
+
+
+    .material-symbols-outlined{
+        margin-top: -50px;
+        display: flex;
+    }
+   
+
+    input {
+        margin-left: 10px;
+        width: 290px;
+        margin-right: 0px;
+        margin-bottom: 10px;
+    }
+
+    #procure {
+        margin-left: -110px;
+    }
+
+    #psico {
+        font-size: 70px;
+        width: 200px;
+        height: 300px;
+    }
+
+    #logo {
+        position: absolute;
+        top: 50px;
+        left: 100px;
+        margin-left: 0px;
+        margin-right: 0px;
+        
+    }
+
+    li {
+        margin-left: 4px;
+        
+    }
+
+
+    .material-symbols-outlined {
+      font-variation-settings:
+      'FILL' 0,
+      'wght' 400,
+      'GRAD' 0,
+      'opsz' 24;
+      display: block;
+    }
+     
+
+#span{
+    top: 30px;
+    left: -510px;
+ height: 200px;
+ width: 100px;
+ display: flex;
+ align-items: center;
+ justify-content: center;
+ flex-direction: column;
+ position: absolute;
+ background-color: #BA68C8;
+    cursor: pointer;
+}
+
+#menu-responsive:hover ~ #span{
+left: 250px;
+top: 60px;
+color: white;
+display: block;
+}
+
+    #join {
+        width: 45px;
+        padding: 4px 4px 4px 4px;
+        display: flex;
+        justify-content: flex-start;
+        margin-top: 7px;
+margin-left: 20px;
+border: none;
+    }
+
+    .li {
+        margin: 0px;
+        margin-right: 0px;
+        font-size: medium;
+        margin-left:10px;
+    }
+
+    header {
+        height: 100px;
+        display: flex;
+        justify-content: flex-start;
+    }
+
+    ul {
+        padding-left: 9px;
+        
+    }
+
+    #woman {
+        margin-left: 50px;
+        width: 280px;
+        margin-top: 100px;
+    }
+
+    pre {
+        font-size: 27px;
+        margin-left: -20px;
+    }
+}
+
+
+
+
+
+
+@media screen and (max-width:400px) and (min-width:321px) {
+    #grid {
+        margin-top:1200px;
+        display: grid;
+        display: grid;
+        grid-template-areas:
+            "descrição1"
+            "img1"
+            "descrição2"
+            "img2";
+    }
+p{
+    font-size: 20px;
+    width: 200px;
+    margin-left: 120px;
+}
+    .material-symbols-outlined {
+      font-variation-settings:
+      'FILL' 0,
+      'wght' 400,
+      'GRAD' 0,
+      'opsz' 24;
+      display: flex;
+    }
+
+    img{
+        width: 300px;
+    }
+
+    
+    #menu-responsive2{
+        margin-left: 270px;
+        display: flex;
+    }
+
+    #menu-responsive{
+        display: flex;
+        margin-top:67px
+    }
+
+
+    .material-symbols-outlined{
+        margin-top: -50px;
+        display: flex;
+    }
+   
+
+    input {
+        margin-left: 10px;
+        width: 290px;
+        margin-right: 0px;
+        margin-bottom: 10px;
+    }
+
+    #procure {
+        margin-left: -110px;
+    }
+
+    #psico {
+        font-size: 70px;
+        width: 200px;
+        height: 300px;
+    }
+
+    #logo {
+        position: absolute;
+        top: 50px;
+        left: 90px;
+        margin-left: 0px;
+        margin-right: 0px;
+        
+    }
+
+    li {
+        margin-left: 4px;
+        
+    }
+
+
+    .material-symbols-outlined {
+      font-variation-settings:
+      'FILL' 0,
+      'wght' 400,
+      'GRAD' 0,
+      'opsz' 24;
+      display: block;
+    }
+     
+
+#span{
+    top: 30px;
+    left: -510px;
+ height: 200px;
+ width: 100px;
+ display: flex;
+ align-items: center;
+ justify-content: center;
+ flex-direction: column;
+ position: absolute;
+ background-color: #BA68C8;
+    cursor: pointer;
+}
+
+#menu-responsive:hover ~ #span{
+left: 250px;
+top: 60px;
+color: white;
+display: block;
+}
+
+    #join {
+        width: 45px;
+        padding: 4px 4px 4px 4px;
+        display: flex;
+        justify-content: flex-start;
+        margin-top: 7px;
+margin-left: 20px;
+border: none;
+    }
+
+    .li {
+        margin: 0px;
+        margin-right: 0px;
+        font-size: medium;
+        margin-left:10px;
+    }
+
+    header {
+        height: 100px;
+        display: flex;
+        justify-content: flex-start;
+    }
+
+    ul {
+        padding-left: 9px;
+        
+    }
+
+    #woman {
+        margin-left: 50px;
+        width: 280px;
+        margin-top: 100px;
+    }
+
+    pre {
+        font-size: 27px;
+        margin-left: -20px;
+    }
+
+
+}
+
+@media screen and (max-width:321px) and (min-width:320px){
+    #grid {
+        margin-top:1200px;
+        display: grid;
+        display: grid;
+        grid-template-areas:
+            "descrição1"
+            "img1"
+            "descrição2"
+            "img2";
+    }
+p{
+    font-size: 20px;
+    width: 200px;
+    margin-left: 120px;
+}
+    .material-symbols-outlined {
+      font-variation-settings:
+      'FILL' 0,
+      'wght' 400,
+      'GRAD' 0,
+      'opsz' 24;
+      display: flex;
+    }
+
+    img{
+        width: 300px;
+    }
+
+    
+    #menu-responsive2{
+        margin-left: 210px;
+        display: flex;
+    }
+
+    #menu-responsive{
+        display: flex;
+        margin-top:67px
+    }
+
+
+    .material-symbols-outlined{
+        margin-top: -50px;
+        display: flex;
+    }
+   
+
+    input {
+        margin-left: 10px;
+        width: 290px;
+        margin-right: 0px;
+        margin-bottom: 10px;
+    }
+
+    #procure {
+        margin-left: -110px;
+    }
+
+    #psico {
+        font-size: 70px;
+        width: 200px;
+        height: 300px;
+    }
+
+    #logo {
+        position: absolute;
+        top: 50px;
+        left: 60px;
+        margin-left: 0px;
+        margin-right: 0px;
+        
+    }
+
+    li {
+        margin-left: 4px;
+        
+    }
+
+
+    .material-symbols-outlined {
+      font-variation-settings:
+      'FILL' 0,
+      'wght' 400,
+      'GRAD' 0,
+      'opsz' 24;
+      display: block;
+    }
+     
+
+#span{
+    top: 30px;
+    left: -510px;
+ height: 200px;
+ width: 100px;
+ display: flex;
+ align-items: center;
+ justify-content: center;
+ flex-direction: column;
+ position: absolute;
+ background-color: #BA68C8;
+    cursor: pointer;
+}
+
+#menu-responsive:hover ~ #span{
+left: 210px;
+top: 60px;
+color: white;
+display: block;
+}
+
+    #join {
+        width: 45px;
+        padding: 4px 4px 4px 4px;
+        display: flex;
+        justify-content: flex-start;
+        margin-top: 7px;
+margin-left: 20px;
+border: none;
+    }
+
+    .li {
+        margin: 0px;
+        margin-right: 0px;
+        font-size: medium;
+        margin-left:10px;
+    }
+
+    header {
+        height: 100px;
+        display: flex;
+        justify-content: flex-start;
+    }
+
+    ul {
+        padding-left: 9px;
+        
+    }
+
+    #woman {
+        margin-left: 50px;
+        width: 280px;
+        margin-top: 100px;
+    }
+
+    pre {
+        font-size: 27px;
+        margin-left: -20px;
+    }
+    }

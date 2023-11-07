@@ -1,4 +1,4 @@
-@media only screen and (min-width:2560px) {
+/* @media only screen and (min-width:2560px) {
     html {
         height: 3000px;
     }
@@ -412,4 +412,1199 @@ border: none;
         font-size: 60px;
     }
 
+} */
+
+
+@media screen and (max-width:2560px) and (min-width:2560px) {
+  #logo{
+    margin-left: -50px;
+    margin-right: 1400px;
+  }
+
+  #vetor{
+    margin-left: 600px;
+  }
+
+  #t1,#t2{
+    margin-left: 300px; width: 900px;
+  }
+   
 }
+@media screen and  (max-width:1490px) and (min-width:1000px)  {
+    #logo{
+        margin-right: 300px;
+    }
+  #vetor{
+    margin-left: -170px;
+  }
+}
+
+
+@media screen and (max-width:900px) and (min-width:880px) 
+{
+
+  
+    #t1{
+        font-size: 55px;
+    
+    }
+    
+    #t2{
+        margin-top: -20px;
+        font-size: 21px;
+        margin-left: -5px;
+    }
+        
+        #vetor {
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            margin-left: -435px;
+            margin-top: 140px;
+            width: 400px;
+    
+        }
+    
+        .nosso_conteudo {
+            margin-right: 500px;
+            margin-top: 100px;
+            margin-right: 120px;
+        }
+        .vamo {
+            display: grid;
+            align-items: center;
+            justify-content: start;
+        }
+    
+        .item1 {
+            height: 350px;
+            width: 260px;
+            margin-left: -15px;
+            justify-content: flex-end;
+            flex-direction: column-reverse;
+        }
+    
+        .item2 {
+            height: 350px;
+            width: 260px;
+            margin-left: -15px;
+            justify-content: flex-end;
+            flex-direction: column-reverse;
+        }
+    
+        .item3 {
+            height: 350px;
+            width: 260px;
+            margin-left: -15px;
+            justify-content: flex-end;
+            flex-direction: column-reverse;
+        }
+    
+        .item4 {
+            height: 350px;
+            width: 260px;
+            margin-left: -15px;
+            justify-content: flex-end;
+            flex-direction: column-reverse;
+        }
+    
+        .item5 {
+            height: 350px;
+            width: 260px;
+            margin-left: -15px;
+            justify-content: flex-end;
+            flex-direction: column-reverse;
+        }
+    
+        .item6 {
+            height: 350px;
+            width: 260px;
+            margin-left: -15px;
+            justify-content: flex-end;
+            flex-direction: column-reverse;
+        }
+    
+        .item7 {
+            height: 350px;
+            width: 260px;
+            margin-left: -15px;
+            justify-content: flex-end;
+            flex-direction: column-reverse;
+        }
+    
+        .item8 {
+            height: 350px;
+            width: 260px;
+            margin-left: -15px;
+            justify-content: flex-end;
+            flex-direction: column-reverse;
+        }
+    
+        
+        
+        .grid {
+            display: grid;
+            grid-template-areas:
+                "psc1""psc5"
+                "psc2""psc6"
+                "psc3""psc7"
+                "psc4""psc8"
+               ;
+            width: 100px;
+        }
+    
+        .material-symbols-outlined {
+          font-variation-settings:
+          'FILL' 0,
+          'wght' 400,
+          'GRAD' 0,
+          'opsz' 24;
+          display: flex;
+        }
+    
+        
+        #menu-responsive2{
+            margin-left: 550px;
+            display: flex;
+        }
+    
+        #menu-responsive{
+            display: flex;
+            margin-top:67px
+        }
+    
+    
+        .material-symbols-outlined{
+            margin-top: -50px;
+            display: flex;
+        }
+       
+        #psico {
+            font-size: 70px;
+            width: 200px;
+            height: 300px;
+        }
+    
+        #logo {
+            position: absolute;
+            top: 50px;
+            left: 310px;
+            
+        }
+    
+        li {
+            margin-left: 4px;
+            
+        }
+    
+    
+        .material-symbols-outlined {
+          font-variation-settings:
+          'FILL' 0,
+          'wght' 400,
+          'GRAD' 0,
+          'opsz' 24;
+          display: block;
+        }
+         
+    
+    #span{
+        top: 30px;
+        left: -510px;
+     height: 200px;
+     width: 100px;
+     display: flex;
+     align-items: center;
+     justify-content: center;
+     flex-direction: column;
+     position: absolute;
+     background-color: #BA68C8;
+        cursor: pointer;
+    }
+    
+    #menu-responsive:hover ~ #span{
+    left: 650px;
+    top: 60px;
+    color: white;
+    display: block;
+    }
+    
+        #join {
+            width: 45px;
+            padding: 4px 4px 4px 4px;
+            display: flex;
+            justify-content: flex-start;
+            margin-top: 7px;
+    margin-left: 20px;
+    border: none;
+        }
+    
+        .li {
+            margin: 0px;
+            margin-right: 0px;
+            font-size: medium;
+            margin-left:10px;
+        }
+    
+        header {
+            height: 100px;
+            display: flex;
+            justify-content: flex-start;
+        }
+    
+        ul {
+            padding-left: 9px;
+            
+        }
+        #sun{
+            margin-left: 100px;
+        }
+
+
+
+}
+
+@media screen and (max-width:870px) and (min-width:600px) {
+
+    
+    #t1{
+        font-size: 55px;
+    
+    }
+    
+    #t2{
+        margin-top: -20px;
+        font-size: 21px;
+        margin-left: -5px;
+    }
+        
+        #vetor {
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            margin-left: -440px;
+            margin-top: 140px;
+            width: 400px;
+    
+        }
+    
+        .nosso_conteudo {
+            margin-right: 500px;
+            margin-top: 100px;
+            margin-right: 120px;
+        }
+        .vamo {
+            display: grid;
+            align-items: center;
+            justify-content: start;
+        }
+    
+        .item1 {
+            height: 350px;
+            width: 260px;
+            margin-left: -15px;
+            justify-content: flex-end;
+            flex-direction: column-reverse;
+        }
+    
+        .item2 {
+            height: 350px;
+            width: 260px;
+            margin-left: -15px;
+            justify-content: flex-end;
+            flex-direction: column-reverse;
+        }
+    
+        .item3 {
+            height: 350px;
+            width: 260px;
+            margin-left: -15px;
+            justify-content: flex-end;
+            flex-direction: column-reverse;
+        }
+    
+        .item4 {
+            height: 350px;
+            width: 260px;
+            margin-left: -15px;
+            justify-content: flex-end;
+            flex-direction: column-reverse;
+        }
+    
+        .item5 {
+            height: 350px;
+            width: 260px;
+            margin-left: -15px;
+            justify-content: flex-end;
+            flex-direction: column-reverse;
+        }
+    
+        .item6 {
+            height: 350px;
+            width: 260px;
+            margin-left: -15px;
+            justify-content: flex-end;
+            flex-direction: column-reverse;
+        }
+    
+        .item7 {
+            height: 350px;
+            width: 260px;
+            margin-left: -15px;
+            justify-content: flex-end;
+            flex-direction: column-reverse;
+        }
+    
+        .item8 {
+            height: 350px;
+            width: 260px;
+            margin-left: -15px;
+            justify-content: flex-end;
+            flex-direction: column-reverse;
+        }
+    
+        
+        
+        .grid {
+            display: grid;
+            grid-template-areas:
+                "psc1""psc5"
+                "psc2""psc6"
+                "psc3""psc7"
+                "psc4""psc8"
+               ;
+            width: 100px;
+        }
+    
+        .material-symbols-outlined {
+          font-variation-settings:
+          'FILL' 0,
+          'wght' 400,
+          'GRAD' 0,
+          'opsz' 24;
+          display: flex;
+        }
+    
+        
+        #menu-responsive2{
+            margin-left: 450px;
+            display: flex;
+        }
+    
+        #menu-responsive{
+            display: flex;
+            margin-top:67px
+        }
+    
+    
+        .material-symbols-outlined{
+            margin-top: -50px;
+            display: flex;
+        }
+       
+        #psico {
+            font-size: 70px;
+            width: 200px;
+            height: 300px;
+        }
+    
+        #logo {
+            position: absolute;
+            top: 50px;
+            left: 240px;
+            
+        }
+    
+        li {
+            margin-left: 4px;
+            
+        }
+    
+    
+        .material-symbols-outlined {
+          font-variation-settings:
+          'FILL' 0,
+          'wght' 400,
+          'GRAD' 0,
+          'opsz' 24;
+          display: block;
+        }
+         
+    
+    #span{
+        top: 30px;
+        left: -510px;
+     height: 200px;
+     width: 100px;
+     display: flex;
+     align-items: center;
+     justify-content: center;
+     flex-direction: column;
+     position: absolute;
+     background-color: #BA68C8;
+        cursor: pointer;
+    }
+    
+    #menu-responsive:hover ~ #span{
+    left: 650px;
+    top: 60px;
+    color: white;
+    display: block;
+    }
+    
+        #join {
+            width: 45px;
+            padding: 4px 4px 4px 4px;
+            display: flex;
+            justify-content: flex-start;
+            margin-top: 7px;
+    margin-left: 20px;
+    border: none;
+        }
+    
+        .li {
+            margin: 0px;
+            margin-right: 0px;
+            font-size: medium;
+            margin-left:10px;
+        }
+    
+        header {
+            height: 100px;
+            display: flex;
+            justify-content: flex-start;
+        }
+    
+        ul {
+            padding-left: 9px;
+            
+        }
+        #sun{
+            margin-left: 100px;
+        }
+  
+}
+
+
+@media screen and (max-width:600px) and (min-width:401px) {
+    #t1{
+        font-size: 35px;
+    
+    }
+    
+    #t2{
+        margin-top: -50px;
+        font-size: 11px;
+        margin-left: -5px;
+    }
+        
+        #vetor {
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            margin-left: -600px;
+            margin-top: 140px;
+            width: 300px;
+    
+        }
+    
+        .nosso_conteudo {
+            margin-right: 500px;
+            margin-top: 100px;
+            margin-right: 120px;
+        }
+        .vamo {
+            display: grid;
+            align-items: center;
+            justify-content: start;
+        }
+    
+        .item1 {
+            height: 350px;
+            width: 260px;
+            margin-left: -15px;
+            justify-content: flex-end;
+            flex-direction: column-reverse;
+        }
+    
+        .item2 {
+            height: 350px;
+            width: 260px;
+            margin-left: -15px;
+            justify-content: flex-end;
+            flex-direction: column-reverse;
+        }
+    
+        .item3 {
+            height: 350px;
+            width: 260px;
+            margin-left: -15px;
+            justify-content: flex-end;
+            flex-direction: column-reverse;
+        }
+    
+        .item4 {
+            height: 350px;
+            width: 260px;
+            margin-left: -15px;
+            justify-content: flex-end;
+            flex-direction: column-reverse;
+        }
+    
+        .item5 {
+            height: 350px;
+            width: 260px;
+            margin-left: -15px;
+            justify-content: flex-end;
+            flex-direction: column-reverse;
+        }
+    
+        .item6 {
+            height: 350px;
+            width: 260px;
+            margin-left: -15px;
+            justify-content: flex-end;
+            flex-direction: column-reverse;
+        }
+    
+        .item7 {
+            height: 350px;
+            width: 260px;
+            margin-left: -15px;
+            justify-content: flex-end;
+            flex-direction: column-reverse;
+        }
+    
+        .item8 {
+            height: 350px;
+            width: 260px;
+            margin-left: -15px;
+            justify-content: flex-end;
+            flex-direction: column-reverse;
+        }
+    
+        
+        
+        .grid {
+            display: grid;
+            grid-template-areas:
+                "psc1" "psc5"
+                "psc2""psc6"
+                "psc3""psc7"
+                "psc4psc8";
+            width: 100px;
+        }
+    
+        .material-symbols-outlined {
+          font-variation-settings:
+          'FILL' 0,
+          'wght' 400,
+          'GRAD' 0,
+          'opsz' 24;
+          display: flex;
+        }
+    
+        
+        #menu-responsive2{
+            margin-left: 290px;
+            display: flex;
+        }
+    
+        #menu-responsive{
+            display: flex;
+            margin-top:67px
+        }
+    
+    
+        .material-symbols-outlined{
+            margin-top: -50px;
+            display: flex;
+        }
+       
+        #psico {
+            font-size: 70px;
+            width: 200px;
+            height: 300px;
+        }
+    
+        #logo {
+            position: absolute;
+            top: 50px;
+            left: 40px;
+            margin-left: 0px;
+            margin-right: 0px;
+            
+        }
+    
+        li {
+            margin-left: 4px;
+            
+        }
+    
+    
+        .material-symbols-outlined {
+          font-variation-settings:
+          'FILL' 0,
+          'wght' 400,
+          'GRAD' 0,
+          'opsz' 24;
+          display: block;
+        }
+         
+    
+    #span{
+        top: 30px;
+        left: -510px;
+     height: 200px;
+     width: 100px;
+     display: flex;
+     align-items: center;
+     justify-content: center;
+     flex-direction: column;
+     position: absolute;
+     background-color: #BA68C8;
+        cursor: pointer;
+    }
+    
+    #menu-responsive:hover ~ #span{
+    left: 250px;
+    top: 60px;
+    color: white;
+    display: block;
+    }
+    
+        #join {
+            width: 45px;
+            padding: 4px 4px 4px 4px;
+            display: flex;
+            justify-content: flex-start;
+            margin-top: 7px;
+    margin-left: 20px;
+    border: none;
+        }
+    
+        .li {
+            margin: 0px;
+            margin-right: 0px;
+            font-size: medium;
+            margin-left:10px;
+        }
+    
+        header {
+            height: 100px;
+            display: flex;
+            justify-content: flex-start;
+        }
+    
+        ul {
+            padding-left: 9px;
+            
+        }
+        #sun{
+            margin-left: 20px;
+        }
+  
+}
+
+
+
+
+
+
+@media screen and (max-width:400px) and (min-width:321px) {
+#t1{
+    font-size: 25px;
+
+}
+
+#t2{
+    margin-top: -50px;
+    font-size: 11px;
+    margin-left: -5px;
+}
+    
+    #vetor {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        margin-left: -600px;
+        margin-top: 140px;
+        width: 300px;
+
+    }
+
+    .nosso_conteudo {
+        margin-right: 500px;
+        margin-top: 100px;
+        margin-right: 120px;
+    }
+    .vamo {
+        display: grid;
+        align-items: center;
+        justify-content: start;
+    }
+
+    .item1 {
+        height: 350px;
+        width: 260px;
+        margin-left: -15px;
+        justify-content: flex-end;
+        flex-direction: column-reverse;
+    }
+
+    .item2 {
+        height: 350px;
+        width: 260px;
+        margin-left: -15px;
+        justify-content: flex-end;
+        flex-direction: column-reverse;
+    }
+
+    .item3 {
+        height: 350px;
+        width: 260px;
+        margin-left: -15px;
+        justify-content: flex-end;
+        flex-direction: column-reverse;
+    }
+
+    .item4 {
+        height: 350px;
+        width: 260px;
+        margin-left: -15px;
+        justify-content: flex-end;
+        flex-direction: column-reverse;
+    }
+
+    .item5 {
+        height: 350px;
+        width: 260px;
+        margin-left: -15px;
+        justify-content: flex-end;
+        flex-direction: column-reverse;
+    }
+
+    .item6 {
+        height: 350px;
+        width: 260px;
+        margin-left: -15px;
+        justify-content: flex-end;
+        flex-direction: column-reverse;
+    }
+
+    .item7 {
+        height: 350px;
+        width: 260px;
+        margin-left: -15px;
+        justify-content: flex-end;
+        flex-direction: column-reverse;
+    }
+
+    .item8 {
+        height: 350px;
+        width: 260px;
+        margin-left: -15px;
+        justify-content: flex-end;
+        flex-direction: column-reverse;
+    }
+
+    
+    
+    .grid {
+        display: grid;
+        grid-template-areas:
+            "psc1"
+            "psc2"
+            "psc3"
+            "psc4"
+            "psc5"
+            "psc6"
+            "psc7"
+            "psc8";
+        width: 100px;
+    }
+
+    .material-symbols-outlined {
+      font-variation-settings:
+      'FILL' 0,
+      'wght' 400,
+      'GRAD' 0,
+      'opsz' 24;
+      display: flex;
+    }
+
+    
+    #menu-responsive2{
+        margin-left: 260px;
+        display: flex;
+    }
+
+    #menu-responsive{
+        display: flex;
+        margin-top:67px
+    }
+
+
+    .material-symbols-outlined{
+        margin-top: -50px;
+        display: flex;
+    }
+   
+    #psico {
+        font-size: 70px;
+        width: 200px;
+        height: 300px;
+    }
+
+    #logo {
+        position: absolute;
+        top: 50px;
+        left: 40px;
+        margin-left: 0px;
+        margin-right: 0px;
+        
+    }
+
+    li {
+        margin-left: 4px;
+        
+    }
+
+
+    .material-symbols-outlined {
+      font-variation-settings:
+      'FILL' 0,
+      'wght' 400,
+      'GRAD' 0,
+      'opsz' 24;
+      display: block;
+    }
+     
+
+#span{
+    top: 30px;
+    left: -510px;
+ height: 200px;
+ width: 100px;
+ display: flex;
+ align-items: center;
+ justify-content: center;
+ flex-direction: column;
+ position: absolute;
+ background-color: #BA68C8;
+    cursor: pointer;
+}
+
+#menu-responsive:hover ~ #span{
+left: 250px;
+top: 60px;
+color: white;
+display: block;
+}
+
+    #join {
+        width: 45px;
+        padding: 4px 4px 4px 4px;
+        display: flex;
+        justify-content: flex-start;
+        margin-top: 7px;
+margin-left: 20px;
+border: none;
+    }
+
+    .li {
+        margin: 0px;
+        margin-right: 0px;
+        font-size: medium;
+        margin-left:10px;
+    }
+
+    header {
+        height: 100px;
+        display: flex;
+        justify-content: flex-start;
+    }
+
+    ul {
+        padding-left: 9px;
+        
+    }
+
+  
+
+}
+
+@media screen and (max-width:321px) and (min-width:320px){
+    #t1{
+        font-size: 25px;
+    
+    }
+    
+    #t2{
+        margin-top: -50px;
+        font-size: 11px;
+        margin-left: -5px;
+    }
+        
+        #vetor {
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            margin-left: -655px;
+            margin-top: 140px;
+            width: 300px;
+    
+        }
+    
+        .nosso_conteudo {
+            margin-right: 500px;
+            margin-top: 100px;
+            margin-right: 120px;
+        }
+        .vamo {
+            display: grid;
+            align-items: center;
+            justify-content: start;
+        }
+    
+        .item1 {
+            height: 350px;
+            width: 260px;
+            margin-left: -15px;
+            justify-content: flex-end;
+            flex-direction: column-reverse;
+        }
+    
+        .item2 {
+            height: 350px;
+            width: 260px;
+            margin-left: -15px;
+            justify-content: flex-end;
+            flex-direction: column-reverse;
+        }
+    
+        .item3 {
+            height: 350px;
+            width: 260px;
+            margin-left: -15px;
+            justify-content: flex-end;
+            flex-direction: column-reverse;
+        }
+    
+        .item4 {
+            height: 350px;
+            width: 260px;
+            margin-left: -15px;
+            justify-content: flex-end;
+            flex-direction: column-reverse;
+        }
+    
+        .item5 {
+            height: 350px;
+            width: 260px;
+            margin-left: -15px;
+            justify-content: flex-end;
+            flex-direction: column-reverse;
+        }
+    
+        .item6 {
+            height: 350px;
+            width: 260px;
+            margin-left: -15px;
+            justify-content: flex-end;
+            flex-direction: column-reverse;
+        }
+    
+        .item7 {
+            height: 350px;
+            width: 260px;
+            margin-left: -15px;
+            justify-content: flex-end;
+            flex-direction: column-reverse;
+        }
+    
+        .item8 {
+            height: 350px;
+            width: 260px;
+            margin-left: -15px;
+            justify-content: flex-end;
+            flex-direction: column-reverse;
+        }
+    
+        
+        
+        .grid {
+            display: grid;
+            grid-template-areas:
+                "psc1"
+                "psc2"
+                "psc3"
+                "psc4"
+                "psc5"
+                "psc6"
+                "psc7"
+                "psc8";
+            width: 100px;
+        }
+    
+        .material-symbols-outlined {
+          font-variation-settings:
+          'FILL' 0,
+          'wght' 400,
+          'GRAD' 0,
+          'opsz' 24;
+          display: flex;
+        }
+    
+        
+        #menu-responsive2{
+            margin-left: 260px;
+            display: flex;
+        }
+    
+        #menu-responsive{
+            display: flex;
+            margin-top:67px
+        }
+    
+    
+        .material-symbols-outlined{
+            margin-top: -50px;
+            display: flex;
+        }
+       
+        #psico {
+            font-size: 70px;
+            width: 200px;
+            height: 300px;
+        }
+    
+        #logo {
+            position: absolute;
+            top: 50px;
+            left: 10px;
+            
+        }
+    
+        li {
+            margin-left: 4px;
+            
+        }
+    
+    
+        .material-symbols-outlined {
+          font-variation-settings:
+          'FILL' 0,
+          'wght' 400,
+          'GRAD' 0,
+          'opsz' 24;
+          display: block;
+        }
+         
+    
+    #span{
+        top: 30px;
+        left: -510px;
+     height: 200px;
+     width: 100px;
+     display: flex;
+     align-items: center;
+     justify-content: center;
+     flex-direction: column;
+     position: absolute;
+     background-color: #BA68C8;
+        cursor: pointer;
+    }
+    
+    #menu-responsive:hover ~ #span{
+    left: 250px;
+    top: 60px;
+    color: white;
+    display: block;
+    }
+    
+        #join {
+            width: 45px;
+            padding: 4px 4px 4px 4px;
+            display: flex;
+            justify-content: flex-start;
+            margin-top: 7px;
+    margin-left: 20px;
+    border: none;
+        }
+    
+        
+    
+        header {
+            height: 100px;
+            display: flex;
+            justify-content: flex-start;
+        }
+    
+        ul {
+            padding-left: 9px;
+            
+        }
+    
+      
+    
+  
+    #span{
+        top: 30px;
+        left: -510px;
+     height: 200px;
+     width: 100px;
+     display: flex;
+     align-items: center;
+     justify-content: center;
+     flex-direction: column;
+     position: absolute;
+     background-color: #BA68C8;
+        cursor: pointer;
+    }
+    .li{
+        margin-top: 1px;
+    }
+    
+    #menu-responsive:hover ~ #span{
+    left: 160px;
+    top: 50px;
+    color: white;
+    display: block;
+    height: 300px;
+    width: 150px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    }
+    #menu-responsive2{
+        margin-left: 230px;
+        display: flex;
+    }
+   
+
+    #menu-responsive{
+        display: flex;
+        margin-top:1-3px
+    }
+    .material-symbols-outlined {
+        font-variation-settings:
+        'FILL' 0,
+        'wght' 400,
+        'GRAD' 0,
+        'opsz' 24;
+        display: block;
+      }
+      .material-symbols-outlined {
+        font-variation-settings:
+        'FILL' 0,
+        'wght' 400,
+        'GRAD' 0,
+        'opsz' 24;
+        display: flex;
+      }
+  
+    #sun{
+        margin-left: -10px;
+   
+    }}
