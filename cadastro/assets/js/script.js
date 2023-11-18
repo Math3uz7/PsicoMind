@@ -46,7 +46,7 @@ function take() {
         let remove2 = localStorage.removeItem("senha");
     }
     
-    window.location ="../login/index.html"
+    window.location ="../login/login.html"
 }
 
 

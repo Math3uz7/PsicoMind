@@ -11,7 +11,7 @@ function entrar() {
 
     if (valoremail == getEmail && valorsenha == getSenha) {
         
-        window.location.href ="../inicio/index.html"
+        window.location.href ="../index.html"
     }
 
    else {
