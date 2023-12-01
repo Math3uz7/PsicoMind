@@ -4,6 +4,10 @@
     font-family: Arial, Helvetica, sans-serif;
 }
 
+.perfil{
+    display: none;
+}
+
 ::selection {
     background-color: blueviolet;
 }

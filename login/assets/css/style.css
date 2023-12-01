@@ -9,6 +9,10 @@ html {
     width: 100%;
 }
 
+.perfil{
+    display: none;
+}
+
 body {
     background-color: black;
 }

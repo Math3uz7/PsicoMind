@@ -8,6 +8,10 @@ body {
     background-color: black;
 }
 
+.perfil{
+    display: none;
+}
+
 ::selection {
     background-color: blueviolet;
 }

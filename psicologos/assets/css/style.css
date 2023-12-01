@@ -8,6 +8,10 @@ html {
     height: 100%;
 }
 
+.perfil{
+    display: none;
+}
+
 body {
     background-color: black;
 }
@@ -60,13 +64,13 @@ body {
 
 .border {
     border-radius: 10px;
-    background-color: #BA68C8;
-    display: flex;
+    background-image: linear-gradient(#BA68C8, #d861ed,rgb(171, 90, 247));
+     display: flex;
     align-items: center;
     justify-content: space-evenly;
     flex-direction: column;
-    /* box-shadow: 10px 10px 10px  rgb(165, 165, 165); */
     transition: all 0.5s;
+    
 }
 
 .border:hover {
@@ -74,6 +78,19 @@ body {
     box-shadow: 10px 10px 10px rgb(76, 76, 76);
 
 }
+#setinha{
+    width: 100%;
+    height: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    
+}
+#setinha p{
+    color: white;
+    font-weight: bolder;
+}
+
 
 button {
     background-color: white;
@@ -92,8 +109,8 @@ button:hover {
 }
 
 h3 {
-
-    color: white;
+font-size: 30px; 
+   color: white;
 }
 
 .alinhar {
@@ -122,14 +139,17 @@ header {
     width: 200px;
     background-color: brown;
     border-radius: 10px;
-    box-shadow: 7px 7px 7px;
+    border-radius: 100%;
+}
+.foto img{
+    border-radius: 100%;
 }
 
 img {
     height: 210px;
     width: 200px;
     margin-bottom: 20px;
-    border-radius: 10px;
+    border-radius: 10px;   
 }
 
 ul {
@@ -228,6 +248,7 @@ header {
 }
 
 #t2 {
+    margin-top: 50px;
     color: white;
 }
 
@@ -236,12 +257,11 @@ header {
 
 .vamo {
     display: grid;
-    grid-template-areas: "titulo titulo imaginha"
-        "resumo resumo resumo";
-    width: 1200px;
-    height: 600px;
+    grid-template-areas: "titulo imaginha"
+        "resumo resumo";
+    width: 100%;
+    height: 500px;
     align-items: center;
-    margin-left: 0px;
 }
 
 .resumo {
@@ -366,7 +386,7 @@ header {
     margin-top: -5px;
     display: none;
 }
-
+/* TEMA CLARO */
 /* ______________________________________________________________________________ */
 
 .white,
@@ -404,4 +424,7 @@ p {
 
 .white a:hover {
     color: #BA68C8;
+}
+.white #setinha p{
+    color: black ;
 }

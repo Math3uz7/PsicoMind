@@ -10,9 +10,16 @@ function entrar() {
     let getSenha = localStorage.getItem("senha")
 
     if (valoremail == getEmail && valorsenha == getSenha) {
-        
-        window.location.href ="../index.html"
+
+      let perfil = document.querySelector(".perfil")
+      let troca1 =perfil.style.display = "block"
+      let button = document.getElementById("join")
+      let troca2= button.style.display = "none"
+      window.location.href ="../index.html"
+      
+
     }
+
 
    else {
         alert("Email ou senha estão errados")
@@ -20,6 +27,7 @@ function entrar() {
 
 
 }
+
 
 
 
