@@ -1,4 +1,5 @@
 function entrar() {
+  let binario;
 
     let email = document.querySelector("#meuEmail")
     let valoremail = email.value
@@ -8,25 +9,50 @@ function entrar() {
 
     let getEmail = localStorage.getItem("Email")
     let getSenha = localStorage.getItem("senha")
+    
+    
+    
+    if (valoremail == getEmail && valorsenha == getSenha  ) {
+    
+      binario = 1
+      localStorage.setItem("bi",binario)
 
-    if (valoremail == getEmail && valorsenha == getSenha) {
-
-      let perfil = document.querySelector(".perfil")
-      let troca1 =perfil.style.display = "block"
-      let button = document.getElementById("join")
-      let troca2= button.style.display = "none"
-      window.location.href ="../index.html"
-      
-
+     window.location.href ="../index.html"
     }
-
+   
 
    else {
         alert("Email ou senha estão errados")
     }
 
+    
+
+
+let valida = localStorage.getItem("bi")
+
+
+ if (valida == 1) {
+      
+  let perfil2 =  document.querySelector(".perfil").style.display = "block"
+  let local2 = document.getElementById("join").style.display = "none"
+  
+  localStorage.setItem("entre" , perfil2)
+  localStorage.setItem("perfil", local2)
+
 
 }
+else if(valida == ""){
+  
+  let perfil2 =  document.querySelector(".perfil").style.display = "none"    
+  let local2 = document.getElementById("join").style.display = "block"
+
+
+  localStorage.setItem("entre" , perfil2)
+  localStorage.setItem("perfil", local2)
+
+
+ }
+ }
 
 
 

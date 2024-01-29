@@ -3,38 +3,65 @@ function take() {
     
     let pegaNome0= document.querySelector("#nome");
     let resultadoNome = pegaNome0.value;
-    let box = localStorage.setItem("nome", resultadoNome);
+    localStorage.setItem("nome", resultadoNome);
 
     // _________________________________________________________________
 
     let pegaData = document.querySelector("#date");
     let resultadoData = pegaData.value;
-    let box2 = localStorage.setItem("data de nascimento", resultadoData);
+    localStorage.setItem("data de nascimento", resultadoData);
     
     // _________________________________________________________________
     
     let pegaEmail = document.querySelector("#email");
     let resultadoEmail = pegaEmail.value;
-    let box3 = localStorage.setItem("Email", resultadoEmail);
+    localStorage.setItem("Email", resultadoEmail);
 
     // _________________________________________________________________
 
     let pegaSenha = document.querySelector("#senha");
     let resultadoSenha = pegaSenha.value;
-    let box4 = localStorage.setItem("senha", resultadoSenha)
+    localStorage.setItem("senha", resultadoSenha)
     
     // _________________________________________________________________
     
     let pegaCSenha = document.querySelector("#confSenha");
     let resultadoCSenha = pegaCSenha.value;
-    let box5 = localStorage.setItem("senhaConfirma", resultadoCSenha)
+    localStorage.setItem("senhaConfirma", resultadoCSenha)
     
     // _________________________________________________________________
     
+    let pegaCEP = document.querySelector("#CEP");
+    let resultadoCEP = pegaCEP.value;
+    localStorage.setItem("CEP", resultadoCEP)
+
+    // __________________________________________________________________
+
+    let pegarua = document.querySelector("#rua");
+    let resultadorua = pegarua.value;
+    localStorage.setItem("Rua", resultadorua)
+
+    // __________________________________________________________________
+
+    let pegacidade = document.querySelector("#cidade");
+    let resultadocidade = pegacidade.value;
+    localStorage.setItem("Cidade", resultadocidade)
+
+    // __________________________________________________________________
+
+    let pegaestado = document.querySelector("#estado");
+    let resultadoestado = pegaestado.value;
+    localStorage.setItem("Estado", resultadoestado)
+     // _________________________________________________________________
+
+     let pegasexo = document.querySelector("#sexo");
+     let resultadosexo = pegasexo.value;
+     localStorage.setItem("Sexo", resultadosexo)
+    // __________________________________________________________________
 
 
     let pegaNome = document.querySelector("#nome");
-    let resultado = pegaNome.value;
+    pegaNome.value;
     if (resultadoSenha == resultadoCSenha) {
         let pegar = document.querySelector("#click");
         pegar.style.display = "block"
@@ -42,12 +69,52 @@ function take() {
     }
     else{
         alert("Suas senhas são diferentes");
-        let remove1 = localStorage.removeItem("senhaConfirma");
-        let remove2 = localStorage.removeItem("senha");
+       localStorage.removeItem("senhaConfirma");
+       localStorage.removeItem("senha");
+    }
+
+    if(resultadoNome == "" || resultadoData == "" || resultadoEmail == "" || resultadoCSenha == "" || resultadoSenha == ""){
+alert("Preencha todos os campos")
+    }
+    else{
+      window.location ="../login/login.html"
     }
     
-    window.location ="../login/login.html"
 }
+
+// ______________________________________________________
+
+
+let valida = localStorage.getItem("bi")
+
+
+ if (valida == 1) {
+      
+  let perfil2 =  document.querySelector(".perfil").style.display = "block"
+  let local2 = document.getElementById("join").style.display = "none"
+  
+  localStorage.setItem("entre" , perfil2)
+  localStorage.setItem("perfil", local2)
+
+  
+}
+else if(valida == ""){
+  
+  let perfil2 =  document.querySelector(".perfil").style.display = "none"    
+  let local2 = document.getElementById("join").style.display = "block"
+
+
+  localStorage.setItem("entre" , perfil2)
+  localStorage.setItem("perfil", local2)
+
+
+ }
+ 
+
+
+
+
+// ______________________________________________________
 
 
 const changeTheme = document.getElementById("tema")
@@ -81,4 +148,5 @@ localStorage.setItem("white",1)
 })
  
 
+// ___________________________________________________
 

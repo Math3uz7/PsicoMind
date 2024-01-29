@@ -86,6 +86,8 @@ body {
     justify-content: center;
     
 }
+
+
 #setinha p{
     color: white;
     font-weight: bolder;
@@ -339,14 +341,14 @@ header {
 #space {
     width: 500px;
     height: 100px;
-    background-color: #BA68C8;
+    background-color: #ffffff;
     border-top-right-radius: 10px;
     border-bottom-right-radius: 10px;
-    color: white;
+    color: rgb(0, 0, 0);
     margin-top: -200px;
     margin-bottom: 100px;
     display: none;
-    box-shadow: 5px 5px 5px #ac1bc6;
+    box-shadow: 5px 5px 5px #BA68C8;
     transition: all 0.5s;
 }
 
@@ -361,6 +363,8 @@ header {
     height: 100px;
     margin-left: 210px;
     margin-top: 10px;
+    color: #BA68C8;
+    font-weight: bolder;
 }
 
 #space3 {
@@ -381,10 +385,15 @@ header {
     margin-left: 5px;
 }
 
+#check:hover{
+    color: rgb(0, 0, 0);
+}
+
 #check {
     margin-left: 470px;
     margin-top: -5px;
     display: none;
+    color: black;
 }
 /* TEMA CLARO */
 /* ______________________________________________________________________________ */

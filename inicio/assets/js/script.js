@@ -1,36 +1,4 @@
 
-// if (localStorage.getItem("senha") == localStorage.getItem("senhaConfirma") && ) {
-
-//   let perfil = document.querySelector(".perfil")
-//   let troca1 =perfil.style.display = "block"
-//   let button = document.getElementById("join")
-//   let troca2= button.style.display = "none"
-  
-
-// }
-
-let email = document.querySelector("#meuEmail")
-let valoremail = email.value
-
-let senha = document.querySelector("#minhaSenha")
-let valorsenha = senha.value
-
-let getEmail = localStorage.getItem("Email")
-let getSenha = localStorage.getItem("senha")
-
-if (valoremail == getEmail && valorsenha == getSenha) {
-
-  let perfil = document.querySelector(".perfil")
-  let troca1 =perfil.style.display = "block"
-  let button = document.getElementById("join")
-  let troca2= button.style.display = "none"
-  window.location.href ="../index.html"
-  
-
-}
-
-
-
 
 const changeTheme = document.getElementById("tema")
 
@@ -61,4 +29,52 @@ localStorage.setItem("white",1)
   
 
 })
+
+
+
+      
+// _______________________________________________________________________________________
+
+
+
+
+
+let valida = localStorage.getItem("bi")
+
+
+ if (valida == 1) {
+      
+  let perfil2 =  document.querySelector(".perfil").style.display = "block"
+  let local2 = document.getElementById("join").style.display = "none"
+  
+  localStorage.setItem("entre" , perfil2)
+  localStorage.setItem("perfil", local2)
+
+  
+}
+else if(valida == ""){
+  
+  let perfil2 =  document.querySelector(".perfil").style.display = "none"    
+  let local2 = document.getElementById("join").style.display = "block"
+
+
+  localStorage.setItem("entre" , perfil2)
+  localStorage.setItem("perfil", local2)
+
+
+ }
  
+
+
+
+
+
+
+
+
+
+
+
+
+
+

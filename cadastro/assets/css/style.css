@@ -3,7 +3,8 @@
     padding: 0;
     font-family: Arial, Helvetica, sans-serif;
 }
-.perfil{
+
+.perfil {
     display: none;
 }
 
@@ -23,7 +24,7 @@ main {
     height: 460px;
 }
 
-form{
+form {
     display: flex;
     align-items: center;
     justify-content: space-evenly;
@@ -32,7 +33,7 @@ form{
 }
 
 .card div {
-    width: 500px;
+    width: 900px;
     height: 570px;
     display: flex;
     align-items: center;
@@ -43,15 +44,54 @@ form{
     box-shadow: 1px 1px 10px 1px rgb(149, 0, 255);
 }
 
+.sec1 {
+    display: flex;
+    align-items: flex-start;
+    justify-content: left;
+    flex-direction: column;
+    width: 750px;
+    gap: 10px;
+}
+
+.frm-group {
+    display: flex;
+    align-items: flex-start;
+    flex-direction: column;
+    gap: 10px;
+    margin-right: -400px;
+    margin-top: -331px;
+}
+
 input {
     border-radius: 10px;
     outline: none;
     border: none;
     padding: 15px;
     font-size: large;
-    width: 400px;
+    width: 300px;
     transition: all 0.2s;
     cursor: pointer;
+}
+
+option,select{
+    color: rgba(0, 0, 0, 0.621);
+    border-radius: 10px;
+    outline: none;
+    border: none;
+    padding: 15px;
+    font-size: large;
+    width: 330px;
+    transition: all 0.2s;
+    cursor: pointer;
+}
+
+button a:hover {
+color: blueviolet;
+}
+
+button a {
+    color: blueviolet;
+
 }
 
 input:focus {
@@ -74,6 +114,7 @@ button {
     cursor: pointer;
     transition: all 0.5s;
     margin-bottom: -20px;
+    width: 400px;
 }
 
 button:hover {
@@ -189,60 +230,62 @@ header {
     margin-right: 500px;
 }
 
-#color{
+#color {
     color: blueviolet;
 }
 
-#click{
+#click {
     background-color: white;
-    border: solid 5px  blueviolet;
+    border: solid 5px blueviolet;
     color: blueviolet;
     margin-top: 20px;
 }
 
-#tema{
+#tema {
     margin: 0;
-  width: 10px;
-  height: 10px;
-z-index: 0; 
-display: none;
+    width: 10px;
+    height: 10px;
+    z-index: 0;
+    display: none;
 }
 
 
 .material-symbols-outlined {
-  font-variation-settings:
-  'FILL' 0,
-  'wght' 400,
-  'GRAD' 0,
-  'opsz' 24;
-  color: white;
-  z-index: 2;
-cursor: pointer;
-transition: all 1s;
+    font-variation-settings:
+        'FILL' 0,
+        'wght' 400,
+        'GRAD' 0,
+        'opsz' 24;
+    color: white;
+    z-index: 2;
+    cursor: pointer;
+    transition: all 1s;
 }
 
-.material-symbols-outlined:hover{
+.material-symbols-outlined:hover {
     color: #BA68C8;
-} 
+}
 
 
-.material-symbols-outlined:hover{
+.material-symbols-outlined:hover {
     color: #BA68C8;
-} 
+}
 
-#menu-responsive2{
+#menu-responsive2 {
     display: none;
 }
-#menu-responsive{
+
+#menu-responsive {
     display: none;
 }
-#span{
+
+#span {
     display: flex;
     flex-direction: row;
     width: 100%;
 }
 
-.li9{
+.li9 {
     width: 100px;
     margin-right: 0px;
 }
@@ -251,30 +294,30 @@ transition: all 1s;
 
 
 .white,
-.white header{
+.white header {
     background-color: rgb(255, 255, 255);
     color: black;
 }
 
 
-.white a{
+.white a {
     color: black;
 }
 
 
 
-.white .material-symbols-outlined{
+.white .material-symbols-outlined {
     color: black;
 }
 
-.white #psico{
+.white #psico {
     color: black;
 }
 
-.white pre{
+.white pre {
     color: black;
 }
 
-.white a:hover{
+.white a:hover {
     color: #BA68C8;
 }

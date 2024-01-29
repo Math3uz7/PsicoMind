@@ -1,0 +1,207 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="assets/css/style.css">
+    <link rel="stylesheet" href="assets/css/responsive.css">
+    <link rel="stylesheet"
+        href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@24,400,0,0" />
+    <link rel="shortcut icon" href="assets/img/icon.svg" type="image/x-icon">
+    <link rel="shortcut icon" href="inicio/assets/svg/icon.svg" type="image/x-icon">
+
+    <title>Seu Perfil</title>
+</head>
+
+<body>
+    <header>
+        <nav>
+            <ul class="ul">
+                <li id="logo">Psico<a href="index.html"><span class="purple">Mind</span></a></li>
+                <li>
+
+                    <label for="tema" class="material-symbols-outlined" id="sun">
+                        brightness_6
+                    </label>
+                    <input type="checkbox" id="tema" name="tema">
+
+
+                </li>
+                <li id="menu-responsive">
+                    <span class="material-symbols-outlined" id="menu-responsive2">
+                        menu
+                    </span>
+                </li>
+                <span id="span">
+                    <li class="li "><a href="../psicologos/psicologos.html">Psicologos</a></li>
+                    <li class="li li7 "><a href="../historico/historico.html">Historico</a></li>
+                    <li class="li li9 "><a href="../sobrenos/sobrenos.html">Sobre nós</a></li>
+                    <li class="li " id="join"><a href="../login/login.html">Entre</a></li>
+                    <li class="perfil li"><a href="perfil.html"><span class="material-symbols-outlined">
+                                account_circle
+                            </span></li></a>
+                </span>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        <div class="cabeca">
+            <h2>SEU <span class="purple">PERFIL</span></h2>
+        </div>
+
+        
+        <div class="info">
+            <ul class="guarda edit1">
+                <li id="nome">NOME: <span id="SeuNome" class="bird"></span></li>
+
+                <li id="email">EMAIL: <span id="SeuEmail" class="bird"></span></li>
+
+                <li id="senha">SENHA: <span id="SuaSenha" class="bird"></span></li>
+
+            </ul>
+            <ul class="guarda edit2">
+                <li id="nascimento">NASCIMENTO: <span id="SeuNasc" class="bird"></span></li>
+
+                <li id="sexo">SEXO: <span id="SeuSexo" class="bird"></span></li>
+
+                <li id="cep">CEP: <span id="SeuCEP" class="bird"></span></li>
+
+            </ul>
+        </div>
+        <div class="info" id="info2"></div>
+    
+        <button><a href="../cadastro/cadastro.html">Editar</a></button>
+
+        <div class="cabeca">
+            <h2>SUAS <span class="purple">CONEÇÕES</span></h2>
+        </div>
+
+        <div id="grid">
+            <h3 class="not" id="not">Você ainda não possui coneções !</h3>
+            <div class="img_lupa" id="img_lupa">
+                <img class="img_lupa" src="assets/img/curiosity-search-animate.svg" alt="">
+                <!-- https://storyset.com/illustration/curiosity-search/amico -->
+            </div>
+
+            <div class="item1  hello" id="ps1">
+                <section class="img img1">
+                </section>
+                <div class="desc">
+                    <h3 id="nome"></h3>
+                    <p id="prof"></p>
+                </div>
+                <section class="cancel">
+                    <span class="material-symbols-outlined" onclick="del()">
+                        close
+                    </span>
+                </section>
+            </div>
+
+            <div class="item2  hello" id="ps2">
+                <section class="img img2">
+                </section>
+                <div class="desc">
+                    <h3>Loius</h3>
+                    <p>Psicologa</p>
+                </div>
+                <section class="cancel">
+                    <span class="material-symbols-outlined" onclick="del()">
+                        close
+                    </span>
+                </section>
+            </div>
+
+            <div class="item3  hello" id="ps3">
+                <section class="img img3">
+                </section>
+                <div class="desc">
+                    <h3>Leticia</h3>
+                    <p>Psicologa</p>
+                </div>
+                <section class="cancel">
+                    <span class="material-symbols-outlined" onclick="del()">
+                        close
+                    </span>
+                </section>
+            </div>
+
+            <div class="item4  hello" id="ps4">
+                <section class="img img4 ">
+                </section>
+                <div class="desc">
+                    <h3>Marta</h3>
+                    <p>Psicologa</p>
+                </div>
+                <section class="cancel">
+                    <span class="material-symbols-outlined" onclick="del()">
+                        close
+                    </span>
+                </section>
+            </div>
+
+            <div class="item5  hello" id="ps5">
+                <section class="img img5 ">
+                </section>
+                <div class="desc">
+                    <h3>Julia</h3>
+                    <p>Psicologa</p>
+                </div>
+                <section class="cancel">
+                    <span class="material-symbols-outlined" onclick="del()">
+                        close
+                    </span>
+                </section>
+            </div>
+
+            <div class="item6  hello" id="ps6">
+                <section class="img img6 ">
+                </section>
+                <div class="desc">
+                    <h3>Kauan</h3>
+                    <p>Psicologo</p>
+                </div>
+                <section class="cancel">
+                    <span class="material-symbols-outlined" onclick="del()">
+                        close
+                    </span>
+                </section>
+            </div>
+
+            <div class="item7  hello" id="ps7">
+                <section class="img img7 ">
+                </section>
+                <div class="desc">
+                    <h3>Gabriel</h3>
+                    <p>Psicologo</p>
+                </div>
+                <section class="cancel">
+                    <span class="material-symbols-outlined" onclick="del()">
+                        close
+                    </span>
+                </section>
+            </div>
+
+            <div class="item8  hello" id="ps8">
+                <section class="img img8">
+                </section>
+                <div class="desc">
+                    <h3 class="">Vandré</h3>
+                    <p>Psicologo</p>
+                </div>
+                <section class="cancel">
+                    <span class="material-symbols-outlined" onclick="del()">
+                        close
+                    </span>
+                </section>
+            </div>
+        </div>
+
+
+    </main>
+
+</body>
+<script src="assets/js/script.js"></script>
+
+</html>

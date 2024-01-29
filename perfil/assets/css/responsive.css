@@ -1,0 +1,547 @@
+@media screen and (max-width:2560px) and (min-width:2560px) {
+    #span {
+        margin-left: 700px;
+    }
+
+
+
+}
+
+@media screen and (max-width:1280px) and (min-width:1280px) {
+    .ul {
+        padding-left: 10px;
+    }
+}
+
+@media screen and (max-width:1024px) and (min-width:1024px) {
+    html {
+        width: 100%;
+    }
+
+    #span {
+        margin-left: -400px;
+    }
+
+    #sun {
+        margin-left: -440px;
+    }
+}
+
+
+@media screen and (max-width:900px) and (min-width:800px) {
+    .ul {
+        padding-left: 80px;
+    }
+
+    #logo {
+        margin-left: -60px;
+        margin-right: 50px;
+    }
+
+    .hello {
+        width: 700px;
+    }
+
+    .img {
+        height: 70px;
+        width: 70px;
+        margin-left: -500px;
+    }
+
+    .desc {
+        margin-left: -480px;
+    }
+
+    .desc {
+        margin-left: -500px;
+    }
+}
+
+@media screen and (max-width:800px) and (min-width:600px) {
+    .cancel {
+        margin-left: -420px;
+    }
+
+    .img {
+        height: 70px;
+        width: 70px;
+        margin-left: -510px;
+
+    }
+
+    .desc {
+        margin-left: -510px;
+    }
+
+    .hello {
+        width: 300px;
+    }
+
+    .ul {
+        padding-left: 80px;
+    }
+
+    #logo {
+        margin-left: -60px;
+        margin-right: 5px;
+    }
+
+    #span {
+        margin-left: -20px;
+    }
+
+    .hello {
+        width: 500px;
+    }
+}
+
+
+@media screen and (max-width:600px) and (min-width:401px) {
+    .cancel {
+        margin-left: -420px;
+    }
+
+    .img {
+        height: 70px;
+        width: 70px;
+        margin-left: -510px;
+
+    }
+
+    .desc {
+        margin-left: -510px;
+    }
+
+    .hello {
+        width: 300px;
+    }
+
+
+
+    .li9,
+    .li {
+        margin-bottom: 0;
+        margin-top: 0px;
+    }
+
+    .info {
+        display: flex;
+        width: 340px;
+        height: 400px;
+        flex-direction: column;
+    }
+
+    ul li .guarda {
+        font-size: medium;
+        margin: 0;
+    }
+
+    #nome,
+    #senha,
+    #email,
+    #SeuSexo,
+    #SeuNasc,
+    #SeuCEP,
+    #nascimento,
+    #sexo,
+    #cep {
+        margin: 0;
+        padding: 0;
+        width: 100px;
+        height: 50px;
+    }
+
+    #SeuSexo {
+        height: 25px;
+        width: 200px;
+    }
+
+    #nascimento {
+        width: 300px;
+        margin-left: -60px;
+    }
+
+    #SeuNasc {
+        width: 200px;
+        height: 25px;
+    }
+
+
+    #cep {
+        margin-left: 22px;
+    }
+
+    #SeuCEP {
+        height: 25px;
+        width: 200px;
+    }
+
+    #span {
+        top: 10px;
+        left: -510px;
+        height: 180px;
+        width: 140px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-direction: column;
+        position: absolute;
+        background-color: #BA68C8;
+        cursor: pointer;
+    }
+
+    .perfil {
+        margin-left: 60px;
+    }
+
+    #menu-responsive:hover~#span {
+        left: 270px;
+        top: 60px;
+        color: white;
+        display: block;
+    }
+
+    #menu-responsive2 {
+        margin-left: 210px;
+        display: flex;
+    }
+
+    #sun {
+        margin-left: -150px;
+    }
+
+    #menu-responsive {
+        display: flex;
+    }
+
+
+
+    .material-symbols-outlined {
+        margin-top: -50px;
+        display: flex;
+    }
+
+    ul li {
+        display: flex;
+        align-items: end;
+        justify-content: space-around;
+    }
+
+    #logo {
+        position: absolute;
+        top: 50px;
+        left: 110px;
+        margin-left: 0px;
+        margin-right: 0px;
+
+    }
+
+    #sexo {
+        width: 250px;
+        margin-left: -40px;
+    }
+
+    .hello {
+        width: 360px;
+    }
+}
+
+
+@media screen and (max-width:400px) and (min-width:321px) {
+    .cancel {
+        margin-left: -420px;
+    }
+
+    .img {
+        height: 70px;
+        width: 70px;
+        margin-left: -510px;
+
+    }
+
+    .desc {
+        margin-left: -510px;
+    }
+
+    .hello {
+        width: 300px;
+    }
+
+
+    .li9,
+    .li {
+        margin-bottom: 0;
+        margin-top: 0px;
+    }
+
+    .info {
+        display: flex;
+        width: 340px;
+        height: 400px;
+        flex-direction: column;
+    }
+
+    ul li .guarda {
+        font-size: medium;
+        margin: 0;
+    }
+
+    #nome,
+    #senha,
+    #email,
+    #SeuSexo,
+    #SeuNasc,
+    #SeuCEP,
+    #nascimento,
+    #sexo,
+    #cep {
+        margin: 0;
+        padding: 0;
+        width: 100px;
+        height: 50px;
+    }
+
+    #SeuSexo {
+        height: 25px;
+        width: 200px;
+    }
+
+    #nascimento {
+        width: 300px;
+        margin-left: -60px;
+    }
+
+    #SeuNasc {
+        width: 200px;
+        height: 25px;
+    }
+
+    #sexo,
+    #cep {
+        margin-left: 22px;
+    }
+
+    #SeuCEP {
+        height: 25px;
+        width: 200px;
+    }
+
+    #span {
+        top: 10px;
+        left: -510px;
+        height: 180px;
+        width: 140px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-direction: column;
+        position: absolute;
+        background-color: #BA68C8;
+        cursor: pointer;
+    }
+
+    .perfil {
+        margin-left: 60px;
+    }
+
+    #menu-responsive:hover~#span {
+        left: 230px;
+        top: 60px;
+        color: white;
+        display: block;
+    }
+
+    #menu-responsive2 {
+        margin-left: 170px;
+        display: flex;
+    }
+
+    #sun {
+        margin-left: -150px;
+    }
+
+    #menu-responsive {
+        display: flex;
+    }
+
+    #sexo {
+        width: 280px;
+        margin-left: -50px;
+    }
+
+    .material-symbols-outlined {
+        margin-top: -50px;
+        display: flex;
+    }
+
+    ul li {
+        display: flex;
+        align-items: end;
+        justify-content: space-around;
+    }
+
+    #logo {
+        position: absolute;
+        top: 50px;
+        left: 90px;
+        margin-left: 0px;
+        margin-right: 0px;
+
+    }
+
+    .hello {
+        width: 300px;
+    }
+}
+
+@media screen and (max-width:321px) and (min-width:320px) {
+
+    body,
+    html {
+        width: 100%;
+    }
+
+    .cancel {
+        margin-left: -420px;
+    }
+
+    .img {
+        height: 70px;
+        width: 70px;
+        margin-left: -510px;
+
+    }
+
+    .desc {
+        margin-left: -510px;
+    }
+
+    .hello {
+        width: 300px;
+    }
+
+    .li9,
+    .li {
+        margin-bottom: 0;
+        margin-top: 0px;
+    }
+
+    .info {
+        display: flex;
+        width: 280px;
+        height: 400px;
+        flex-direction: column;
+    }
+
+    ul li .guarda {
+        font-size: medium;
+        margin: 0;
+    }
+
+    #nome,
+    #senha,
+    #email,
+    #SeuSexo,
+    #SeuNasc,
+    #SeuCEP,
+    #nascimento,
+    #sexo,
+    #cep {
+        margin: 0;
+        padding: 0;
+        width: 100px;
+        height: 50px;
+    }
+
+    #SeuSexo {
+        height: 25px;
+        width: 200px;
+    }
+
+    #nascimento {
+        width: 300px;
+        margin-left: -60px;
+    }
+
+    #SeuNasc {
+        width: 200px;
+        height: 25px;
+    }
+
+    #sexo,
+    #cep {
+        margin-left: 22px;
+    }
+
+    #SeuCEP {
+        height: 25px;
+        width: 200px;
+    }
+
+    #span {
+        top: 10px;
+        left: -510px;
+        height: 180px;
+        width: 140px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-direction: column;
+        position: absolute;
+        background-color: #BA68C8;
+        cursor: pointer;
+    }
+
+    .perfil {
+        margin-left: 60px;
+    }
+
+    #menu-responsive:hover~#span {
+        left: 140px;
+        top: 60px;
+        color: white;
+        display: block;
+    }
+
+    #menu-responsive2 {
+        margin-left: 110px;
+        display: flex;
+    }
+
+    #sun {
+        margin-left: -190px;
+    }
+
+    #menu-responsive {
+        display: flex;
+    }
+
+    #sexo {
+        width: 260px;
+        margin-left: -40px;
+    }
+
+    .img_lupa {
+        width: 300px;
+    }
+
+    .material-symbols-outlined {
+        margin-top: -50px;
+        display: flex;
+    }
+
+    ul li {
+        display: flex;
+        align-items: end;
+        justify-content: space-around;
+    }
+
+    #logo {
+        position: absolute;
+        top: 50px;
+        left: 50px;
+        margin-left: 0px;
+        margin-right: 0px;
+
+    }
+}
