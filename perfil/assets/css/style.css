@@ -152,7 +152,7 @@ h1 {
 }
 
 .li9 {
-    width: 100px;
+    width: 120px;
     margin-right: 0px;
 }
 
@@ -183,28 +183,28 @@ main {
     width: 700px;
     height: 300px;
     display: flex;
-align-items: center;
-justify-content: space-evenly;
-border-radius: 13px;
-/* box-shadow: 10px 10px 40px -12px #BA68C8 ; */
-z-index: 1;
+    align-items: center;
+    justify-content: space-evenly;
+    border-radius: 13px;
+    z-index: 1;
 }
 
-#info2{
-    background-color:#BA68C8 ;
-display: flex;
-margin-left: 30px;
-margin-top: -300px;
-height: 315px;
-z-index: 0;
+#info2 {
+    background-color: #BA68C8;
+    display: flex;
+    margin-left: 30px;
+    margin-top: -300px;
+    height: 315px;
+    z-index: 0;
 }
 
-.edit1, .edit2{
+.edit1,
+.edit2 {
     display: flex;
     flex-direction: column;
 }
 
-.edit1{
+.edit1 {
     margin-left: -100px;
 }
 
@@ -213,7 +213,7 @@ button {
     margin-bottom: 70px;
 }
 
-.desc{
+.desc {
     display: flex;
     flex-direction: column;
     margin-left: -500px;
@@ -262,7 +262,7 @@ button {
     height: 100px;
     display: flex;
     align-items: center;
-    justify-content: space-evenly;    
+    justify-content: space-evenly;
     display: none;
 
 }
@@ -274,7 +274,7 @@ button {
     height: 100px;
     display: flex;
     align-items: center;
-    justify-content: space-evenly;    
+    justify-content: space-evenly;
     display: none;
 
 }
@@ -286,7 +286,7 @@ button {
     height: 100px;
     display: flex;
     align-items: center;
-    justify-content: space-evenly;    
+    justify-content: space-evenly;
     display: none;
 
 }
@@ -298,7 +298,7 @@ button {
     height: 100px;
     display: flex;
     align-items: center;
-    justify-content: space-evenly;    
+    justify-content: space-evenly;
     display: none;
 
 }
@@ -310,81 +310,83 @@ button {
     height: 100px;
     display: flex;
     align-items: center;
-    justify-content: space-evenly;   
+    justify-content: space-evenly;
     display: none;
 
 }
-.not{
+
+.not {
     color: white;
     display: flex;
     align-items: center;
     justify-content: center;
 }
 
-.img_lupa{
+.img_lupa {
     height: 400px;
 }
 
- ul li .bird{
-     color: #9846a7; 
+ul li .bird {
+    color: #9846a7;
     font-size: 22px;
 }
 
 
-button a:hover{
+button a:hover {
     color: #ffffff;
 
 }
 
-.img{
+.img {
     background-color: blueviolet;
     width: 90px;
     height: 90px;
     border-radius: 100%;
     margin-left: -520px;
 }
-.img1{
+
+.img1 {
     background: url("../img/ana.jpg");
     background-position: center;
     background-size: contain;
 }
 
 
-.img2{
+.img2 {
     background: url("../img/louis.jpg");
     background-position: center;
     background-size: contain;
 }
 
 
-.img3{
+.img3 {
     background: url("../img/leticia.jpg");
     background-position: center;
     background-size: contain;
 }
 
 
-.img4{
+.img4 {
     background: url("../img/marta.jpg");
     background-position: center;
     background-size: contain;
 }
 
 
-.img5{
+.img5 {
     background: url("../img/julia.jpg");
     background-position: center;
     background-size: contain;
 }
 
 
-.img6{
+.img6 {
     background: url("../img/kaun.jpg");
     background-position: center;
     background-size: contain;
 }
 
-.img7{
+.img7 {
     background: url("../img/gabriel.jpg");
     background-position: center;
     background-size: contain;
@@ -392,7 +394,7 @@ button a:hover{
 
 
 
-.img8{
+.img8 {
     background: url("../img/vande.jpg");
     background-position: center;
     background-size: contain;
@@ -412,18 +414,21 @@ button a:hover{
         "item6"
         "item7"
         "item8";
-        gap: 10px;
+    gap: 10px;
 }
 
-.cancel{
+.cancel {
     margin-right: -500px;
     cursor: pointer;
 }
-p,h3,.cancel .material-symbols-outlined {
+
+p,
+h3,
+.cancel .material-symbols-outlined {
     color: #000000;
 }
 
-button{
+button {
     padding: 10px;
     color: #ffffff;
     border: solid 2px white;
@@ -436,14 +441,15 @@ button{
     cursor: pointer;
 }
 
-button:hover{
+button:hover {
     border-bottom: solid 4px white;
 }
 
-.guarda{
+.guarda {
     color: #000000;
     font-size: 20px;
 }
+
 /* _________________________________________________________________________________________________________ */
 /* TEMA CLARO/ESCURO */
 
@@ -465,7 +471,9 @@ button:hover{
 
 
 .white a:hover {
-    color: blueviolet ;
+    color: #9250A8;
+    transition: all 1s;
+    font-size: x-large;
 }
 
 
@@ -474,31 +482,32 @@ button:hover{
     color: black;
 }
 
-.white button{
+.white button {
     background-color: white;
-    border:  solid 2px black;
+    border: solid 2px black;
     color: black;
 }
 
-.white button:hover{
-   border-bottom: solid 5px black;
-   color: #000000;
+.white button:hover {
+    border-bottom: solid 5px black;
+    color: #000000;
 }
 
-.white .hello{
+.white .hello {
     background-color: #e2e2e2;
     border-bottom: 4px #BA68C8 solid;
     border-right: 4px #BA68C8 solid;
 
 }
 
-.white .info{
-    background-color: #e2e2e2;
+.white .info {
+    background-color: #f2f2f2;
 }
 
-.white ul li{
+.white ul li {
     color: #000000;
 }
-    .white #sun {
-        color: rgb(0, 0, 0);
-        }
+
+.white #sun {
+    color: rgb(0, 0, 0);
+}

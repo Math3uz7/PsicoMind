@@ -21,42 +21,42 @@ function take() {
 
     let pegaSenha = document.querySelector("#senha");
     let resultadoSenha = pegaSenha.value;
-    localStorage.setItem("senha", resultadoSenha)
+    localStorage.setItem("senha", resultadoSenha);
     
     // _________________________________________________________________
     
     let pegaCSenha = document.querySelector("#confSenha");
     let resultadoCSenha = pegaCSenha.value;
-    localStorage.setItem("senhaConfirma", resultadoCSenha)
+    localStorage.setItem("senhaConfirma", resultadoCSenha);
     
     // _________________________________________________________________
     
     let pegaCEP = document.querySelector("#CEP");
     let resultadoCEP = pegaCEP.value;
-    localStorage.setItem("CEP", resultadoCEP)
+    localStorage.setItem("CEP", resultadoCEP);
 
     // __________________________________________________________________
 
     let pegarua = document.querySelector("#rua");
     let resultadorua = pegarua.value;
-    localStorage.setItem("Rua", resultadorua)
+    localStorage.setItem("Rua", resultadorua);
 
     // __________________________________________________________________
 
     let pegacidade = document.querySelector("#cidade");
     let resultadocidade = pegacidade.value;
-    localStorage.setItem("Cidade", resultadocidade)
+    localStorage.setItem("Cidade", resultadocidade);
 
     // __________________________________________________________________
 
     let pegaestado = document.querySelector("#estado");
     let resultadoestado = pegaestado.value;
-    localStorage.setItem("Estado", resultadoestado)
+    localStorage.setItem("Estado", resultadoestado);
      // _________________________________________________________________
 
      let pegasexo = document.querySelector("#sexo");
      let resultadosexo = pegasexo.value;
-     localStorage.setItem("Sexo", resultadosexo)
+     localStorage.setItem("Sexo", resultadosexo);
     // __________________________________________________________________
 
 
@@ -64,7 +64,7 @@ function take() {
     pegaNome.value;
     if (resultadoSenha == resultadoCSenha) {
         let pegar = document.querySelector("#click");
-        pegar.style.display = "block"
+        pegar.style.display = "block";
 
     }
     else{
@@ -74,10 +74,10 @@ function take() {
     }
 
     if(resultadoNome == "" || resultadoData == "" || resultadoEmail == "" || resultadoCSenha == "" || resultadoSenha == ""){
-alert("Preencha todos os campos")
+alert("Preencha todos os campos");
     }
     else{
-      window.location ="../login/login.html"
+      window.location ="../login/login.html";
     }
     
 }
@@ -85,33 +85,39 @@ alert("Preencha todos os campos")
 // ______________________________________________________
 
 
-let valida = localStorage.getItem("bi")
+let valida = localStorage.getItem("bi");
 
 
  if (valida == 1) {
       
-  let perfil2 =  document.querySelector(".perfil").style.display = "block"
-  let local2 = document.getElementById("join").style.display = "none"
+  let perfil2 =  document.querySelector(".perfil").style.display = "block";
+  let local2 = document.getElementById("join").style.display = "none";
   
-  localStorage.setItem("entre" , perfil2)
-  localStorage.setItem("perfil", local2)
+  localStorage.setItem("entre" , perfil2);
+  localStorage.setItem("perfil", local2);
 
   
 }
 else if(valida == ""){
   
-  let perfil2 =  document.querySelector(".perfil").style.display = "none"    
-  let local2 = document.getElementById("join").style.display = "block"
+  let perfil2 =  document.querySelector(".perfil").style.display = "none";  
+  let local2 = document.getElementById("join").style.display = "block";
 
 
-  localStorage.setItem("entre" , perfil2)
-  localStorage.setItem("perfil", local2)
+  localStorage.setItem("entre" , perfil2);
+  localStorage.setItem("perfil", local2);
 
 
  }
  
+// ______________________________________________________
 
 
+let pegasexo2 = document.querySelector("#sexo").value;
+
+if(pegasexo2.value === "Genero"){
+  alert("Preencha o campo sexo")
+}
 
 
 // ______________________________________________________

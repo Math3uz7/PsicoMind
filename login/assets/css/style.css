@@ -9,7 +9,7 @@ html {
     width: 100%;
 }
 
-.perfil{
+.perfil {
     display: none;
 }
 
@@ -142,8 +142,8 @@ a {
     transition: all 0.4s;
 }
 
-a:hover {
-    color: rgb(255, 255, 255);
+ul li a:hover {
+    color: #BA68C8;
 }
 
 p a:hover {
@@ -192,82 +192,95 @@ header {
 }
 
 
-#tema{
+#tema {
     margin: 0;
-  width: 10px;
-  height: 10px;
-z-index: 0; 
-display: none;
+    width: 10px;
+    height: 10px;
+    z-index: 0;
+    display: none;
 }
 
 
 .material-symbols-outlined {
-  font-variation-settings:
-  'FILL' 0,
-  'wght' 400,
-  'GRAD' 0,
-  'opsz' 24;
-  color: white;
-  z-index: 2;
-cursor: pointer;
-transition: all 1s;
+    font-variation-settings:
+        'FILL' 0,
+        'wght' 400,
+        'GRAD' 0,
+        'opsz' 24;
+    color: white;
+    z-index: 2;
+    cursor: pointer;
+    transition: all 1s;
 }
 
-.material-symbols-outlined:hover{
+.material-symbols-outlined:hover {
     color: #BA68C8;
-} 
+}
 
 
 
-  #menu-responsive2{
-      display: none;
-  }
-  #menu-responsive{
-      display: none;
-  }
-  #span{
-      display: flex;
-      flex-direction: row;
-      width: 100%;
-  }
-  
-  .li9{
-      width: 100px;
-      margin-right: 0px;
-  }
-  
+#menu-responsive2 {
+    display: none;
+}
+
+#menu-responsive {
+    display: none;
+}
+
+#span {
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+}
+
+.li9 {
+    width: 120px;
+    margin-right: 0px;
+}
+
 
 /* ______________________________________________________________________________ */
 
 .white,
-.white header{
+.white header {
     background-color: rgb(255, 255, 255);
     color: black;
 }
 
-.white a{
+.white a {
     color: rgb(0, 0, 0);
 }
 
 .white button a {
     color: rgb(255, 255, 255);
 }
-.white button:hover{
+
+.white button:hover {
     background-color: rgb(62, 21, 101);
 }
 
-.white a:hover{
-    color: #ffffff;
+.white ul li a:hover {
+    color: blueviolet;
+    transition: all 1s;
+    font-size: x-large;
 }
 
-.white #psico{
+.white #psico {
     color: black;
 }
 
-.white #cadastro{
+.white #cadastro {
     color: white;
 }
 
-.white .material-symbols-outlined{
+.white .material-symbols-outlined {
     color: #000000;
-} 
+}
+
+.white #join {
+    border: 2px solid black;
+}
+
+.white #join:hover {
+    border: 2px solid blueviolet;
+}

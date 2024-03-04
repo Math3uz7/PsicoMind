@@ -286,7 +286,7 @@ header {
 }
 
 .li9 {
-    width: 100px;
+    width: 120px;
     margin-right: 0px;
 }
 
@@ -304,7 +304,13 @@ header {
     color: black;
 }
 
+.white #join{
+    border: 2px solid black;
+}
 
+.white #join:hover{
+    border: 2px solid blueviolet;
+}
 
 .white .material-symbols-outlined {
     color: black;
@@ -319,5 +325,7 @@ header {
 }
 
 .white a:hover {
-    color: #BA68C8;
+    color: blueviolet;
+    transition: all 1s;
+    font-size: x-large;
 }

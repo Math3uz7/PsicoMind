@@ -334,7 +334,7 @@ header {
 }
 
 .li9 {
-    width: 100px;
+    width: 120px;
     margin-right: 0px;
 }
 
@@ -432,7 +432,9 @@ p {
 }
 
 .white a:hover {
-    color: #BA68C8;
+    color: #9250A8;
+    transition: all 1s;
+    font-size: x-large;
 }
 .white #setinha p{
     color: black ;
