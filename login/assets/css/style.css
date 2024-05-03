@@ -14,7 +14,7 @@ html {
 }
 
 body {
-    background-color: black;
+    background-color: rgb(255, 255, 255);
 }
 
 main {
@@ -78,7 +78,7 @@ button {
     border-radius: 10px;
     padding: 5px;
     background-color: blueviolet;
-    color: white;
+    color: rgb(255, 255, 255);
     cursor: pointer;
     transition: all 0.5s;
     width: 130px;
@@ -136,10 +136,15 @@ li {
     background-color: blueviolet;
 }
 
-a {
+ header nav a {
+    text-decoration: none;
+    color: rgb(0, 0, 0);
+    transition: all 0.4s;
+}
+
+a{
     text-decoration: none;
     color: white;
-    transition: all 0.4s;
 }
 
 ul li a:hover {
@@ -155,7 +160,7 @@ p a:hover {
 header {
     height: 100px;
     width: 100%;
-    background-color: rgb(2, 2, 2);
+    background-color: rgb(255, 255, 255);
     margin-bottom: 90px;
 }
 
@@ -175,7 +180,7 @@ header {
 }
 
 #join {
-    border: solid white 2px;
+    border: solid rgb(0, 0, 0) 2px;
     border-radius: 10px;
     padding-right: 10px;
     padding-left: 10px;
@@ -185,7 +190,7 @@ header {
 
 
 #logo {
-    color: white;
+    color: rgb(0, 0, 0);
     font-size: 35px;
     width: 200px;
     margin-right: 500px;
@@ -211,6 +216,7 @@ header {
     z-index: 2;
     cursor: pointer;
     transition: all 1s;
+    color: #000000;
 }
 
 .material-symbols-outlined:hover {
@@ -243,12 +249,12 @@ header {
 
 .white,
 .white header {
-    background-color: rgb(255, 255, 255);
+    background-color: rgb(0, 0, 0);
     color: black;
 }
 
 .white a {
-    color: rgb(0, 0, 0);
+    color: rgb(255, 255, 255);
 }
 
 .white button a {
@@ -266,7 +272,7 @@ header {
 }
 
 .white #psico {
-    color: black;
+    color: rgb(255, 255, 255);
 }
 
 .white #cadastro {
@@ -274,11 +280,11 @@ header {
 }
 
 .white .material-symbols-outlined {
-    color: #000000;
+    color: #ffffff;
 }
 
 .white #join {
-    border: 2px solid black;
+    border: 2px solid rgb(255, 255, 255);
 }
 
 .white #join:hover {
