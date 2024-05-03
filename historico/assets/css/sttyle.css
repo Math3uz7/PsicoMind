@@ -5,7 +5,7 @@
 }
 
 body {
-    background-color: black;
+    background-color: rgb(255, 255, 255);
 }
 
 .perfil{
@@ -18,7 +18,7 @@ body {
 
 a {
     text-decoration: none;
-    color: white;
+    color: rgb(0, 0, 0);
     transition: all 0.4s;
 }
 
@@ -30,13 +30,13 @@ a:hover {
 header {
     height: 100px;
     width: 100%;
-    background-color: rgb(2, 2, 2);
+    background-color: rgb(255, 255, 255);
     margin-bottom: 90px;
 }
 
 
 ul {
-    color: white;
+    color: rgb(0, 0, 0);
     font-size: large;
     display: flex;
     flex-direction: row;
@@ -91,14 +91,14 @@ li {
 }
 
 h1 {
-    color: white;
+    color: rgb(0, 0, 0);
     margin-left: -40px;
     margin-top: 30px;
     width: 590px;
 }
 
 #logo {
-    color: white;
+    color: rgb(0, 0, 0);
     font-size: 35px;
     width: 200px;
     margin-right: 500px;
@@ -137,7 +137,7 @@ display: none;
   'wght' 400,
   'GRAD' 0,
   'opsz' 24;
-  color: white;
+  color: rgb(0, 0, 0);
   z-index: 2;
 cursor: pointer;
 transition: all 1s;
@@ -169,28 +169,28 @@ transition: all 1s;
 
 .white,
 .white header{
-    background-color: rgb(255, 255, 255);
-    color: black;
+    background-color: rgb(0, 0, 0);
+    color: rgb(255, 255, 255);
 }
 
 
 .white a{
-    color: black;
+    color: rgb(255, 255, 255);
 }
 .white #psico{
-    color: black;
+    color: rgb(255, 255, 255);
 }
 .white h1{
-    color: black;
+    color: rgb(255, 255, 255);
 }
 
 
 .white .material-symbols-outlined{
-    color: black;
+    color: rgb(252, 252, 252);
 }
 
 .white pre{
-    color: black;
+    color: rgb(255, 255, 255);
 }
 
 .white a:hover{
