@@ -33,9 +33,9 @@ main {
     align-items: center;
     justify-content: space-evenly;
     flex-direction: column;
-    background-color: blueviolet;
+    background-color: #9f5ca7;
     border-radius: 10px;
-    box-shadow: 1px 1px 10px 1px rgb(149, 0, 255);
+    /* box-shadow: 1px 1px 10px 1px rgb(149, 0, 255); */
 }
 
 input {
@@ -77,7 +77,7 @@ button {
     border: solid 4px white;
     border-radius: 10px;
     padding: 5px;
-    background-color: blueviolet;
+    background-color: #9f5ca7;
     color: rgb(255, 255, 255);
     cursor: pointer;
     transition: all 0.5s;
@@ -86,9 +86,9 @@ button {
 }
 
 button:hover {
-    border: solid 5px blueviolet;
-    background-color: rgb(96, 0, 187);
-    color: blueviolet;
+    border: solid 4.5px white;
+    background-color: #93559a;
+    color: white;
     padding: 9px;
 }
 

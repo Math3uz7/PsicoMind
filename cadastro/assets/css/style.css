@@ -39,9 +39,8 @@ form {
     align-items: center;
     justify-content: space-evenly;
     flex-direction: column;
-    background-color: blueviolet;
+    background-color: #9f5ca7;
     border-radius: 10px;
-    box-shadow: 1px 1px 10px 1px rgb(149, 0, 255);
 }
 
 .sec1 {
@@ -86,16 +85,16 @@ option,select{
 }
 
 button a:hover {
-color: blueviolet;
+color: rgb(255, 255, 255);
 }
 
 button a {
-    color: blueviolet;
+    color: rgb(255, 255, 255);
 
 }
 
 input:focus {
-    border: 5px solid rgb(255, 255, 255);
+    border: 5px solid rgb(189, 189, 189);
     border-spacing: 10px;
 }
 
@@ -109,8 +108,8 @@ button {
     border: solid 4px rgb(0, 0, 0);
     border-radius: 10px;
     padding: 10px;
-    background-color: blueviolet;
-    color: rgb(255, 255, 255);
+    background-color: rgb(255, 255, 255);
+    color: #9f5ca7;
     cursor: pointer;
     transition: all 0.5s;
     margin-bottom: -20px;
@@ -119,9 +118,9 @@ button {
 
 button:hover {
     font-size: xx-large;
-    border: solid 5px blueviolet;
+    border: solid 5px rgb(255, 255, 255);
     background-color: rgb(0, 0, 0);
-    color: blueviolet;
+    color: #9f5ca7;
     padding: 12px;
 }
 
@@ -235,8 +234,8 @@ header {
 }
 
 #click {
-    background-color: rgb(255, 255, 255);
-    border: solid 5px blueviolet;
+    background-color: #9f5ca7;
+    border: solid 5px rgb(255, 255, 255);
     color: blueviolet;
     margin-top: 20px;
 }

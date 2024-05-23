@@ -199,21 +199,21 @@ h1 {
 
 .white,
 .white header {
-    background-color: rgb(255, 255, 255);
-    color: black;
+    background-color: rgb(0, 0, 0);
+    color: rgb(255, 255, 255);
 }
 
 
 .white a {
-    color: rgb(0, 0, 0);
+    color: rgb(255, 255, 255);
 }
 
 .white #logo {
-    color: black;
+    color: white;
 }
 
 .white .material-symbols-outlined {
-    color: black;
+    color: white;
 }
 
 .white a:hover {
@@ -228,16 +228,13 @@ h1 {
 }
 
 .white #join {
-    border: solid 2px black;
+    border: solid 2px white;
 }
 
 .white pre {
-    color: black;
+    color: white;
 }
 
-.white header {
-    background-color: rgb(255, 255, 255);
-}
 
 /* _________________________________________________________________________________________________________ */
 /* RESPONSIVE */
