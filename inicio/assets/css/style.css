@@ -22,11 +22,6 @@ a {
     transition: all 0.4s;
 }
 
-a:hover {
-    color: #BA68C8;
-}
-
-
 header {
     height: 100px;
     width: 100%;
@@ -261,28 +256,28 @@ h1 {
 
 @media screen and (max-width:2000px) and (min-width:1600px) {
     #woman {
-        width: 1200px;
-
+        width: 900px;
+        margin-left: 870px;
     }
+ 
     #procure {
-        margin-left: 900px;
-    } 
-
+        margin-left: 670px;
+    }
+ 
     nav {
         margin-left: 200px;
     }
-
-
+ 
     input {
-        margin-left: 365px;
+        margin-left: 130px;
     }
-
+ 
     pre {
         margin-left: 100px;
+        margin-top: 150px;
     }
-  
+ 
 }
-
 
 @media screen and (max-width:1400px) and (min-width:1280px) {
     nav {

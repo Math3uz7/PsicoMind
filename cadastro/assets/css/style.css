@@ -185,10 +185,6 @@ a {
     transition: all 0.4s;
 }
 
-a:hover {
-    color: #BA68C8;
-}
-
 
 header {
     height: 100px;

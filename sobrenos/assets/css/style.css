@@ -86,9 +86,6 @@ a {
     transition: all 0.4s;
 }
 
-li a:hover {
-    color: #BA68C8;
-}
 
 .purple {
     color: #BA68C8;
