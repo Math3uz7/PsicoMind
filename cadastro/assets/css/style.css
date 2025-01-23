@@ -1,0 +1,316 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.perfil {
+    display: none;
+}
+
+html {
+    height: 100%;
+    width: 100%;
+}
+
+body {
+    background-color: rgb(255, 255, 255);
+}
+
+main {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 460px;
+}
+
+form {
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    flex-direction: column;
+    height: 460px;
+}
+
+.card div {
+    width: 900px;
+    height: 570px;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    flex-direction: column;
+    background-color: #9f5ca7;
+    border-radius: 10px;
+}
+
+.sec1 {
+    display: flex;
+    align-items: flex-start;
+    justify-content: left;
+    flex-direction: column;
+    width: 750px;
+    gap: 10px;
+}
+
+.frm-group {
+    display: flex;
+    align-items: flex-start;
+    flex-direction: column;
+    gap: 10px;
+    margin-right: -400px;
+    margin-top: -331px;
+}
+
+input {
+    border-radius: 10px;
+    outline: none;
+    border: none;
+    padding: 15px;
+    font-size: large;
+    width: 300px;
+    transition: all 0.2s;
+    cursor: pointer;
+}
+
+option,select{
+    color: rgba(0, 0, 0, 0.621);
+    border-radius: 10px;
+    outline: none;
+    border: none;
+    padding: 15px;
+    font-size: large;
+    width: 330px;
+    transition: all 0.2s;
+    cursor: pointer;
+}
+
+button a:hover {
+color: rgb(255, 255, 255);
+}
+
+button a {
+    color: rgb(255, 255, 255);
+
+}
+
+input:focus {
+    border: 5px solid rgb(189, 189, 189);
+    border-spacing: 10px;
+}
+
+h2 {
+    font-size: 40px;
+    color: rgb(255, 255, 255);
+}
+
+button {
+    font-size: x-large;
+    border: solid 4px rgb(0, 0, 0);
+    border-radius: 10px;
+    padding: 10px;
+    background-color: rgb(255, 255, 255);
+    color: #9f5ca7;
+    cursor: pointer;
+    transition: all 0.5s;
+    margin-bottom: -20px;
+    width: 400px;
+}
+
+button:hover {
+    font-size: xx-large;
+    border: solid 5px rgb(255, 255, 255);
+    background-color: rgb(0, 0, 0);
+    color: #9f5ca7;
+    padding: 12px;
+}
+
+
+p {
+    font-size: large;
+    color: rgb(0, 0, 0);
+    line-height: 0px;
+    transition: all 0.2s;
+    cursor: pointer;
+}
+
+p:hover {
+    font-size: xx-large;
+}
+
+h1 {
+    color: rgb(255, 255, 255);
+    margin-left: 30px;
+    margin-top: 30px;
+}
+
+ul {
+    color: rgb(0, 0, 0);
+    font-size: large;
+    display: flex;
+    flex-direction: row;
+    padding-left: 90px;
+    list-style: none;
+
+}
+
+li {
+    padding-top: 12px;
+    margin: 25px;
+    font-weight: bolder;
+    padding-bottom: 16px;
+    height: 20px;
+    transition: all 0.3s ease-in-out
+}
+
+.li {
+    font-size: 20px;
+    padding-top: 12px;
+
+}
+
+.li:hover {
+    color: rgb(171, 90, 247);
+    cursor: pointer;
+
+}
+
+
+::selection {
+    background-color: blueviolet;
+}
+
+a {
+    text-decoration: none;
+    color: rgb(0, 0, 0);
+    transition: all 0.4s;
+}
+
+
+header {
+    height: 100px;
+    width: 100%;
+    background-color: rgb(255, 255, 255);
+    margin-bottom: 90px;
+}
+
+.purple {
+    color: #BA68C8;
+    font-size: 45px;
+}
+
+#join {
+    border: solid rgb(0, 0, 0) 2px;
+    border-radius: 10px;
+    padding-right: 10px;
+    padding-left: 10px;
+    cursor: pointer;
+    transition: all 0.3s ease-in-out
+}
+
+
+#logo {
+    color: rgb(0, 0, 0);
+    font-size: 35px;
+    width: 200px;
+    margin-right: 500px;
+}
+
+#color {
+    color: blueviolet;
+}
+
+#click {
+    background-color: #9f5ca7;
+    border: solid 5px rgb(255, 255, 255);
+    color: white;
+    margin-top: 20px;
+}
+
+#tema {
+    margin: 0;
+    width: 10px;
+    height: 10px;
+    z-index: 0;
+    display: none;
+}
+
+
+.material-symbols-outlined {
+    font-variation-settings:
+        'FILL' 0,
+        'wght' 400,
+        'GRAD' 0,
+        'opsz' 24;
+    color: rgb(0, 0, 0);
+    z-index: 2;
+    cursor: pointer;
+    transition: all 1s;
+}
+
+.material-symbols-outlined:hover {
+    color: #BA68C8;
+}
+
+
+.material-symbols-outlined:hover {
+    color: #BA68C8;
+}
+
+#menu-responsive2 {
+    display: none;
+}
+
+#menu-responsive {
+    display: none;
+}
+
+#span {
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+}
+
+.li9 {
+    width: 120px;
+    margin-right: 0px;
+}
+
+/* ---------------------------------------------------------- */
+
+
+.white,
+.white header {
+    background-color: rgb(255, 255, 255);
+    color: black;
+}
+
+
+.white a {
+    color: black;
+}
+
+.white #join{
+    border: 2px solid black;
+}
+
+.white #join:hover{
+    border: 2px solid blueviolet;
+}
+
+.white .material-symbols-outlined {
+    color: black;
+}
+
+.white #psico {
+    color: black;
+}
+
+.white pre {
+    color: black;
+}
+
+.white a:hover {
+    color: blueviolet;
+    transition: all 1s;
+    font-size: x-large;
+}

@@ -1,0 +1,189 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+body {
+    background-color: rgb(255, 255, 255);
+}
+
+.perfil{
+    display: none;
+}
+
+::selection {
+    background-color: blueviolet;
+}
+
+a {
+    text-decoration: none;
+    color: rgb(0, 0, 0);
+    transition: all 0.4s;
+}
+
+
+header {
+    height: 100px;
+    width: 100%;
+    background-color: rgb(255, 255, 255);
+    margin-bottom: 90px;
+}
+
+
+ul {
+    color: rgb(0, 0, 0);
+    font-size: large;
+    display: flex;
+    flex-direction: row;
+    padding-left: 90px;
+    list-style: none;
+
+}
+
+li {
+    padding-top: 12px;
+    margin: 25px;
+    font-weight: bolder;
+    padding-bottom: 16px;
+    height: 20px;
+    transition: all 0.3s ease-in-out
+}
+
+
+.purple {
+    color: #BA68C8;
+    font-size: 45px;
+}
+
+.li {
+    font-size: 20px;
+    padding-top: 12px;
+
+}
+
+.li:hover {
+    color: rgb(171, 90, 247);
+    cursor: pointer;
+
+}
+
+#join {
+    border: solid rgb(0, 0, 0) 2px;
+    border-radius: 10px;
+    padding-right: 10px;
+    padding-left: 10px;
+    cursor: pointer;
+    transition: all 0.3s ease-in-out
+}
+
+h1 {
+    color: rgb(0, 0, 0);
+    margin-left: -40px;
+    margin-top: 30px;
+    width: 590px;
+}
+
+#logo {
+    color: rgb(0, 0, 0);
+    font-size: 35px;
+    width: 200px;
+    margin-right: 500px;
+}
+
+main {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    margin-top: -100px;
+}
+
+.img {
+    width: 500px;
+    height: 500px;
+}
+
+h1 {
+    margin-top: -20px;
+    font-size: 50px;
+}
+
+#tema{
+    margin: 0;
+  width: 10px;
+  height: 10px;
+z-index: 0; 
+display: none;
+}
+
+
+.material-symbols-outlined {
+  font-variation-settings:
+  'FILL' 0,
+  'wght' 400,
+  'GRAD' 0,
+  'opsz' 24;
+  color: rgb(0, 0, 0);
+  z-index: 2;
+cursor: pointer;
+transition: all 1s;
+}
+
+.material-symbols-outlined:hover{
+    color: #BA68C8;
+} 
+#menu-responsive2{
+    display: none;
+}
+#menu-responsive{
+    display: none;
+}
+#span{
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+}
+
+.li9{
+    width: 120px;
+    margin-right: 0px;
+}
+
+
+/* ____________________________________________________________ */
+
+
+.white,
+.white header{
+    background-color: rgb(0, 0, 0);
+    color: rgb(255, 255, 255);
+}
+
+
+.white a{
+    color: rgb(255, 255, 255);
+}
+.white #psico{
+    color: rgb(255, 255, 255);
+}
+.white h1{
+    color: rgb(255, 255, 255);
+}
+
+
+.white .material-symbols-outlined{
+    color: rgb(252, 252, 252);
+}
+
+.white pre{
+    color: rgb(255, 255, 255);
+}
+
+.white a:hover{
+    color: #9250A8;
+    transition: all 1s;
+    font-size: x-large;
+}
+
+

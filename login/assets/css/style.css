@@ -1,0 +1,279 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+html {
+    height: 100%;
+    width: 100%;
+}
+
+.perfil {
+    display: none;
+}
+
+body {
+    background-color: rgb(255, 255, 255);
+}
+
+main {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    height: 400px;
+}
+
+
+.card div {
+    width: 400px;
+    height: 400px;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    flex-direction: column;
+    background-color: #9f5ca7;
+    border-radius: 10px;
+    /* box-shadow: 1px 1px 10px 1px rgb(149, 0, 255); */
+}
+
+input {
+    border-radius: 10px;
+    outline: none;
+    border: none;
+    padding: 10px;
+    font-size: large;
+    width: 300px;
+    transition: all 0.2s;
+    cursor: pointer;
+}
+
+input:focus {
+    border: 5px solid rgb(0, 0, 0);
+    border-spacing: 10px;
+}
+
+h2 {
+    font-size: 40px;
+    color: white;
+}
+
+p {
+    font-size: large;
+    color: white;
+    line-height: 0px;
+    transition: all 0.2s;
+    cursor: pointer;
+}
+
+p:hover {
+    font-size: x-large;
+}
+
+
+
+button {
+    border: solid 4px white;
+    border-radius: 10px;
+    padding: 5px;
+    background-color: #9f5ca7;
+    color: rgb(255, 255, 255);
+    cursor: pointer;
+    transition: all 0.5s;
+    width: 130px;
+    font-size: x-large;
+}
+
+button:hover {
+    border: solid 4.5px white;
+    background-color: #93559a;
+    color: white;
+    padding: 9px;
+}
+
+
+
+h1 {
+    color: white;
+    margin-left: 30px;
+    margin-top: 30px;
+}
+
+ul {
+    color: white;
+    font-size: large;
+    display: flex;
+    flex-direction: row;
+    padding-left: 90px;
+    list-style: none;
+
+}
+
+li {
+    padding-top: 12px;
+    margin: 25px;
+    font-weight: bolder;
+    padding-bottom: 16px;
+    height: 20px;
+    transition: all 0.3s ease-in-out
+}
+
+.li {
+    font-size: 20px;
+    padding-top: 12px;
+
+}
+
+.li:hover {
+    color: rgb(171, 90, 247);
+    cursor: pointer;
+
+}
+
+
+::selection {
+    background-color: blueviolet;
+}
+
+ header nav a {
+    text-decoration: none;
+    color: rgb(0, 0, 0);
+    transition: all 0.4s;
+}
+
+a{
+    text-decoration: none;
+    color: white;
+}
+
+
+p a:hover {
+    color: white;
+}
+
+
+
+header {
+    height: 100px;
+    width: 100%;
+    background-color: rgb(255, 255, 255);
+    margin-bottom: 90px;
+}
+
+.purple {
+    color: #BA68C8;
+    font-size: 45px;
+}
+
+#join {
+    border: solid rgb(0, 0, 0) 2px;
+    border-radius: 10px;
+    padding-right: 10px;
+    padding-left: 10px;
+    cursor: pointer;
+    transition: all 0.3s ease-in-out
+}
+
+
+#logo {
+    color: rgb(0, 0, 0);
+    font-size: 35px;
+    width: 200px;
+    margin-right: 500px;
+}
+
+
+#tema {
+    margin: 0;
+    width: 10px;
+    height: 10px;
+    z-index: 0;
+    display: none;
+}
+
+
+.material-symbols-outlined {
+    font-variation-settings:
+        'FILL' 0,
+        'wght' 400,
+        'GRAD' 0,
+        'opsz' 24;
+    color: white;
+    z-index: 2;
+    cursor: pointer;
+    transition: all 1s;
+    color: #000000;
+}
+
+.material-symbols-outlined:hover {
+    color: #BA68C8;
+}
+
+
+
+#menu-responsive2 {
+    display: none;
+}
+
+#menu-responsive {
+    display: none;
+}
+
+#span {
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+}
+
+.li9 {
+    width: 120px;
+    margin-right: 0px;
+}
+
+
+/* ______________________________________________________________________________ */
+
+.white,
+.white header {
+    background-color: rgb(0, 0, 0);
+    color: black;
+}
+
+.white a {
+    color: rgb(255, 255, 255);
+}
+
+.white button a {
+    color: rgb(255, 255, 255);
+}
+
+.white button:hover {
+    background-color: rgb(62, 21, 101);
+}
+
+.white ul li a:hover {
+    color: blueviolet;
+    transition: all 1s;
+    font-size: x-large;
+}
+
+.white #psico {
+    color: rgb(255, 255, 255);
+}
+
+.white #cadastro {
+    color: white;
+}
+
+.white .material-symbols-outlined {
+    color: #ffffff;
+}
+
+.white #join {
+    border: 2px solid rgb(255, 255, 255);
+}
+
+.white #join:hover {
+    border: 2px solid blueviolet;
+}

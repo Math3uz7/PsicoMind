@@ -1,0 +1,938 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.perfil {
+    display: none;
+}
+
+::selection {
+    background-color: blueviolet;
+}
+
+#hambur {
+    display: none;
+}
+
+a {
+    text-decoration: none;
+    color: rgb(0, 0, 0);
+    transition: all 0.4s;
+}
+
+header {
+    height: 100px;
+    width: 100%;
+    background-color: rgb(255, 255, 255);
+    margin-bottom: 90px;
+}
+
+body {
+    background-color: rgb(255, 255, 255);
+
+}
+
+
+input {
+    margin: 200px;
+    padding: 20px;
+    width: 500px;
+    cursor: pointer;
+    margin-left: 60px;
+    margin-top: 80px;
+    box-shadow: 10px 10px 40px -12px blueviolet;
+    border: none;
+}
+
+h1 {
+    color: rgb(0, 0, 0);
+    font-size: 50px;
+
+}
+
+
+ul {
+    color: rgb(0, 0, 0);
+    font-size: large;
+    display: flex;
+    flex-direction: row;
+    padding-left: 90px;
+    list-style: none;
+
+}
+
+li {
+    padding-top: 12px;
+    margin: 25px;
+    font-weight: bolder;
+    padding-bottom: 16px;
+    height: 20px;
+}
+
+.li {
+    font-size: 19px;
+    padding-top: 12px;
+}
+
+.li:hover {
+    color: rgb(171, 90, 247);
+    cursor: pointer;
+
+}
+
+
+#join {
+    border: solid rgb(0, 0, 0) 2px;
+    border-radius: 10px;
+    padding-right: 10px;
+    padding-left: 10px;
+    cursor: pointer;
+    transition: all 0.3s ease-in-out
+}
+
+h1 {
+    color: rgb(0, 0, 0);
+    margin-left: 30px;
+    margin-top: 30px;
+}
+
+#logo {
+    color: rgb(0, 0, 0);
+    font-size: 35px;
+    width: 200px;
+    margin-right: 500px;
+}
+
+#procure {
+    background-color: #BA68C8;
+    height: 56px;
+    width: 70px;
+    margin-left: 600px;
+    margin-top: -256px;
+    box-shadow: 10px 10px 40px -12px blueviolet;
+    align-items: center;
+    cursor: pointer;
+}
+
+#lupa {
+    height: 100px;
+    width: 50px;
+    margin-left: 10px;
+    margin-bottom: 150px;
+    margin-top: -22px;
+}
+
+#woman {
+    width: 600px;
+    height: 500px;
+    margin-left: 800px;
+    margin-top: -300px;
+}
+
+.purple {
+    color: #BA68C8;
+    font-size: 45px;
+}
+
+#tema {
+    margin: 0;
+    width: 10px;
+    height: 10px;
+    display: none;
+}
+
+
+.material-symbols-outlined {
+    font-variation-settings:
+        'FILL' 0,
+        'wght' 400,
+        'GRAD' 0,
+        'opsz' 24;
+    color: rgb(0, 0, 0);
+    cursor: pointer;
+    transition: all 1s;
+}
+
+.material-symbols-outlined:hover {
+    color: #BA68C8;
+}
+
+#menu-responsive2 {
+    display: none;
+}
+
+#menu-responsive {
+    display: none;
+}
+
+#span {
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+}
+
+.li9 {
+    width: 120px;
+    margin-right: 0px;
+}
+
+/* _________________________________________________________________________________________________________ */
+/* TEMA CLARO/ESCURO */
+
+.white,
+.white header {
+    background-color: rgb(0, 0, 0);
+    color: rgb(255, 255, 255);
+}
+
+
+.white a {
+    color: rgb(255, 255, 255);
+}
+
+.white #logo {
+    color: white;
+}
+
+.white .material-symbols-outlined {
+    color: white;
+}
+
+.white a:hover {
+    color: #9250A8;
+    transition: all 1s;
+    font-size: x-large;
+}
+
+.white #join:hover {
+    border: solid 2px 9250A8;
+    color: #9250A8;
+}
+
+.white #join {
+    border: solid 2px white;
+}
+
+.white pre {
+    color: white;
+}
+
+
+/* _________________________________________________________________________________________________________ */
+/* RESPONSIVE */
+@media screen and (max-width:2560px) and (min-width:2560px) {
+    #woman {
+        margin-left: 1300px;
+        width: 1200px;
+
+    }
+
+    nav {
+        margin-left: 500px;
+    }
+
+    input {
+        margin-left: 665px;
+    }
+
+    pre {
+        margin-left: 300px;
+    }
+
+}
+
+@media screen and (max-width:2000px) and (min-width:1600px) {
+    #woman {
+        width: 900px;
+        margin-left: 870px;
+    }
+ 
+    #procure {
+        margin-left: 670px;
+    }
+ 
+    nav {
+        margin-left: 200px;
+    }
+ 
+    input {
+        margin-left: 130px;
+    }
+ 
+    pre {
+        margin-left: 100px;
+        margin-top: 150px;
+    }
+ 
+}
+
+@media screen and (max-width:1400px) and (min-width:1280px) {
+    nav {
+        margin-left: -200px;
+    }
+
+    #logo {
+        margin-left: 200px;
+        margin-right: 300px;
+    }
+
+    #woman {
+        margin-left: 800px;
+        width: 400px;
+
+    }
+}
+
+@media screen and (max-width:1170px) and (min-width:1001px) {
+    nav {
+        margin-left: -200px;
+    }
+
+    #logo {
+        margin-left: 230px;
+        margin-right: 50px;
+    }
+
+    #woman {
+        margin-left: 630px;
+        width: 360px;
+    }
+    input {
+       width: 400px;
+    }
+
+     #procure {
+        margin-left: 500px;
+    } 
+
+}
+
+
+@media screen and (max-width:1000px) and (min-width:851px) {
+    #woman {
+        margin-left: 200px;
+        width: 400px;
+        margin-top: 150px;
+    }
+
+
+    #menu-responsive2 {
+        margin-left: 780px;
+        display: flex;
+    }
+
+    #menu-responsive {
+        display: flex;
+        margin-top: 67px
+    }
+
+
+    .material-symbols-outlined {
+        margin-top: -50px;
+        display: flex;
+    }
+
+
+    input {
+        margin-left: 70px;
+        width: 590px;
+        margin-right: 0px;
+        margin-bottom: 10px;
+    }
+
+    #procure {
+        margin-left: -110px;
+    }
+
+    #psico {
+        font-size: 70px;
+        width: 200px;
+        height: 300px;
+    }
+
+    #logo {
+        position: absolute;
+        top: 50px;
+        left: 270px;
+        margin-left: 0px;
+        margin-right: 0px;
+
+    }
+
+    li {
+        margin-left: 4px;
+
+    }
+
+
+    .material-symbols-outlined {
+        font-variation-settings:
+            'FILL' 0,
+            'wght' 400,
+            'GRAD' 0,
+            'opsz' 24;
+        display: block;
+    }
+
+
+    #span {
+        top: 30px;
+        left: -510px;
+        height: 200px;
+        width: 100px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-direction: column;
+        position: absolute;
+        background-color: rgb(241, 168, 255);
+        box-shadow: 10px 10px 40px -12px blueviolet;
+        cursor: pointer;
+    }
+
+    #menu-responsive:hover~#span {
+        left: 770px;
+        top: 60px;
+        color: white;
+        display: block;
+    }
+
+    #join {
+        width: 45px;
+        padding: 4px 4px 4px 4px;
+        display: flex;
+        justify-content: flex-start;
+        margin-top: 7px;
+        margin-left: 20px;
+        border: none;
+    }
+
+
+    .li {
+        margin: 0px;
+        margin-right: 0px;
+        font-size: medium;
+        margin-left: 10px;
+    }
+
+    header {
+        height: 100px;
+        display: flex;
+        justify-content: flex-start;
+    }
+
+    ul {
+        padding-left: 9px;
+
+    }
+
+
+    pre {
+        font-size: 27px;
+        margin-left: -20px;
+    }
+}
+
+@media screen and (max-width:850px) and (min-width:600px) {
+
+
+    #woman {
+        margin-left: 200px;
+        width: 400px;
+        margin-top: 150px;
+    }
+
+
+    #menu-responsive2 {
+        margin-left: 650px;
+        display: flex;
+    }
+
+    #menu-responsive {
+        display: flex;
+        margin-top: 67px
+    }
+
+
+    .material-symbols-outlined {
+        margin-top: -50px;
+        display: flex;
+    }
+
+
+    input {
+        margin-left: 70px;
+        width: 590px;
+        margin-right: 0px;
+        margin-bottom: 10px;
+    }
+
+    #procure {
+        margin-left: -110px;
+    }
+
+    #psico {
+        font-size: 70px;
+        width: 200px;
+        height: 300px;
+    }
+
+    #logo {
+        position: absolute;
+        top: 50px;
+        left: 270px;
+        margin-left: 0px;
+        margin-right: 0px;
+
+    }
+
+    li {
+        margin-left: 4px;
+
+    }
+
+
+    .material-symbols-outlined {
+        font-variation-settings:
+            'FILL' 0,
+            'wght' 400,
+            'GRAD' 0,
+            'opsz' 24;
+        display: block;
+    }
+
+
+    #span {
+        top: 30px;
+        left: -510px;
+        height: 200px;
+        width: 100px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-direction: column;
+        position: absolute;
+        background-color: rgb(241, 168, 255);
+        box-shadow: 10px 10px 40px -12px blueviolet;
+        cursor: pointer;
+    }
+
+    #menu-responsive:hover~#span {
+        left: 610px;
+        top: 60px;
+        color: white;
+        display: block;
+    }
+
+    #join {
+        width: 45px;
+        padding: 4px 4px 4px 4px;
+        display: flex;
+        justify-content: flex-start;
+        margin-top: 7px;
+        margin-left: 20px;
+        border: none;
+    }
+
+
+    .li {
+        margin: 0px;
+        margin-right: 0px;
+        font-size: medium;
+        margin-left: 10px;
+    }
+
+    header {
+        height: 100px;
+        display: flex;
+        justify-content: flex-start;
+    }
+
+    ul {
+        padding-left: 9px;
+
+    }
+
+
+    pre {
+        font-size: 27px;
+        margin-left: -20px;
+    }
+
+}
+
+
+@media screen and (max-width:600px) and (min-width:401px) {
+    .material-symbols-outlined {
+        font-variation-settings:
+            'FILL' 0,
+            'wght' 400,
+            'GRAD' 0,
+            'opsz' 24;
+        display: flex;
+    }
+
+
+    #menu-responsive2 {
+        margin-left: 300px;
+        display: flex;
+    }
+
+    #menu-responsive {
+        display: flex;
+        margin-top: 67px
+    }
+
+
+    .material-symbols-outlined {
+        margin-top: -50px;
+        display: flex;
+    }
+
+
+    input {
+        margin-left: 40px;
+        width: 290px;
+        margin-right: 0px;
+        margin-bottom: 10px;
+    }
+
+    #procure {
+        margin-left: -110px;
+    }
+
+    #psico {
+        font-size: 70px;
+        width: 200px;
+        height: 300px;
+    }
+
+    #logo {
+        position: absolute;
+        top: 50px;
+        left: 110px;
+        margin-left: 0px;
+        margin-right: 0px;
+
+    }
+
+    li {
+        margin-left: 4px;
+
+    }
+
+
+    .material-symbols-outlined {
+        font-variation-settings:
+            'FILL' 0,
+            'wght' 400,
+            'GRAD' 0,
+            'opsz' 24;
+        display: block;
+    }
+
+
+    #span {
+        top: 30px;
+        left: -510px;
+        height: 200px;
+        width: 100px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-direction: column;
+        position: absolute;
+        background-color: rgb(241, 168, 255);
+        box-shadow: 10px 10px 40px -12px blueviolet;
+
+        cursor: pointer;
+    }
+
+    #menu-responsive:hover~#span {
+        left: 310px;
+        top: 60px;
+        color: white;
+        display: block;
+    }
+
+    #join {
+        width: 45px;
+        padding: 4px 4px 4px 4px;
+        display: flex;
+        justify-content: flex-start;
+        margin-top: 7px;
+        margin-left: 20px;
+        border: none;
+    }
+
+    .li {
+        margin: 0px;
+        margin-right: 0px;
+        font-size: medium;
+        margin-left: 10px;
+    }
+
+    header {
+        height: 100px;
+        display: flex;
+        justify-content: flex-start;
+    }
+
+    ul {
+        padding-left: 9px;
+
+    }
+
+    #woman {
+        margin-left: 70px;
+        width: 280px;
+        margin-top: 100px;
+    }
+
+    pre {
+        font-size: 27px;
+        margin-left: -20px;
+    }
+
+}
+
+
+
+
+
+
+@media screen and (max-width:400px) and (min-width:321px) {
+
+    .material-symbols-outlined {
+        font-variation-settings:
+            'FILL' 0,
+            'wght' 400,
+            'GRAD' 0,
+            'opsz' 24;
+        display: flex;
+    }
+
+
+    #menu-responsive2 {
+        margin-left: 260px;
+        display: flex;
+    }
+
+    #menu-responsive {
+        display: flex;
+        margin-top: 67px
+    }
+
+
+    .material-symbols-outlined {
+        margin-top: -50px;
+        display: flex;
+    }
+
+
+    input {
+        margin-left: 10px;
+        width: 290px;
+        margin-right: 0px;
+        margin-bottom: 10px;
+    }
+
+    #procure {
+        margin-left: -110px;
+    }
+
+    #psico {
+        font-size: 70px;
+        width: 200px;
+        height: 300px;
+    }
+
+    #logo {
+        position: absolute;
+        top: 50px;
+        left: 90px;
+        margin-left: 0px;
+        margin-right: 0px;
+
+    }
+
+    li {
+        margin-left: 4px;
+
+    }
+
+
+    .material-symbols-outlined {
+        font-variation-settings:
+            'FILL' 0,
+            'wght' 400,
+            'GRAD' 0,
+            'opsz' 24;
+        display: block;
+    }
+
+
+    #span {
+        top: 30px;
+        left: -510px;
+        height: 200px;
+        width: 100px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-direction: column;
+        position: absolute;
+        background-color: rgb(241, 168, 255);
+        box-shadow: 10px 10px 40px -12px blueviolet;
+        cursor: pointer;
+    }
+
+    #menu-responsive:hover~#span {
+        left: 250px;
+        top: 60px;
+        color: white;
+        display: block;
+    }
+
+    #join {
+        width: 45px;
+        padding: 4px 4px 4px 4px;
+        display: flex;
+        justify-content: flex-start;
+        margin-top: 7px;
+        margin-left: 20px;
+        border: none;
+    }
+
+    .li {
+        margin: 0px;
+        margin-right: 0px;
+        font-size: medium;
+        margin-left: 10px;
+    }
+
+    header {
+        height: 100px;
+        display: flex;
+        justify-content: flex-start;
+    }
+
+    ul {
+        padding-left: 9px;
+
+    }
+
+    #woman {
+        margin-left: 50px;
+        width: 280px;
+        margin-top: 100px;
+    }
+
+    pre {
+        font-size: 27px;
+        margin-left: -20px;
+    }
+
+
+}
+
+@media screen and (max-width:321px) and (min-width:320px) {
+    input {
+        margin-left: 35px;
+        width: 210px;
+        margin-right: 0px;
+        margin-bottom: 10px;
+    }
+
+    #lupa,
+    #procure {
+        display: none;
+    }
+
+
+    #logo {
+        position: absolute;
+        top: 50px;
+        left: 60px;
+        margin-left: 0px;
+        margin-right: 0px;
+
+    }
+
+    #span {
+        top: 30px;
+        left: -510px;
+        height: 200px;
+        width: 100px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-direction: column;
+        position: absolute;
+        background-color: rgb(241, 168, 255);
+        box-shadow: 10px 10px 40px -12px blueviolet;
+        cursor: pointer;
+    }
+
+    .li {
+        margin-top: 1px;
+    }
+
+    #menu-responsive:hover~#span {
+        left: 160px;
+        top: 50px;
+        color: white;
+        display: block;
+        height: 300px;
+        width: 150px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+
+    #menu-responsive2 {
+        margin-left: 90px;
+        display: flex;
+    }
+
+
+    #menu-responsive {
+        display: flex;
+        margin-top: 23px;
+    }
+
+    .material-symbols-outlined {
+        font-variation-settings:
+            'FILL' 0,
+            'wght' 400,
+            'GRAD' 0,
+            'opsz' 24;
+        display: block;
+    }
+
+    .material-symbols-outlined {
+        font-variation-settings:
+            'FILL' 0,
+            'wght' 400,
+            'GRAD' 0,
+            'opsz' 24;
+        display: flex;
+    }
+
+    pre {
+        font-size: 20px;
+        margin-left: -20px;
+    }
+
+    #sun {
+        margin-left: -100px;
+    }
+
+    #woman {
+        margin-left: 70px;
+        width: 180px;
+        margin-top: -120px;
+    }
+}

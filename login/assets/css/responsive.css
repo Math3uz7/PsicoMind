@@ -1,0 +1,891 @@
+/* @media only screen and (min-width:2560px) {
+    a {
+        font-size: 70px;
+    }
+
+    .li9{
+width: 370px;
+    }
+
+    #sun{
+        font-size: 80px;
+    }
+
+    body {
+        height: 2560px;
+    }
+
+    #psico {
+        font-size: 80px;
+    }
+
+    .purple {
+        font-size: 100px;
+    }
+
+    main {
+        height: 1500px;
+    }
+
+    .card div {
+        width: 800px;
+        height: 1000px;
+    }
+
+    button {
+        font-size: 50px;
+        padding: 20px;
+        width: 300px;
+    }
+
+    h2 {
+        font-size: 100px;
+    }
+
+    input {
+        width: 600px;
+        padding: 20px;
+        font-size: 50px;
+    }
+
+    p {
+        font-size: 50px;
+    }
+
+    #join {
+        width: 180px;
+        height: 80px;
+    }
+} */
+
+/* @media only screen and (max-width:1024px) and (min-width:800px) {
+    html {
+        height: 1024px;
+        width: 1524px;
+    }
+}
+
+
+
+@media only screen and (max-width:768px) and (min-width:400px) {
+    html {
+        width: 1650px;
+        height: 1400px;
+    }
+
+    #sun{
+        font-size: 60px;
+    }
+
+    .li9{
+        width: 280px;
+    }
+
+    body {
+        height: 1300px;
+    }
+
+    main {
+        height: 700px;
+    }
+
+    .card div {
+        width: 590px;
+        height: 690px;
+    }
+
+    h2 {
+        font-size: 70px;
+    }
+
+    input {
+        width: 450px;
+        padding: 20px;
+        font-size: 30px;
+    }
+
+    input:focus {
+        border: solid 10px;
+    }
+
+    p {
+        font-size: 35px;
+    }
+
+    #psico {
+        font-size: 90px;
+    }
+
+    #logo {
+        position: absolute;
+        top: 190px;
+        left: 549px;
+        margin-left: 0px;
+        margin-right: 0px;
+        font-size: 40px;
+    }
+
+    #join {
+        width: 130px;
+        height: 70px;
+    }
+
+    ul {
+        width: 100%;
+        height: 198px;
+        padding: 0;
+
+    }
+
+    button {
+        font-size: 45px;
+        width: 200px;
+        padding: 10px;
+    }
+
+
+    header {
+        height: 300px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .purple {
+        font-size: 130px;
+    }
+
+    a {
+        font-size: 50px;
+    }
+
+}
+
+
+@media only screen and (max-width:600px) and (min-width:321px) {
+
+
+
+#sun{
+    font-size: 80px;
+    margin-top: 10px;
+}
+
+    .material-symbols-outlined {
+        font-variation-settings:
+            'FILL' 0,
+            'wght' 400,
+            'GRAD' 0,
+            'opsz' 24;
+        display: block;
+    }
+
+    .li9 {
+        width:370px;
+        margin-right: -5px;
+    }
+
+    #span {
+        top: 30px;
+        left: -510px;
+        height: 580px;
+        width: 360px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-direction: column;
+        position: absolute;
+        background-color: #BA68C8;
+        cursor: pointer;
+    }
+
+    #menu-responsive:hover~#span {
+        left: 870px;
+        top: 130px;
+        color: white;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .material-symbols-outlined {
+        font-variation-settings:
+            'FILL' 0,
+            'wght' 400,
+            'GRAD' 0,
+            'opsz' 24;
+        display: flex;
+    }
+
+    #menu-responsive2 {
+        margin-left: 840px;
+        display: flex;
+        font-size: 90px;
+    }
+
+    #menu-responsive {
+        display: flex;
+    }
+
+
+    button {
+        font-size: 70px;
+        padding: 10px;
+        width: 200px;
+    }
+
+    #psico {
+        font-size: 100px;
+    }
+
+    #logo {
+        position: absolute;
+        top: 350px;
+        left: 390px;
+        margin-left: 0px;
+        margin-right: 0px;
+        font-size: 70px;
+    }
+
+    #join {
+        width: 155px;
+        height: 70px;
+    }
+
+    ul {
+        height: 390px;
+        padding: 0;
+    }
+
+    header {
+        height: 400px;
+    }
+
+    .purple {
+        font-size: 130px;
+    }
+
+    a {
+        font-size: 60px;
+    }
+
+    .card div {
+        width: 900px;
+        height: 1000px;
+    }
+
+    h2 {
+        font-size: 130px;
+    }
+
+    input {
+        width: 650px;
+        padding: 40px;
+        font-size: 45px;
+    }
+
+    input:focus {
+        border: solid 10px;
+    }
+
+    p {
+        font-size: 55px;
+    }
+
+    html {
+        width: 1300px;
+        height: 2500px;
+    }
+
+
+    main {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        width: 1300px;
+        height: 1700px;
+    }
+
+    .li{
+        margin-bottom: 50px;
+    }
+
+} */
+
+
+@media screen and (max-width:2560px) and (min-width:2560px) {
+  #logo{
+    margin-right: 1500px;
+  }
+}
+@media screen and (max-width:1450px) and (min-width:1280px) {
+nav{
+    margin-left: -200px;
+}
+
+#logo{
+    margin-left: 200px;
+    margin-right: 500px;
+}
+#woman {
+    margin-left: 800px;
+    width: 400px;
+   
+}
+}
+
+@media screen and (max-width:1300px) and (min-width:1001px) 
+{nav{
+    margin-left: -200px;
+}
+
+#logo{
+    margin-left: 200px;
+    margin-right: 100px;
+}
+#woman {
+    margin-left: 800px;
+    width: 400px;
+   
+}}
+
+
+@media screen and (max-width:1000px) and (min-width:851px) 
+{
+
+  
+  #menu-responsive2{
+      margin-left: 780px;
+      display: flex;
+  }
+
+  #menu-responsive{
+      display: flex;
+      margin-top:67px
+  }
+
+
+  .material-symbols-outlined{
+      margin-top: -50px;
+      display: flex;
+  }
+ 
+  #psico {
+      font-size: 70px;
+      width: 200px;
+      height: 300px;
+  }
+
+  #logo {
+      position: absolute;
+      top: 50px;
+      left: 270px;
+      margin-left: 0px;
+      margin-right: 0px;
+      
+  }
+
+  li {
+      margin-left: 4px;
+      
+  }
+
+
+  .material-symbols-outlined {
+    font-variation-settings:
+    'FILL' 0,
+    'wght' 400,
+    'GRAD' 0,
+    'opsz' 24;
+    display: block;
+  }
+   
+
+#span{
+  top: 30px;
+  left: -510px;
+height: 200px;
+width: 100px;
+display: flex;
+align-items: center;
+justify-content: center;
+flex-direction: column;
+position: absolute;
+background-color: #BA68C8;
+  cursor: pointer;
+}
+
+#menu-responsive:hover ~ #span{
+left: 770px;
+top: 60px;
+color: white;
+display: block;
+}
+
+  #join {
+      width: 45px;
+      padding: 4px 4px 4px 4px;
+      display: flex;
+      justify-content: flex-start;
+      margin-top: 7px;
+margin-left: 20px;
+border: none;
+  }
+  
+
+  .li {
+      margin: 0px;
+      margin-right: 0px;
+      font-size: medium;
+      margin-left:10px;
+  }
+
+  header {
+      height: 100px;
+      display: flex;
+      justify-content: flex-start;
+  }
+
+  ul {
+      padding-left: 9px;
+      
+
+}}
+
+@media screen and (max-width:850px) and (min-width:600px) {
+      
+      #menu-responsive2{
+          margin-left: 500px;
+          display: flex;
+      }
+  
+      #menu-responsive{
+          display: flex;
+          margin-top:67px;
+          margin-right: 0px;
+      }
+      #sun{
+        margin-left: 80px;
+      }
+  
+  
+      .material-symbols-outlined{
+          margin-top: -50px;
+          display: flex;
+      }
+      main,body,header,ul{
+        width: 600px;
+      }
+     
+
+      #psico {
+          font-size: 70px;
+          width: 200px;
+          height: 300px;
+      }
+  
+      #logo {
+          position: absolute;
+          top: 50px;
+          left: 230px;
+          margin-left: 0px;
+          margin-right: 0px;
+          
+      }
+  
+      li {
+          margin-left: 4px;
+          
+      }
+  
+  
+      .material-symbols-outlined {
+        font-variation-settings:
+        'FILL' 0,
+        'wght' 400,
+        'GRAD' 0,
+        'opsz' 24;
+        display: block;
+      }
+       
+  
+  #span{
+      top: 30px;
+      left: -510px;
+   height: 200px;
+   width: 100px;
+   display: flex;
+   align-items: center;
+   justify-content: center;
+   flex-direction: column;
+   position: absolute;
+   background-color: #BA68C8;
+      cursor: pointer;
+  }
+  
+  #menu-responsive:hover ~ #span{
+  left: 610px;
+  top: 60px;
+  color: white;
+  display: block;
+  }
+  
+      #join {
+          width: 45px;
+          padding: 4px 4px 4px 4px;
+          display: flex;
+          justify-content: flex-start;
+          margin-top: 7px;
+  margin-left: 20px;
+  border: none;
+      }
+      
+  
+      .li {
+          margin: 0px;
+          margin-right: 0px;
+          font-size: medium;
+          margin-left:10px;
+      }
+  
+      header {
+          height: 100px;
+          display: flex;
+          justify-content: flex-start;
+      }
+  
+      ul {
+          padding-left: 1px;
+          
+      }
+  .card div{
+    margin-left: 150px;
+  }
+}
+
+
+@media screen and (max-width:600px) and (min-width:401px) {
+    .material-symbols-outlined {
+        font-variation-settings:
+        'FILL' 0,
+        'wght' 400,
+        'GRAD' 0,
+        'opsz' 24;
+        display: flex;
+      }
+  
+      .card div {
+        width: 390px;
+      }
+      
+      #menu-responsive2{
+          margin-left: 300px;
+          display: flex;
+      }
+  
+      #menu-responsive{
+          display: flex;
+          margin-top:67px
+      }
+  
+  
+      .material-symbols-outlined{
+          margin-top: -50px;
+          display: flex;
+      }
+     
+  
+      input {
+          margin-left: 10px;
+          width: 290px;
+          margin-right: 0px;
+          margin-bottom: 10px;
+      }
+  
+      #psico {
+          font-size: 70px;
+          width: 200px;
+          height: 300px;
+      }
+  
+      #logo {
+          position: absolute;
+          top: 50px;
+          left: 60px;
+          margin-left: 0px;
+          margin-right: 0px;
+          
+      }
+  
+      li {
+          margin-left: 4px;
+          
+      }
+  
+  
+      .material-symbols-outlined {
+        font-variation-settings:
+        'FILL' 0,
+        'wght' 400,
+        'GRAD' 0,
+        'opsz' 24;
+        display: block;
+      }
+       
+  
+  #span{
+      top: 30px;
+      left: -510px;
+   height: 200px;
+   width: 100px;
+   display: flex;
+   align-items: center;
+   justify-content: center;
+   flex-direction: column;
+   position: absolute;
+   background-color: #BA68C8;
+      cursor: pointer;
+  }
+  
+  #menu-responsive:hover ~ #span{
+  left: 310px;
+  top: 60px;
+  color: white;
+  display: block;
+  }
+  
+      #join {
+          width: 45px;
+          padding: 4px 4px 4px 4px;
+          display: flex;
+          justify-content: flex-start;
+          margin-top: 7px;
+  margin-left: 20px;
+  border: none;
+      }
+  
+      .li {
+          margin: 0px;
+          margin-right: 0px;
+          font-size: medium;
+          margin-left:10px;
+      }
+  
+      header {
+          height: 100px;
+          display: flex;
+          justify-content: flex-start;
+      }
+  
+      ul {
+          padding-left: 9px;
+          
+      }
+  
+  
+}
+
+
+
+
+
+
+@media screen and (max-width:400px) and (min-width:321px) {
+.card div{
+    width: 330px;
+   
+}
+    .material-symbols-outlined {
+      font-variation-settings:
+      'FILL' 0,
+      'wght' 400,
+      'GRAD' 0,
+      'opsz' 24;
+      display: flex;
+    }
+
+    
+    #menu-responsive2{
+        margin-left: 260px;
+        display: flex;
+    }
+
+    #menu-responsive{
+        display: flex;
+        margin-top:67px
+    }
+
+
+    .material-symbols-outlined{
+        margin-top: -50px;
+        display: flex;
+    }
+   
+
+    input {
+        margin-left: 5px;
+        width: 290px;
+        margin-right: 0px;
+        margin-bottom: 10px;
+    }
+
+
+    #psico {
+        font-size: 70px;
+        width: 200px;
+        height: 300px;
+    }
+
+    #logo {
+        position: absolute;
+        top: 50px;
+        left: 40px;
+        margin-left: 0px;
+        margin-right: 0px;
+        
+    }
+
+    li {
+        margin-left: 4px;
+        
+    }
+
+
+    .material-symbols-outlined {
+      font-variation-settings:
+      'FILL' 0,
+      'wght' 400,
+      'GRAD' 0,
+      'opsz' 24;
+      display: block;
+    }
+     
+
+#span{
+    top: 30px;
+    left: -510px;
+ height: 200px;
+ width: 100px;
+ display: flex;
+ align-items: center;
+ justify-content: center;
+ flex-direction: column;
+ position: absolute;
+ background-color: #BA68C8;
+    cursor: pointer;
+}
+
+#menu-responsive:hover ~ #span{
+left: 250px;
+top: 60px;
+color: white;
+display: block;
+}
+
+    #join {
+        width: 45px;
+        padding: 4px 4px 4px 4px;
+        display: flex;
+        justify-content: flex-start;
+        margin-top: 7px;
+margin-left: 20px;
+border: none;
+    }
+
+    .li {
+        margin: 0px;
+        margin-right: 0px;
+        font-size: medium;
+        margin-left:10px;
+    }
+
+    header {
+        height: 100px;
+        display: flex;
+        justify-content: flex-start;
+    }
+
+    ul {
+        padding-left: 9px;
+        
+    }
+
+
+
+}
+
+@media screen and (max-width:321px) and (min-width:320px){
+    .card div{
+        width: 250px;
+    }
+    #logo {
+        position: absolute;
+        top: 50px;
+        left: 60px;
+        margin-left: 0px;
+        margin-right: 0px;
+        
+    }
+    #span{
+        top: 30px;
+        left: -510px;
+     height: 200px;
+     width: 100px;
+     display: flex;
+     align-items: center;
+     justify-content: center;
+     flex-direction: column;
+     position: absolute;
+     background-color: #BA68C8;
+        cursor: pointer;
+    }
+    .li{
+        margin-top: 1px;
+    }
+    
+    #menu-responsive:hover ~ #span{
+    left: 160px;
+    top: 50px;
+    color: white;
+    display: block;
+    height: 300px;
+    width: 150px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    }
+    #menu-responsive2{
+        margin-left: 90px;
+        display: flex;
+    }
+    input{
+        width: 180px;
+    }
+   
+
+    #menu-responsive{
+        display: flex;
+        margin-top:23px
+    }
+    .material-symbols-outlined {
+        font-variation-settings:
+        'FILL' 0,
+        'wght' 400,
+        'GRAD' 0,
+        'opsz' 24;
+        display: block;
+      }
+      .material-symbols-outlined {
+        font-variation-settings:
+        'FILL' 0,
+        'wght' 400,
+        'GRAD' 0,
+        'opsz' 24;
+        display: flex;
+      }
+   
+    #sun{
+        margin-left: -100px;
+    }
+
+    }
