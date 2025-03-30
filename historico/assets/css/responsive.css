@@ -1,0 +1,1312 @@
+/* 
+@media screen and (max-width:2560px) and (min-width:2559px) {
+
+    #logo{
+        margin-right: 1330px;
+    }
+}
+
+
+@media screen and (max-width:1280px) and (min-width:901px) {
+    #logo{
+        margin-right: 30px;
+    }
+}
+
+@media screen and (max-width:900px) and (min-width:700px) {
+    .material-symbols-outlined {
+        font-variation-settings:
+            'FILL' 0,
+            'wght' 400,
+            'GRAD' 0,
+            'opsz' 24;
+        display: block;
+    }
+    #span {
+        top: 30px;
+        left: -510px;
+        height: 270px;
+        width: 130px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-direction: column;
+        position: absolute;
+        background-color: #BA68C8;
+        cursor: pointer;
+    }
+
+    #sun {
+        font-size: 30px;
+        margin-left: -330px;
+    }
+
+    #menu-responsive:hover~#span {
+        left: 550px;
+        top: 70px;
+        color: white;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .material-symbols-outlined {
+        font-variation-settings:
+            'FILL' 0,
+            'wght' 400,
+            'GRAD' 0,
+            'opsz' 24;
+        display: flex;
+    }
+
+    #menu-responsive2 {
+        margin-left: -200px;
+        display: flex;
+        font-size: 35px;
+    }
+
+    #menu-responsive {
+        display: flex;
+    }
+    .li {
+        margin-bottom: -15px;
+        margin-left: 30px;
+    }
+
+    a{
+        margin-left: 0px;
+    }
+    .li9 {
+        width:370px;
+        margin-left: 280px;
+    }
+
+}
+
+@media screen and (max-width:600px) and (min-width:410px) {
+
+    header {
+        width: 100%;
+    }
+    main,body,ul,html{
+        width: 500px;
+       }
+
+    div .img {
+     width: 499px;
+     
+    }
+
+ 
+
+    img {
+        font-size: 20px;
+        width: 280px;
+        height: 500px;
+       margin-left: 80px;
+    }
+
+    h1 {
+        font-size: 25px;
+        margin-left: 60px;
+        margin-top: -40px;
+        width: 318px;
+    }
+
+    #logo {
+        position: absolute;
+        top: 80px;
+        left: 45px;
+       
+    }
+
+    #psico {
+        font-size: 60px;
+    }
+
+    .purple {
+        font-size: 60px;
+    }
+
+    a {
+        font-size: 20px;
+        margin-top: -50px;
+    }
+
+    ul {
+        padding: 10px;
+    }
+
+    #join {
+        height: 75px;
+        margin-bottom: 5px;
+    }
+
+    #sun {
+        font-size: 30px;
+        margin-left: 30px;
+    }
+
+
+    .li {
+        margin-bottom: -10px;
+        margin-left: 30px;
+    }
+
+    a{
+        margin-left: 0px;
+    }
+
+    .material-symbols-outlined {
+        font-variation-settings:
+            'FILL' 0,
+            'wght' 400,
+            'GRAD' 0,
+            'opsz' 24;
+        display: block;
+    }
+
+    .li9 {
+        width:370px;
+        margin-left: 280px;
+    }
+
+    #span {
+        top: 30px;
+        left: -510px;
+        height: 270px;
+        width: 130px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-direction: column;
+        position: absolute;
+        background-color: #BA68C8;
+        cursor: pointer;
+    }
+
+    #menu-responsive:hover~#span {
+        left: 230px;
+        top: 70px;
+        color: white;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .material-symbols-outlined {
+        font-variation-settings:
+            'FILL' 0,
+            'wght' 400,
+            'GRAD' 0,
+            'opsz' 24;
+        display: flex;
+    }
+
+    #menu-responsive2 {
+        margin-left: 180px;
+        display: flex;
+        font-size: 35px;
+    }
+
+    #menu-responsive {
+        display: flex;
+    }
+
+} 
+
+
+@media  screen and (max-width:320px) and (min-width:319px){
+    header {
+        width: 100%;
+    }
+
+   
+
+    div.img {
+margin-left: -110px;
+     width: 200px;
+    
+    }
+main,body,ul,html{
+ width: 320px;
+}
+
+
+    img {
+        width: 290px;
+        height: 500px;
+        margin-left: 15px;
+    }
+
+    h1 {
+        font-size: 25px;
+        margin-left: 15px;
+       width: 318px;
+    }
+
+    #logo {
+        position: absolute;
+        top: 80px;
+        left: 25px;
+    }
+
+    #psico {
+        font-size: 40px;
+    }
+
+    .purple {
+        font-size: 50px;
+    }
+
+    a {
+        font-size: 20px;
+        margin-top: -50px;
+    }
+
+    ul {
+        padding: 10px;
+    }
+
+    #join {
+        height: 75px;
+        margin-bottom: 5px;
+    }
+
+    #sun {
+        font-size: 30px;
+        margin-top: 5px;
+    }
+
+
+    .li {
+        margin-bottom: -10px;
+        margin-left: 30px;
+    }
+
+    a{
+        margin-left: 0px;
+    }
+
+    .material-symbols-outlined {
+        font-variation-settings:
+            'FILL' 0,
+            'wght' 400,
+            'GRAD' 0,
+            'opsz' 24;
+        display: block;
+    }
+
+    .li9 {
+        width:370px;
+        margin-left: 280px;
+    }
+
+    #span {
+        top: 30px;
+        left: -510px;
+        height: 270px;
+        width: 130px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-direction: column;
+        position: absolute;
+        background-color: #BA68C8;
+        cursor: pointer;
+    }
+
+    #menu-responsive:hover~#span {
+        left: 100px;
+        top: 70px;
+        color: white;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .material-symbols-outlined {
+        font-variation-settings:
+            'FILL' 0,
+            'wght' 400,
+            'GRAD' 0,
+            'opsz' 24;
+        display: flex;
+    }
+
+    #menu-responsive2 {
+        margin-left: 120px;
+        display: flex;
+        font-size: 35px;
+    }
+
+    #menu-responsive {
+        display: flex;
+    }
+
+}
+
+@media  screen and (max-width:400px) and (min-width:321px) {
+
+    header {
+        width: 100%;
+    }
+
+    div.img {
+        margin-left: 10px;
+        width: 400px;
+    }
+
+    main,body,ul,html{
+        width: 400px;
+       }
+       
+    img {
+        width: 300px;
+        height: 500px;
+       margin-left: 30px;
+    }
+
+    h1 {
+        font-size: 25px;
+   margin-left: 40px;
+        margin-top: -40px;
+        width: 318px;
+    }
+
+    #logo {
+        position: absolute;
+        top: 80px;
+        left: 20px;
+    }
+
+    #psico {
+        font-size: 60px;
+    }
+
+    .purple {
+        font-size: 60px;
+    }
+
+    a {
+        font-size: 20px;
+        margin-top: -50px;
+    }
+
+    ul {
+        padding: 10px;
+    }
+
+    #join {
+        height: 75px;
+        margin-bottom: 5px;
+    }
+
+    #sun {
+        font-size: 30px;
+        margin-left: 10px;
+    }
+
+
+    .li {
+        margin-bottom: -10px;
+        margin-left: 30px;
+    }
+
+    a{
+        margin-left: 0px;
+    }
+
+    .material-symbols-outlined {
+        font-variation-settings:
+            'FILL' 0,
+            'wght' 400,
+            'GRAD' 0,
+            'opsz' 24;
+        display: block;
+    }
+
+    .li9 {
+        width:370px;
+        margin-left: 280px;
+    }
+
+    #span {
+        top: 30px;
+        left: -510px;
+        height: 270px;
+        width: 130px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-direction: column;
+        position: absolute;
+        background-color: #BA68C8;
+        cursor: pointer;
+    }
+
+    #menu-responsive:hover~#span {
+        left: 180px;
+        top: 70px;
+        color: white;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .material-symbols-outlined {
+        font-variation-settings:
+            'FILL' 0,
+            'wght' 400,
+            'GRAD' 0,
+            'opsz' 24;
+        display: flex;
+    }
+
+    #menu-responsive2 {
+        margin-left: 180px;
+        display: flex;
+        font-size: 35px;
+    }
+
+    #menu-responsive {
+        display: flex;
+    }
+
+    
+} */
+
+
+
+
+* {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.perfil {
+    display: none;
+}
+
+::selection {
+    background-color: blueviolet;
+}
+
+a {
+    text-decoration: none;
+    color: rgb(0, 0, 0);
+    transition: all 0.4s;
+}
+
+header {
+    height: 100px;
+    width: 100%;
+    background-color: rgb(255, 255, 255);
+    margin-bottom: 90px;
+}
+
+body {
+    background-color: rgb(255, 255, 255);
+}
+
+input {
+    margin: 200px;
+    padding: 20px;
+    width: 500px;
+    cursor: pointer;
+    margin-left: 60px;
+    margin-top: 80px;
+    box-shadow: 10px 10px 40px -12px blueviolet;
+    border: none;
+    margin-left: 400px;
+}
+
+
+
+ul {
+    color: rgb(0, 0, 0);
+    font-size: large;
+    display: flex;
+    flex-direction: row;
+    padding-left: 90px;
+    list-style: none;
+
+}
+
+#join {
+    border: solid rgb(0, 0, 0) 2px;
+    border-radius: 10px;
+    padding-right: 10px;
+    padding-left: 10px;
+    cursor: pointer;
+    transition: all 0.3s ease-in-out
+}
+
+h1 {
+    color: rgb(0, 0, 0);
+    margin-left: 30px;
+    margin-top: 30px;
+}
+
+#navbarNav {
+    background-color: white;
+}
+
+.nav-item {
+    margin-left: 30px;
+}
+
+#logo {
+    color: rgb(0, 0, 0);
+    font-size: 35px;
+    width: 200px;
+    margin-right: 500px;
+    margin-left: 50px;
+    font-weight: bold;
+
+}
+
+nav {
+    font-weight: bolder;
+}
+
+pre {
+    font-weight: bolder;
+}
+
+#procure {
+    background-color: #BA68C8;
+    height: 65px;
+    width: 70px;
+    margin-left: 500px;
+    margin-top: -64px;
+    box-shadow: 10px 10px 40px -12px blueviolet;
+    align-items: center;
+    cursor: pointer;
+}
+
+#lupa {
+    height: 100px;
+    width: 50px;
+    margin-left: 10px;
+    margin-bottom: 150px;
+    margin-top: -22px;
+}
+
+#woman {
+    width: 600px;
+    height: 500px;
+    margin-left: 750px;
+    margin-top: -270px;
+}
+
+.purple {
+    color: #BA68C8;
+}
+
+#tema {
+    margin: 0;
+    width: 10px;
+    height: 10px;
+    display: none;
+}
+
+main {
+    margin-left: 20px;
+}
+
+
+.material-symbols-outlined {
+    font-variation-settings:
+        'FILL' 0,
+        'wght' 400,
+        'GRAD' 0,
+        'opsz' 24;
+    color: rgb(0, 0, 0);
+    cursor: pointer;
+    transition: all 1s;
+    margin-top: 10px;
+    margin-left: 20px;
+}
+
+#span {
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+}
+
+nav {
+    background-color: white;
+
+}
+
+/* _________________________________________________________________________________________________________ */
+/* TEMA CLARO/ESCURO */
+
+/* .white,
+.white header {
+    background-color: rgb(0, 0, 0);
+    color: rgb(255, 255, 255);
+}
+
+
+.white .nav-link {
+    color: rgb(255, 255, 255);
+}
+
+.white #logo {
+    color: white;
+}
+
+.white .material-symbols-outlined {
+    color: white;
+}
+
+.white a:hover {
+    color: #9250A8;
+    transition: all 1s;
+    font-size: x-large;
+}
+
+.white #join:hover {
+    border: solid 2px 9250A8;
+    color: #9250A8;
+}
+.white #navbarNav{
+   background-color: black;
+}
+
+.white #join {
+    border: solid 2px white;
+}
+
+.white pre {
+    color: white;
+} */
+
+
+/* _________________________________________________________________________________________________________ */
+/* RESPONSIVE */
+@media screen and (max-width:2560px) and (min-width:2560px) {
+
+    nav {
+        margin-left: 500px;
+    }
+
+
+}
+
+@media screen and (max-width:2000px) and (min-width:1600px) {
+
+    nav {
+        margin-left: 200px;
+    }
+
+
+}
+
+@media screen and (max-width:1400px) and (min-width:1280px) {
+    nav {
+        margin-left: -100px;
+    }
+
+    #logo {
+        margin-left: 200px;
+        margin-right: 300px;
+    }
+    .img,
+    img {
+        width: 600px;
+        height: 500px;
+        margin-left: 0px;
+    }
+
+    .img{
+        width: 100%;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-direction: column;
+    }
+    
+    h1{
+        margin-left: 100px;
+    }
+}
+
+@media screen and (max-width:1170px) and (min-width:1001px) {
+    nav {
+        margin-left: 0px;
+    }
+
+    #logo {
+        margin-left: 230px;
+        margin-right: 50px;
+    }
+
+}
+
+
+@media screen and (max-width:1000px) and (min-width:851px) {
+    .material-symbols-outlined {
+        font-variation-settings:
+            'FILL' 0,
+            'wght' 400,
+            'GRAD' 0,
+            'opsz' 24;
+        display: flex;
+    }
+
+    .img,
+    img {
+        width: 600px;
+        height: 500px;
+        margin-left: 140px;
+        margin-top: 90px;
+    }
+
+    img {
+        margin-left: -15px;
+    }
+
+    h1 {
+        font-weight: bold;
+        font-size: 800px;
+        margin-left: 70px;
+    }
+
+
+    .material-symbols-outlined {
+        margin-top: -50px;
+        display: flex;
+    }
+
+    #psico {
+        font-size: 70px;
+        width: 200px;
+        height: 300px;
+    }
+
+    #logo {
+        font-size: 44px;
+        margin-left: 20px;
+        margin-right: 0px;
+
+    }
+
+    li {
+        margin-left: 4px;
+        font-size: 27px;
+    }
+
+
+    .material-symbols-outlined {
+        font-variation-settings:
+            'FILL' 0,
+            'wght' 400,
+            'GRAD' 0,
+            'opsz' 24;
+        display: block;
+    }
+
+
+    #span {
+        top: 30px;
+        left: -510px;
+        height: 200px;
+        width: 100px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-direction: column;
+        position: absolute;
+        background-color: rgb(241, 168, 255);
+        box-shadow: 10px 10px 40px -12px blueviolet;
+        cursor: pointer;
+    }
+
+
+    #join {
+        width: 79px;
+        padding: 4px 4px 4px 4px;
+        display: flex;
+        justify-content: flex-start;
+        margin-top: 7px;
+        margin-left: 0px;
+        border: solid black 2px;
+    }
+
+    .li {
+        margin: 0px;
+        margin-right: 0px;
+        font-size: medium;
+        margin-left: 10px;
+    }
+
+    header {
+        height: 100px;
+        display: flex;
+        justify-content: flex-start;
+        margin-bottom: 10px;
+    }
+
+    ul {
+        padding-left: 9px;
+
+    }
+}
+
+@media screen and (max-width:850px) and (min-width:600px) {
+
+    .material-symbols-outlined {
+        font-variation-settings:
+            'FILL' 0,
+            'wght' 400,
+            'GRAD' 0,
+            'opsz' 24;
+        display: flex;
+    }
+
+    .img,
+    img {
+        width: 500px;
+        height: 400px;
+        margin-left: 150px;
+        margin-top: 90px;
+    }
+
+    img {
+        margin-left: 0px;
+    }
+
+    h1 {
+        font-weight: bold;
+    }
+
+
+    .material-symbols-outlined {
+        margin-top: -50px;
+        display: flex;
+    }
+
+    #psico {
+        font-size: 70px;
+        width: 200px;
+        height: 300px;
+    }
+
+    #logo {
+        font-size: 44px;
+        margin-left: 20px;
+        margin-right: 0px;
+
+    }
+
+    li {
+        margin-left: 4px;
+        font-size: 27px;
+    }
+
+
+    .material-symbols-outlined {
+        font-variation-settings:
+            'FILL' 0,
+            'wght' 400,
+            'GRAD' 0,
+            'opsz' 24;
+        display: block;
+    }
+
+
+    #span {
+        top: 30px;
+        left: -510px;
+        height: 200px;
+        width: 100px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-direction: column;
+        position: absolute;
+        background-color: rgb(241, 168, 255);
+        box-shadow: 10px 10px 40px -12px blueviolet;
+        cursor: pointer;
+    }
+
+
+    #join {
+        width: 79px;
+        padding: 4px 4px 4px 4px;
+        display: flex;
+        justify-content: flex-start;
+        margin-top: 7px;
+        margin-left: 0px;
+        border: solid black 2px;
+    }
+
+    .li {
+        margin: 0px;
+        margin-right: 0px;
+        font-size: medium;
+        margin-left: 10px;
+    }
+
+    header {
+        height: 100px;
+        display: flex;
+        justify-content: flex-start;
+        margin-bottom: 10px;
+    }
+
+    ul {
+        padding-left: 9px;
+
+    }
+}
+
+
+@media screen and (max-width:600px) and (min-width:401px) {
+
+    .purple{
+        font-size: 35px;
+    }
+    .material-symbols-outlined {
+        font-variation-settings:
+            'FILL' 0,
+            'wght' 400,
+            'GRAD' 0,
+            'opsz' 24;
+        display: flex;
+    }
+
+    .img,
+    img {
+        width: 300px;
+        height: 200px;
+        margin-left: 0px;
+        margin-top: 120px;
+    }
+
+    img {
+        margin-left: 50px;
+    }
+
+    h1 {
+        font-weight: bold;
+        width: 320px;
+    }
+
+
+    .material-symbols-outlined {
+        margin-top: -50px;
+        display: flex;
+    }
+
+    #psico {
+        font-size: 70px;
+        width: 200px;
+        height: 300px;
+    }
+
+    #logo {
+        font-size: 24px;
+        margin-left: 20px;
+        margin-right: 0px;
+
+    }
+
+    li {
+        margin-left: 4px;
+
+    }
+
+
+    .material-symbols-outlined {
+        font-variation-settings:
+            'FILL' 0,
+            'wght' 400,
+            'GRAD' 0,
+            'opsz' 24;
+        display: block;
+    }
+
+
+    #span {
+        top: 30px;
+        left: -510px;
+        height: 200px;
+        width: 100px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-direction: column;
+        position: absolute;
+        background-color: rgb(241, 168, 255);
+        box-shadow: 10px 10px 40px -12px blueviolet;
+        cursor: pointer;
+    }
+
+
+    #join {
+        width: 58px;
+        padding: 4px 4px 4px 4px;
+        display: flex;
+        justify-content: flex-start;
+        margin-top: 7px;
+        margin-left: 0px;
+        border: solid black 2px;
+    }
+
+    .li {
+        margin: 0px;
+        margin-right: 0px;
+        font-size: medium;
+        margin-left: 10px;
+    }
+
+    header {
+        height: 100px;
+        display: flex;
+        justify-content: flex-start;
+        margin-bottom: 10px;
+    }
+
+    ul {
+        padding-left: 9px;
+
+    }
+}
+
+
+
+
+
+
+@media screen and (max-width:400px) and (min-width:321px) {
+
+    .purple{
+        font-size: 35px;
+    }
+
+    .material-symbols-outlined {
+        font-variation-settings:
+            'FILL' 0,
+            'wght' 400,
+            'GRAD' 0,
+            'opsz' 24;
+        display: flex;
+    }
+
+    .img,
+    img {
+        width: 300px;
+        height: 200px;
+        margin-left: 30px;
+        margin-top: 90px;
+    }
+
+    img {
+        margin-left: 0px;
+    }
+
+    h1 {
+        font-weight: bold;
+        width: 350px;
+        margin-left: -10px;
+    }
+
+
+    .material-symbols-outlined {
+        margin-top: -50px;
+        display: flex;
+    }
+
+    #psico {
+        font-size: 70px;
+        width: 200px;
+        height: 300px;
+    }
+
+    #logo {
+        font-size: 24px;
+        margin-left: 20px;
+        margin-right: 0px;
+
+    }
+
+    li {
+        margin-left: 4px;
+
+    }
+
+
+    .material-symbols-outlined {
+        font-variation-settings:
+            'FILL' 0,
+            'wght' 400,
+            'GRAD' 0,
+            'opsz' 24;
+        display: block;
+    }
+
+
+    #span {
+        top: 30px;
+        left: -510px;
+        height: 200px;
+        width: 100px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-direction: column;
+        position: absolute;
+        background-color: rgb(241, 168, 255);
+        box-shadow: 10px 10px 40px -12px blueviolet;
+        cursor: pointer;
+    }
+
+
+    #join {
+        width: 58px;
+        padding: 4px 4px 4px 4px;
+        display: flex;
+        justify-content: flex-start;
+        margin-top: 7px;
+        margin-left: 0px;
+        border: solid black 2px;
+    }
+
+    .li {
+        margin: 0px;
+        margin-right: 0px;
+        font-size: medium;
+        margin-left: 10px;
+    }
+
+    header {
+        height: 100px;
+        display: flex;
+        justify-content: flex-start;
+        margin-bottom: 10px;
+    }
+
+    ul {
+        padding-left: 9px;
+
+    }
+
+}
+
+@media screen and (max-width:321px) and (min-width:320px) {
+
+    .purple{
+        font-size: 35px;
+    }
+
+    .material-symbols-outlined {
+        font-variation-settings:
+            'FILL' 0,
+            'wght' 400,
+            'GRAD' 0,
+            'opsz' 24;
+        display: flex;
+    }
+
+    .img,
+    img {
+        width: 300px;
+        height: 200px;
+        margin-left: -35px;
+        margin-top: 90px;
+    }
+
+    img {
+        margin-left: 35px;
+    }
+
+    h1 {
+        font-weight: bold;
+        width: 300px;
+    }
+
+
+    .material-symbols-outlined {
+        margin-top: -50px;
+        display: flex;
+    }
+
+    #psico {
+        font-size: 70px;
+        width: 200px;
+        height: 300px;
+    }
+
+    #logo {
+        font-size: 24px;
+        margin-left: 20px;
+        margin-right: 0px;
+
+    }
+
+    li {
+        margin-left: 4px;
+
+    }
+
+
+    .material-symbols-outlined {
+        font-variation-settings:
+            'FILL' 0,
+            'wght' 400,
+            'GRAD' 0,
+            'opsz' 24;
+        display: block;
+    }
+
+
+    #span {
+        top: 30px;
+        left: -510px;
+        height: 200px;
+        width: 100px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-direction: column;
+        position: absolute;
+        background-color: rgb(241, 168, 255);
+        box-shadow: 10px 10px 40px -12px blueviolet;
+        cursor: pointer;
+    }
+
+
+    #join {
+        width: 58px;
+        padding: 4px 4px 4px 4px;
+        display: flex;
+        justify-content: flex-start;
+        margin-top: 7px;
+        margin-left: 0px;
+        border: solid black 2px;
+    }
+
+    .li {
+        margin: 0px;
+        margin-right: 0px;
+        font-size: medium;
+        margin-left: 10px;
+    }
+
+    header {
+        height: 100px;
+        display: flex;
+        justify-content: flex-start;
+        margin-bottom: 10px;
+    }
+
+    ul {
+        padding-left: 9px;
+
+    }
+}
