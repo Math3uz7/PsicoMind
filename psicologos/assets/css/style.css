@@ -24,6 +24,10 @@ body {
     background-color: rgb(255, 255, 255);
 }
 
+#h2{
+font-size: 25px
+}
+
 .nosso_conteudo {
     height: 800px;
     display: flex;
@@ -346,8 +350,8 @@ nav {
     font-weight: bold;
     width: 90px;
     height: 21px;
-    margin-top: -70px;
-    margin-left: 5px;
+    margin-top: -75px;
+    margin-left: 15px;
 }
 
 #space4 {
@@ -355,8 +359,8 @@ nav {
     font-weight: bold;
     width: 80px;
     height: 21px;
-    margin-top: -43px;
-    margin-left: 5px;
+    margin-top: -45px;
+    margin-left: 15px;
 }
 
 #check:hover {

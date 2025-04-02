@@ -90,7 +90,7 @@
             <div class="cardx2">
                 <h2>CADASTRE-SE</h2>
 
-                <form method="post" action="">
+                <form method="put" action="">
 
                     <section class="sec1">
                         <input required name="nome" placeholder="Nome Completo" id="nome" type="text">
@@ -100,13 +100,13 @@
                         <input required name="senha" placeholder="Senha" id="senha" type="password">
                         <input required name="senhac" placeholder="Confirmar Senha" id="confSenha" type="password">
                     </section>
-                    
+
                     <section class="frm-group">
                         <input type="text" name="cep" placeholder="CEP" id="CEP" />
 
                         <input type="text" name="rua" placeholder="Rua" id="rua" />
 
-                        <input type="text" name="cidade" placeholder="Cidade" id="cidade"/>
+                        <input type="text" name="cidade" placeholder="Cidade" id="cidade" />
 
                         <input type="text" name="estado" placeholder="Estado" id="estado" />
 
@@ -119,9 +119,9 @@
 
                     </section>
 
-
-                    <button onclick="take()" id="click">Concluir
-                        cadastro</button>
+                    <a href="../login/login.html" id="link">
+                        <button onclick="take()" id="click" href="">Concluir cadastro</button>
+                    </a>
 
                 </form>
 
@@ -134,4 +134,5 @@
 <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"></script>
 <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js"></script>
 <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js"></script>
+
 </html>
