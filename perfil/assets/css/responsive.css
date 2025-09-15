@@ -1,0 +1,1148 @@
+@media screen and (max-width:2560px) and (min-width:2560px) {
+    #span {
+        margin-left: 700px;
+    }
+
+
+
+}
+
+@media screen and (max-width:1280px) and (min-width:1280px) {
+    .ul {
+        padding-left: 10px;
+    }
+
+    .info {
+        margin-left: 300px;
+    }
+
+    #info2 {
+        margin-left: 320px;
+    }
+
+    .button {
+        margin-left: 600px;
+    }
+}
+
+@media screen and (max-width:1279px) and (min-width:1024px) {
+
+    #logo {
+        margin-right: 200px;
+    }
+
+    #span {
+        margin-left: -400px;
+    }
+
+    .info {
+        margin-left: 160px;
+    }
+
+    #info2 {
+        margin-left: 180px;
+    }
+
+    .button {
+        margin-left: 460px;
+    }
+
+    h2 {
+        margin-left: 0px;
+    }
+
+    .hello {
+        margin-left: 200px;
+    }
+
+}
+
+@media screen and (max-width:900px) and (min-width:851px) {
+    .info {
+        margin-left: 110px;
+    }
+
+    #info2 {
+        margin-left: 130px;
+    }
+
+    .button {
+        margin-left: 400px;
+    }
+}
+
+@media screen and (max-width:850px) and (min-width:832px) {
+    .ul {
+        padding-left: 80px;
+    }
+
+    .info {
+        margin-left: 60px;
+    }
+
+    #info2 {
+        margin-left: 80px;
+    }
+
+    .button {
+        margin-left: 360px;
+    }
+
+    .hello {
+        width: 700px;
+    }
+
+    .img {
+        height: 70px;
+        width: 70px;
+        margin-left: -500px;
+    }
+
+    .hello {
+        width: 800px;
+    }
+
+    .desc {
+        margin-left: -500px;
+    }
+}
+
+@media screen and (max-width:831px) and (min-width:819px) {
+    .ul {
+        padding-left: 80px;
+    }
+
+    .info {
+        margin-left: 60px;
+    }
+
+    #info2 {
+        margin-left: 80px;
+    }
+
+    .button {
+        margin-left: 370px;
+    }
+
+    .hello {
+        width: 700px;
+    }
+
+    .img {
+        height: 70px;
+        width: 70px;
+        margin-left: -500px;
+    }
+
+    .hello {
+        width: 800px;
+    }
+
+    .desc {
+        margin-left: -500px;
+    }
+}
+
+@media screen and (max-width:818px) and (min-width:801px) {
+    .ul {
+        padding-left: 80px;
+    }
+
+    .info {
+        margin-left: 100px;
+    }
+
+    #info2 {
+        margin-left: 120px;
+    }
+
+    .button {
+        margin-left: 410px;
+    }
+
+    .hello {
+        width: 700px;
+    }
+
+    .img {
+        height: 70px;
+        width: 70px;
+        margin-left: -500px;
+    }
+
+    .hello {
+        width: 800px;
+    }
+
+    .desc {
+        margin-left: -500px;
+    }
+}
+
+@media screen and (max-width:800px) and (min-width:600px) {
+
+    #logo {
+        margin-right: 0px;
+    }
+
+    .ul {
+        padding-left: 80px;
+    }
+
+    .info {
+        margin-left: 30px;
+    }
+
+    #info2 {
+        margin-left: 50px;
+    }
+
+    .button {
+        margin-left: 325px;
+    }
+
+    .hello {
+        width: 700px;
+    }
+
+    .img {
+        height: 70px;
+        width: 70px;
+        margin-left: -500px;
+    }
+
+    .hello {
+        width: 760px;
+    }
+
+    .desc {
+        margin-left: -500px;
+    }
+}
+
+
+@media screen and (max-width:600px) and (min-width:451px) {
+    .cancel {
+        margin-left: -420px;
+    }
+
+    .img {
+        height: 70px;
+        width: 70px;
+        margin-left: -510px;
+
+    }
+
+    .desc {
+        margin-left: -510px;
+    }
+
+    .hello {
+        width: 300px;
+    }
+
+
+
+    .li9,
+    .li {
+        margin-bottom: 0;
+        margin-top: 0px;
+    }
+
+    .info {
+        display: flex;
+        width: 340px;
+        height: 400px;
+        flex-direction: column;
+    }
+
+    ul li .guarda {
+        font-size: medium;
+        margin: 0;
+    }
+
+    #nome,
+    #senha,
+    #email,
+    #SeuSexo,
+    #SeuNasc,
+    #SeuCEP,
+    #nascimento,
+    #sexo,
+    #cep {
+        margin: 0;
+        padding: 0;
+        width: 100px;
+        height: 50px;
+    }
+
+    #SeuSexo {
+        height: 25px;
+        width: 200px;
+    }
+
+    #nascimento {
+        width: 300px;
+        margin-left: -60px;
+    }
+
+    #SeuNasc {
+        width: 200px;
+        height: 25px;
+    }
+
+
+    #cep {
+        margin-left: 22px;
+    }
+
+    #SeuCEP {
+        height: 25px;
+        width: 200px;
+    }
+
+    #span {
+        top: 10px;
+        left: -510px;
+        height: 180px;
+        width: 140px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-direction: column;
+        position: absolute;
+        background-color: #BA68C8;
+        cursor: pointer;
+    }
+
+    .perfil {
+        margin-left: 60px;
+    }
+
+    #menu-responsive:hover~#span {
+        left: 270px;
+        top: 60px;
+        color: white;
+        display: block;
+    }
+
+    .material-symbols-outlined {
+        margin-top: -50px;
+        display: flex;
+    }
+
+    ul li {
+        display: flex;
+        align-items: end;
+        justify-content: space-around;
+    }
+
+    #logo {
+        position: absolute;
+        top: 50px;
+        left: 110px;
+        margin-left: 0px;
+        margin-right: 0px;
+
+    }
+
+    #sexo {
+        width: 250px;
+        margin-left: -40px;
+    }
+
+    .hello {
+        width: 360px;
+    }
+}
+
+@media screen and (max-width:450px) and (min-width:401px) {
+    .cancel {
+        margin-left: -420px;
+    }
+
+    .img {
+        height: 70px;
+        width: 70px;
+        margin-left: -510px;
+    }
+
+    .button {
+        margin-left: 150px;
+    }
+
+    #cep {
+        margin-left: 0px;
+    }
+
+    .edit2 {
+        padding-left: 100px;
+    }
+
+    .edit1 {
+
+        padding-left: 0px;
+        padding-right: 40px;
+    }
+
+    .desc {
+        margin-left: -510px;
+    }
+
+    .hello {
+        width: 300px;
+    }
+
+
+    .li9,
+    .li {
+        margin-bottom: 0;
+        margin-top: 0px;
+    }
+
+    .info {
+        display: flex;
+        width: 340px;
+        height: 400px;
+        flex-direction: column;
+        margin-left: 30px;
+    }
+
+    #info2 {
+        width: 340px;
+        height: 410px;
+        margin-left: 45px;
+        margin-top: -400px;
+    }
+
+    ul li .guarda {
+        font-size: medium;
+        margin: 0;
+    }
+
+    #nome,
+    #senha,
+    #email,
+    #SeuSexo,
+    #SeuNasc,
+    #SeuCEP,
+    #nascimento,
+    #sexo,
+    #cep {
+        margin: 0;
+        padding: 0;
+        width: 100px;
+        height: 50px;
+    }
+
+    #SeuSexo {
+        height: 25px;
+        width: 200px;
+        margin-bottom: 8px;
+
+    }
+
+    #nascimento {
+        width: 300px;
+        margin-left: -60px;
+    }
+
+    #SeuNasc {
+        width: 200px;
+        height: 25px;
+        margin-bottom: 8px;
+
+    }
+
+    #sexo,
+    #cep {
+        margin-left: 22px;
+    }
+
+    #SeuCEP {
+        height: 25px;
+        width: 200px;
+        margin-bottom: 8px;
+
+    }
+
+    #span {
+        top: 10px;
+        left: -510px;
+        height: 180px;
+        width: 140px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-direction: column;
+        position: absolute;
+        background-color: #BA68C8;
+        cursor: pointer;
+    }
+
+    .perfil {
+        margin-left: 60px;
+    }
+
+    #sexo {
+        width: 280px;
+        margin-left: -50px;
+    }
+
+    .material-symbols-outlined {
+        margin-top: -50px;
+        display: flex;
+    }
+
+    ul li {
+        display: flex;
+        align-items: end;
+        justify-content: space-around;
+    }
+
+    #logo {
+        margin-left: 0px;
+        margin-right: 0px;
+
+    }
+
+    .hello {
+        width: 360px;
+    }
+}
+
+@media screen and (max-width:400px) and (min-width:399px) {
+    .cancel {
+        margin-left: -420px;
+    }
+
+    .img {
+        height: 70px;
+        width: 70px;
+        margin-left: -510px;
+    }
+
+    .button {
+        margin-left: 140px;
+    }
+
+    #cep {
+        margin-left: 0px;
+    }
+
+    .edit2 {
+        padding-left: 100px;
+    }
+
+    .edit1 {
+
+        padding-left: 0px;
+        padding-right: 40px;
+    }
+
+    .desc {
+        margin-left: -510px;
+    }
+
+    .hello {
+        width: 300px;
+    }
+
+
+    .li9,
+    .li {
+        margin-bottom: 0;
+        margin-top: 0px;
+    }
+
+    .info {
+        display: flex;
+        width: 320px;
+        height: 400px;
+        flex-direction: column;
+        margin-left: 30px;
+    }
+
+    #info2 {
+        width: 320px;
+        height: 410px;
+        margin-left: 45px;
+        margin-top: -400px;
+    }
+
+    ul li .guarda {
+        font-size: medium;
+        margin: 0;
+    }
+
+    #nome,
+    #senha,
+    #email,
+    #SeuSexo,
+    #SeuNasc,
+    #SeuCEP,
+    #nascimento,
+    #sexo,
+    #cep {
+        margin: 0;
+        padding: 0;
+        width: 100px;
+        height: 50px;
+    }
+
+    #SeuSexo {
+        height: 25px;
+        width: 200px;
+        margin-bottom: 7px;
+
+    }
+
+    #nascimento {
+        width: 300px;
+        margin-left: -60px;
+    }
+
+    #SeuNasc {
+        width: 200px;
+        height: 25px;
+        margin-bottom: 7px;
+
+    }
+
+    #sexo,
+    #cep {
+        margin-left: 22px;
+    }
+
+    #SeuCEP {
+        height: 25px;
+        width: 200px;
+        margin-bottom: 7px;
+
+    }
+
+    #span {
+        top: 10px;
+        left: -510px;
+        height: 180px;
+        width: 140px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-direction: column;
+        position: absolute;
+        background-color: #BA68C8;
+        cursor: pointer;
+    }
+
+    .perfil {
+        margin-left: 60px;
+    }
+
+    #sexo {
+        width: 280px;
+        margin-left: -50px;
+    }
+
+    .material-symbols-outlined {
+        margin-top: -50px;
+        display: flex;
+    }
+
+    ul li {
+        display: flex;
+        align-items: end;
+        justify-content: space-around;
+    }
+
+    #logo {
+        margin-left: 0px;
+        margin-right: 0px;
+    }
+
+    .hello {
+        width: 300px;
+    }
+}
+
+@media screen and (max-width:398px) and (min-width:390px) {
+    .cancel {
+        margin-left: -420px;
+    }
+
+    .img {
+        height: 70px;
+        width: 70px;
+        margin-left: -510px;
+    }
+
+    .button {
+        margin-left: 175px;
+    }
+
+    #cep {
+        margin-left: 0px;
+    }
+
+    .edit2 {
+        padding-left: 100px;
+    }
+
+    .edit1 {
+
+        padding-left: 0px;
+        padding-right: 40px;
+    }
+
+    .desc {
+        margin-left: -510px;
+    }
+
+    .hello {
+        width: 300px;
+    }
+
+
+    .li9,
+    .li {
+        margin-bottom: 0;
+        margin-top: 0px;
+    }
+
+    .info {
+        display: flex;
+        width: 310px;
+        height: 400px;
+        flex-direction: column;
+        margin-left: 90px;
+    }
+
+    #info2 {
+        width: 310px;
+        height: 410px;
+        margin-left: 100px;
+        margin-top: -400px;
+    }
+
+    ul li .guarda {
+        font-size: medium;
+        margin: 0;
+    }
+
+    #nome,
+    #senha,
+    #email,
+    #SeuSexo,
+    #SeuNasc,
+    #SeuCEP,
+    #nascimento,
+    #sexo,
+    #cep {
+        margin: 0;
+        padding: 0;
+        width: 100px;
+        height: 50px;
+    }
+
+    #SeuSexo {
+        height: 25px;
+        width: 200px;
+    }
+
+    #nascimento {
+        width: 300px;
+        margin-left: -60px;
+    }
+
+    #SeuNasc {
+        width: 200px;
+        height: 25px;
+    }
+
+    #sexo,
+    #cep {
+        margin-left: 22px;
+    }
+
+    #SeuCEP {
+        height: 25px;
+        width: 200px;
+    }
+
+    #span {
+        top: 10px;
+        left: -510px;
+        height: 180px;
+        width: 140px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-direction: column;
+        position: absolute;
+        background-color: #BA68C8;
+        cursor: pointer;
+    }
+
+    .perfil {
+        margin-left: 60px;
+    }
+
+    #sexo {
+        width: 280px;
+        margin-left: -50px;
+    }
+
+    .material-symbols-outlined {
+        margin-top: -50px;
+        display: flex;
+    }
+
+    ul li {
+        display: flex;
+        align-items: end;
+        justify-content: space-around;
+    }
+
+    #logo {
+        position: absolute;
+        top: 50px;
+        left: 90px;
+        margin-left: 0px;
+        margin-right: 0px;
+
+    }
+
+    .hello {
+        width: 300px;
+    }
+}
+
+@media screen and (max-width:389px) and (min-width:321px) {
+
+
+    .cancel {
+        margin-left: -420px;
+    }
+
+    .img {
+        height: 70px;
+        width: 70px;
+        margin-left: -510px;
+    }
+
+    .button {
+        margin-left: 130px;
+    }
+
+    #cep {
+        margin-left: 0px;
+    }
+
+    .edit2 {
+        padding-left: 100px;
+    }
+
+    .edit1 {
+
+        padding-left: 0px;
+        padding-right: 40px;
+    }
+
+    .desc {
+        margin-left: -510px;
+    }
+
+    .hello {
+        width: 300px;
+    }
+
+
+    .li9,
+    .li {
+        margin-bottom: 0;
+        margin-top: 0px;
+    }
+
+    .info {
+        display: flex;
+        width: 310px;
+        height: 400px;
+        flex-direction: column;
+        margin-left: 20px;
+    }
+
+    #info2 {
+        width: 299px;
+        height: 410px;
+        margin-left: 45px;
+        margin-top: -400px;
+    }
+
+    ul li .guarda {
+        font-size: medium;
+        margin: 0;
+    }
+
+    #nome,
+    #senha,
+    #email,
+    #SeuSexo,
+    #SeuNasc,
+    #SeuCEP,
+    #nascimento,
+    #sexo,
+    #cep {
+        margin: 0;
+        padding: 0;
+        width: 100px;
+        height: 50px;
+    }
+
+    #SeuSexo {
+        height: 25px;
+        width: 200px;
+        margin-bottom: 7px;
+    }
+
+    #nascimento {
+        width: 300px;
+        margin-left: -60px;
+    }
+
+    #SeuNasc {
+        width: 200px;
+        height: 25px;
+        margin-bottom: 7px;
+    }
+
+    #sexo,
+    #cep {
+        margin-left: 22px;
+    }
+
+    #SeuCEP {
+        height: 25px;
+        width: 200px;
+        margin-bottom: 7px;
+    }
+
+    #span {
+        top: 10px;
+        left: -510px;
+        height: 180px;
+        width: 140px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-direction: column;
+        position: absolute;
+        background-color: #BA68C8;
+        cursor: pointer;
+    }
+
+    .perfil {
+        margin-left: 60px;
+    }
+
+    #sexo {
+        width: 280px;
+        margin-left: -50px;
+    }
+
+    .material-symbols-outlined {
+        margin-top: -50px;
+        display: flex;
+    }
+
+    ul li {
+        display: flex;
+        align-items: end;
+        justify-content: space-around;
+    }
+
+    #logo {
+        margin-left: 0px;
+        margin-right: 0px;
+
+    }
+
+    .hello {
+        width: 300px;
+    }
+}
+
+@media screen and (max-width:321px) and (min-width:320px) {
+
+
+    #not {
+        font-size: 20px
+    }
+
+    .cabeca {
+        margin-left: -50px;
+    }
+
+    .cabeca2 {
+        margin-left: -10px;
+    }
+
+    h2 {
+        width: 50px;
+        margin-left: -100px;
+    }
+
+    .cancel {
+        margin-left: -420px;
+    }
+
+    .img {
+        height: 70px;
+        width: 70px;
+        margin-left: -510px;
+    }
+
+    .button {
+        margin-left: 115px;
+    }
+
+    #cep {
+        margin-left: 0px;
+    }
+
+    .edit2 {
+        padding-left: 100px;
+    }
+
+    .edit1 {
+
+        padding-left: 0px;
+        padding-right: 40px;
+    }
+
+    .desc {
+        margin-left: -510px;
+    }
+
+    .hello {
+        width: 300px;
+    }
+
+
+    .li9,
+    .li {
+        margin-bottom: 0;
+        margin-top: 0px;
+    }
+
+    .info {
+        display: flex;
+        width: 270px;
+        height: 400px;
+        flex-direction: column;
+        margin-left: 30px;
+    }
+
+    #info2 {
+        width: 255px;
+        height: 410px;
+        margin-left: 65px;
+        margin-top: -400px;
+    }
+
+    ul li .guarda {
+        font-size: medium;
+        margin: 0;
+    }
+
+    #nome,
+    #senha,
+    #email,
+    #SeuSexo,
+    #SeuNasc,
+    #SeuCEP,
+    #nascimento,
+    #sexo,
+    #cep {
+        margin: 0;
+        padding: 0;
+        width: 100px;
+        height: 50px;
+    }
+
+    #SeuSexo {
+        height: 25px;
+        width: 200px;
+        margin-bottom: 7px;
+
+    }
+
+    #nascimento {
+        width: 300px;
+        margin-left: -60px;
+    }
+
+    #SeuNasc {
+        width: 200px;
+        height: 25px;
+        margin-bottom: 7px;
+    }
+
+    #sexo {
+        margin-left: 22px;
+    }
+
+    #cep {
+        margin-left: -40px;
+    }
+
+    #SeuCEP {
+        height: 25px;
+        width: 200px;
+        margin-bottom: 7px;
+    }
+
+    #span {
+        top: 10px;
+        left: -510px;
+        height: 180px;
+        width: 140px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-direction: column;
+        position: absolute;
+        background-color: #BA68C8;
+        cursor: pointer;
+    }
+
+    .perfil {
+        margin-left: 60px;
+    }
+
+    #sexo {
+        width: 280px;
+        margin-left: -50px;
+    }
+
+    .material-symbols-outlined {
+        margin-top: -50px;
+        display: flex;
+    }
+
+    ul li {
+        display: flex;
+        align-items: end;
+        justify-content: space-around;
+    }
+
+    #logo {
+        margin-left: 0px;
+        margin-right: 0px;
+
+    }
+
+    .hello {
+        width: 300px;
+    }
+
+}
